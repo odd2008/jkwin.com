@@ -8,12 +8,8 @@
           <element id="module-output" name="jkwinWeb" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="lib" />
-          <element id="library" level="project" name="druid-1.0.15" />
-          <element id="library" level="project" name="mysql-connector-java-5.1.26-bin" />
-          <element id="library" level="project" name="fastjson-1.2.7" />
-          <element id="library" level="project" name="commons-beanutils-1.8.3" />
-          <element id="library" level="project" name="jstl" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.2.jar" />
+          <element id="library" level="project" name="lib1" />
         </element>
       </element>
     </root>
