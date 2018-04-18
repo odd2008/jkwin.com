@@ -9,6 +9,30 @@ public class Order {
     private String out_trade_no;//订单号
     private int total_fee;//总金额
     private String  trade_type;//交易类型
+    private String userIDcard;//患者身份证
+
+    @Override
+    public String toString() {
+        return "Order{" +
+                "id=" + id +
+                ", status='" + status + '\'' +
+                ", appid='" + appid + '\'' +
+                ", mch_id='" + mch_id + '\'' +
+                ", body='" + body + '\'' +
+                ", out_trade_no='" + out_trade_no + '\'' +
+                ", total_fee=" + total_fee +
+                ", trade_type='" + trade_type + '\'' +
+                ", userIDcard='" + userIDcard + '\'' +
+                '}';
+    }
+
+    public String getUserIDcard() {
+        return userIDcard;
+    }
+
+    public void setUserIDcard(String userIDcard) {
+        this.userIDcard = userIDcard;
+    }
 
     public Integer getId() {
         return id;

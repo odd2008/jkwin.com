@@ -10,7 +10,9 @@ public interface OrderDao {
     //获取某位用户的所有订单
     List<Order> findOrderByUserIDcard(String userIDcard);
     //根据订单号获取订单
-    Order getOrder(String out_trade_no);
+    Order findOrderByOut_trade_no(String out_trade_no);
+    //获取所有订单
+    List<Order> getOrder();
     //修改订单状态
-    int updateOrder(String status);
+    int updateOrder( String out_trade_no, String status);
 }
