@@ -47,7 +47,6 @@
                 var jsonObj=eval("("+event.data+")");
                 //将获取到的二进制转回来
                 var uname=decodeURI(jsonObj.username);
-
                 if(userType=="咨询师"){
                     if(username==uname) {
                         alert("咨询师的对话框");
@@ -63,12 +62,6 @@
                 }else {
                     if(username!=uname) {
                         alert("对方的对话框");
-                        if(num==0){
-                            var name = "<span>" + uname + "&nbsp;" + CurentTime() + "</span>";
-                            var sp = "<br><span> 您好，欢迎咨询！ </span>";
-                            kefu.innerHTML += "<p class='kehuimg'>" + name + sp + "</p>";
-                            num++;
-                        }
                         var name = "<span>" + uname + "&nbsp;" + CurentTime() + "</span>";
                         var sp = "<br><span>" + replace_em(jsonObj.msg) + "</span>";
                         kefu.innerHTML += "<p class='kehuimg'>" + name + sp + "</p>";

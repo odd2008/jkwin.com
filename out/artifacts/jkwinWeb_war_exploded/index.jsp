@@ -8,9 +8,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>测试一下git</title>
   </head>
   <body>
-  $END$
+  git   命令 。。。。
+  git init初始化
+  git clone 克隆
+  。。。。。。。。。。。。。。。。。。。
   </body>
 </html>
