@@ -8,7 +8,11 @@
           <element id="module-output" name="jkwinWeb" />
         </element>
         <element id="directory" name="lib">
+<<<<<<< HEAD
           <element id="library" level="project" name="lib" />
+=======
+          <element id="library" level="project" name="lib (2)" />
+>>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
         </element>
       </element>
     </root>
