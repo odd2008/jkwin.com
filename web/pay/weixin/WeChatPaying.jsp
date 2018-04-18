@@ -24,7 +24,7 @@
     <title>微信支付页面</title>
 </head>
 <body>
-<%@include file="../../publicTop1.html"  %>
+<%@include file="../../html/publicTop1.html"  %>
 
 <div class="container-fluid gradient">
     <div class="row" style="padding: 0 15px 0 15px;">

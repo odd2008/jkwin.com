@@ -10,10 +10,10 @@
 <html>
 <head>
     <title>医事通-客服咨询</title>
-    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
-    <script type="text/javascript" src="js/jquery.qqFace.js"></script>
-    <link href="css/Chat.css" rel="stylesheet" type="text/css">
-    <link href="css/bootstrap.css" rel="stylesheet" >
+    <script type="text/javascript" src="../js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="../js/jquery.qqFace.js"></script>
+    <link href="../css/Chat.css" rel="stylesheet" type="text/css">
+    <link href="../css/bootstrap.css" rel="stylesheet" >
     <script type="text/javascript">
         var ws;//一个ws就相当于一个通信管道
         if(${requestScope.user!=null}){
@@ -158,7 +158,7 @@
         </div>
         <div id="mid">
             <p>
-                <span class="emotion"><img src="arclist/1.gif"> </span>
+                <span class="emotion"><img src="../arclist/1.gif"> </span>
             </p>
         </div>
         <div id="sent">
@@ -184,7 +184,7 @@
 
         </div>
         <div id="logoimg">
-            <img src="img/100527321392371416.jpg">
+            <img src="../img/100527321392371416.jpg">
         </div>
     </div>
      <div class="clear"></div>

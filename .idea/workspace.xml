@@ -6,81 +6,34 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ee5a833-3f9c-487d-9873-41f700deff79" name="Default" comment="">
-<<<<<<< HEAD
+    <list default="true" id="17cbaa34-6a1b-4c52-a2fd-1fa55ed028a4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/jkwinWeb_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/jkwinWeb_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-=======
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/img/weixinPay.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Service/ServiceImpl/WeixinPayOrderServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Service/WeixinPayOrderService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/WeixinPayStatusServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Test/OrderDaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/ErrorPay.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/TestWeixinPay.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/WeChatPaying.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/publicTop.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/publicTop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/pay/ali/alipay.trade.page.pay.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/pay/weixin/WeChatPaying.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/pay/weixin/success.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/publicTop.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/publicTop1.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/pay/aliPay/AlipayConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/pay/aliPay/OrderNumber.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/pay/weixin/action/PayHuiDiaoServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/pay/weixin/action/PayServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/pay/weixin/dao/OrderDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/pay/weixin/dao/impl/OrderDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/pay/weixin/entity/Order.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/pay/weixin/entity/Pay.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/pay/weixin/entity/PayTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/pay/weixin/filter/UTF8Filter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/pay/weixin/filter/weixinFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/pay/weixin/service/AccrueOrder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/pay/weixin/utils/HttpsRequest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/pay/weixin/utils/MD5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/pay/weixin/utils/MyX509TrustManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/pay/weixin/utils/SignTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/pay/weixin/utils/SignUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/pay/weixin/utils/Test2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/pay/weixin/utils/Util.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/pay/weixin/utils/XStreamUtil$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/pay/weixin/utils/XStreamUtil$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/pay/weixin/utils/XStreamUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/pay/weixin/utils/XmlTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/cn/com/jkwin/pay/weixin/service/AccrueOrder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/bootstrap.min.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/com/jkwin/pay/aliPay/AlipayConfig.java" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Utils/AlipayConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/com/jkwin/pay/aliPay/OrderNumber.java" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Utils/OrderNumber.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/com/jkwin/pay/weixin/action/PayHuiDiaoServlet.java" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/WeixinPayHuiDiaoServlet.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/com/jkwin/pay/weixin/action/PayServlet.java" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/WeixinPayServlet.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/com/jkwin/pay/weixin/dao/OrderDao.java" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Dao/OrderDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/com/jkwin/pay/weixin/dao/impl/OrderDaoImpl.java" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Dao/Impl/OrderDaoImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/com/jkwin/pay/weixin/entity/Order.java" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Entity/Order.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/com/jkwin/pay/weixin/entity/Pay.java" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Entity/Pay.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/com/jkwin/pay/weixin/entity/PayTest.java" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Entity/PayTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/com/jkwin/pay/weixin/filter/UTF8Filter.java" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/filter/UTF8Filter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/com/jkwin/pay/weixin/filter/weixinFilter.java" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/filter/weixinFilter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/com/jkwin/pay/weixin/utils/HttpsRequest.java" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Utils/HttpsRequest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/com/jkwin/pay/weixin/utils/MD5.java" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Utils/MD5.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/com/jkwin/pay/weixin/utils/MyX509TrustManager.java" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Utils/MyX509TrustManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/com/jkwin/pay/weixin/utils/SignTest.java" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Utils/SignTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/com/jkwin/pay/weixin/utils/SignUtil.java" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Utils/SignUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/com/jkwin/pay/weixin/utils/Test2.java" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Utils/Test2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/com/jkwin/pay/weixin/utils/Util.java" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Utils/Util.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/com/jkwin/pay/weixin/utils/XStreamUtil.java" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Utils/XStreamUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/com/jkwin/pay/weixin/utils/XmlTest.java" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Utils/XmlTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/ChatRoom.jsp" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/ChatRoom.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/WEB-INF/classes/dbcp.properties" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/WEB-INF/classes/dbcp.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/css/bootstrap.css" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/js/bootstrap.js" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/ChatRoom.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/ErrorPay.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/QQface.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/TestLogin.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/TestWeixinPay.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/WEB-INF/classes/cn/com/jkwin/java/filter/weixinFilter.class" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/WEB-INF/classes/cn/com/jkwin/java/filter/weixinFilter.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/css/bootstrap.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/css/bootstrap.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/index.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/js/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/pay/weixin/WeChatPaying.jsp" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/pay/weixin/WeChatPaying.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/publicTop.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/publicTop1.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/filter/weixinFilter.class" afterPath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/filter/weixinFilter.class" />
+      <change beforePath="$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/ChatServlet.java" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/ChatServlet.java" />
+      <change beforePath="$PROJECT_DIR$/web/ChatRoom.jsp" afterPath="$PROJECT_DIR$/web/jsp/ChatRoom.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/ErrorPay.jsp" afterPath="$PROJECT_DIR$/web/jsp/ErrorPay.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/QQface.html" afterPath="$PROJECT_DIR$/web/html/QQface.html" />
+      <change beforePath="$PROJECT_DIR$/web/TestLogin.jsp" afterPath="$PROJECT_DIR$/web/jsp/TestLogin.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/TestWeixinPay.jsp" afterPath="$PROJECT_DIR$/web/jsp/TestWeixinPay.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/pay/weixin/WeChatPaying.jsp" afterPath="$PROJECT_DIR$/web/pay/weixin/WeChatPaying.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/publicTop.html" afterPath="$PROJECT_DIR$/web/html/publicTop.html" />
+      <change beforePath="$PROJECT_DIR$/web/publicTop1.html" afterPath="$PROJECT_DIR$/web/html/publicTop1.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,80 +43,34 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="jkwinWeb" />
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WeixinPayOrderServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Service/ServiceImpl/WeixinPayOrderServiceImpl.java">
+      <file leaf-file-name="jkwinWeb.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jkwinWeb.iml">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <state relative-caret-position="432">
-=======
+            <state relative-caret-position="243">
+              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChatSocket.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/webSocket/ChatSocket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChatRoom.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/jsp/ChatRoom.jsp">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
->>>>>>> a5324b1ff9e01326cbd315c0242a8ea7a61c7aa2
-              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-=======
-            <state relative-caret-position="160">
-              <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#908#909#0" expanded="true" />
-                <element signature="e#935#936#0" expanded="true" />
-                <element signature="e#1017#1018#0" expanded="true" />
-                <element signature="e#1044#1045#0" expanded="true" />
-                <element signature="e#1124#1125#0" expanded="true" />
-                <element signature="e#1151#1152#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeixinPayServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/WeixinPayServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="405">
-              <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-              <folding>
-                <element signature="e#474#475#0" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-=======
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Dao/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-=======
-            <state relative-caret-position="218">
-              <caret line="80" column="17" lean-forward="true" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="26" />
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
->>>>>>> a5324b1ff9e01326cbd315c0242a8ea7a61c7aa2
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Service/ServiceImpl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -171,144 +78,24 @@
       <file leaf-file-name="ChatServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/ChatServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-=======
-      <file leaf-file-name="weixinFilter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/filter/weixinFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="167">
+              <caret line="35" column="69" lean-forward="false" selection-start-line="35" selection-start-column="69" selection-end-line="35" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestWeixinPay.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/TestWeixinPay.jsp">
+      <file leaf-file-name="TestLogin.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/jsp/TestLogin.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="31" />
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="ChatRoom.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/ChatRoom.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="27">
-              <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-=======
-            <state relative-caret-position="891">
-              <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
->>>>>>> a5324b1ff9e01326cbd315c0242a8ea7a61c7aa2
-              <folding>
-                <marker date="1524017754726" expanded="true" signature="2013:2032" ph="..." />
-                <marker date="1524017754726" expanded="true" signature="2047:2053" ph="&amp;nbsp;" />
-                <marker date="1524017754726" expanded="true" signature="2134:2153" ph="..." />
-                <marker date="1524017754726" expanded="true" signature="2264:2276" ph="..." />
-                <marker date="1524017754726" expanded="true" signature="2467:2473" ph="&amp;nbsp;" />
-                <marker date="1524017754726" expanded="true" signature="2857:2863" ph="&amp;nbsp;" />
-                <marker date="1524017754726" expanded="true" signature="3200:3219" ph="..." />
-                <marker date="1524017754726" expanded="true" signature="3234:3240" ph="&amp;nbsp;" />
-                <marker date="1524017754726" expanded="true" signature="3321:3340" ph="..." />
-                <marker date="1524017754726" expanded="true" signature="3450:3462" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="dbcp.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/dbcp.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-=======
-      <file leaf-file-name="BaseDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Base/BaseDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
->>>>>>> a5324b1ff9e01326cbd315c0242a8ea7a61c7aa2
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="344">
-              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Base/BaseDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-=======
-            <state relative-caret-position="243">
-              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
->>>>>>> a5324b1ff9e01326cbd315c0242a8ea7a61c7aa2
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Chat.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/css/Chat.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1890">
-              <caret line="70" column="1" lean-forward="false" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestLogin.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/TestLogin.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
-              <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-=======
-      <file leaf-file-name="WeixinPayHuiDiaoServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/WeixinPayHuiDiaoServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
+            <state relative-caret-position="235">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-        <option value="Interface" />
-        <option value="Class" />
-        <option value="Jsp File" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>msie</find>
-      <find>facebox</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -319,80 +106,23 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/web/socket/ChatSocket.jsp" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" root2="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/web/css/Chat.css" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/web/ChatRoom.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/web/jsp/TestLogin.jsp" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" root2="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Entity/User.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Service/ServiceImpl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Dao/Impl/UserImpl.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/ChatServlet.java" />
-        <option value="$PROJECT_DIR$/web/TestLogin.jsp" />
-        <option value="$PROJECT_DIR$/web/css/Chat.css" />
-        <option value="$PROJECT_DIR$/web/ChatRoom.jsp" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/web/index.jsp" />
-=======
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/pay/weixin/action/PayHuiDiaoServlet.java" />
-        <option value="$PROJECT_DIR$/source/dbcp.properties" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/lib/XStreamUtil.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/pay/weixin/entity/Order.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/pay/weixin/dao/OrderDao.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/pay/weixin/dao/impl/OrderDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/pay/weixin/service/AccrueOrder.java" />
-        <option value="$PROJECT_DIR$/web/pay/ali/alipay.trade.page.pay.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/pay/weixin/action/PayStatusServlet.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/pay/weixin/action/PayServlet.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/PayServlet/Weixin/PayServlet.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/PayServlet/Weixin/PayWinxinHuiDiaoServlet.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/PayServlet/Weixin/WinxinPayHuiDiaoServlet.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/WinxinPayHuiDiaoServlet.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/PayServlet/Weixin/WinxinPayStatusServlet.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/WinxinPayStatusServlet.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/PayServlet/Weixin/WeixinPayServlet.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/WenxinPayHuiDiaoServlet.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/WenxinPayStatusServlet.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/WeixinPayStatusServlet.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/WeixinPayHuiDiaoServlet.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Entity/Order.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Entity/Pay.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/filter/UTF8Filter.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Utils/XStreamUtil.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Utils/OrderNumber.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Utils/AlipayConfig.java" />
-        <option value="$PROJECT_DIR$/web/pay/weixin/WeChatPaying.jsp" />
-        <option value="$PROJECT_DIR$/web/pay/weixin/success.jsp" />
-        <option value="$PROJECT_DIR$/web/pay/weixin/publicTop.html" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Service/OrderService.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Service/ServiceImpl/OrderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Dao/OrderDao.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Dao/Impl/OrderDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Test/OrderDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Service/WeixinPayOrderService.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Service/ServiceImpl/WeixinPayOrderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/web/TestWeixinPay.jsp" />
-        <option value="$PROJECT_DIR$/web/ErrorPay.jsp" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/WeixinPayServlet.java" />
-        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/filter/weixinFilter.java" />
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/jkwinWeb.iml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/jkwinWeb_war_exploded.xml" />
+        <option value="$PROJECT_DIR$/web/TestLogin.jsp" />
+        <option value="$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/ChatServlet.java" />
+        <option value="$PROJECT_DIR$/web/jsp/TestLogin.jsp" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsFlowSettings">
-    <service-enabled>false</service-enabled>
-    <exe-path />
-    <annotation-enable>false</annotation-enable>
-    <other-services-enabled>false</other-services-enabled>
-    <auto-save>true</auto-save>
-  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -404,22 +134,11 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
-=======
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="171" />
-    <option name="y" value="14" />
-    <option name="width" value="1483" />
-    <option name="height" value="968" />
-  </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -430,72 +149,30 @@
       <hideEmptyPackages />
       <abbreviatePackageNames />
       <autoscrollToSource />
-      <autoscrollFromSource ProjectPane="true" />
+      <autoscrollFromSource />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
       <pane id="PackagesPane" />
->>>>>>> a5324b1ff9e01326cbd315c0242a8ea7a61c7aa2
-=======
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
-            </path>
-            <path>
-              <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-=======
-              <item name="source" type="462c0819:PsiDirectoryNode" />
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
             </path>
             <path>
               <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="jkwin" type="462c0819:PsiDirectoryNode" />
->>>>>>> a5324b1ff9e01326cbd315c0242a8ea7a61c7aa2
-=======
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
-            </path>
-            <path>
-              <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
             </path>
             <path>
               <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="jkwin" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-=======
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Base" type="462c0819:PsiDirectoryNode" />
->>>>>>> a5324b1ff9e01326cbd315c0242a8ea7a61c7aa2
-=======
-              <item name="jkwin" type="462c0819:PsiDirectoryNode" />
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
             </path>
             <path>
               <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
@@ -503,87 +180,39 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="jkwin" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-              <item name="Dao" type="462c0819:PsiDirectoryNode" />
->>>>>>> a5324b1ff9e01326cbd315c0242a8ea7a61c7aa2
-            </path>
-            <path>
-              <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jkwin" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="Base" type="462c0819:PsiDirectoryNode" />
-=======
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
             </path>
             <path>
               <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
-<<<<<<< HEAD
-=======
-              <item name="Dao" type="462c0819:PsiDirectoryNode" />
-              <item name="Impl" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-=======
-            <path>
-              <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
->>>>>>> a5324b1ff9e01326cbd315c0242a8ea7a61c7aa2
           </expand>
           <select />
         </subPane>
       </pane>
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-=======
       <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="AndroidView" />
->>>>>>> a5324b1ff9e01326cbd315c0242a8ea7a61c7aa2
-=======
-      <pane id="AndroidView" />
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2522686" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\RZY\Desktop\jkwin.com\jkwin.com\web" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\RZY\Desktop\jkwin.com\jkwin.com\src\cn\com\jkwin\java\Servlet\PayServlet\Weixin" />
-      <recent name="C:\Users\RZY\Desktop\jkwin.com\jkwin.com\web\img" />
-      <recent name="C:\Users\RZY\Desktop\jkwin.com\jkwin.com\web\css" />
-      <recent name="C:\Users\RZY\Desktop\jkwin.com\jkwin.com\web\js" />
-      <recent name="C:\Users\RZY\Desktop\jkwin.com\jkwin.com\web" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="cn.com.jkwin.java.Entity" />
+      <recent name="E:\jkwinWeb\jkwin.com\web\html" />
+      <recent name="E:\jkwinWeb\jkwin.com\web\jsp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -598,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.jkwin.com">
+  <component name="RunManager" selected="Tomcat Server.TestLogin.jsp">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -631,7 +260,7 @@
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -639,12 +268,6 @@
       </option>
       <envs />
       <patterns />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -666,7 +289,7 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
@@ -680,8 +303,9 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="jkwin.com" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.11" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
+    <configuration name="TestLogin.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.15" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/jsp/TestLogin.jsp" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <deployment>
         <artifact name="jkwinWeb:war exploded">
           <settings>
@@ -690,7 +314,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_jkwin_com_2" />
+        <option name="BASE_DIRECTORY_NAME" value="TestLogin_jsp_jkwin_com_2" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -699,7 +323,7 @@
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="61957" />
+        <option name="DEBUG_PORT" value="57996" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -752,6 +376,77 @@
         </option>
       </method>
     </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.15" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_jkwin_com_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57995" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.TestLogin.jsp" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -761,208 +456,54 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9ee5a833-3f9c-487d-9873-41f700deff79" name="Default" comment="" />
-      <created>1523261570664</created>
+      <changelist id="17cbaa34-6a1b-4c52-a2fd-1fa55ed028a4" name="Default" comment="" />
+      <created>1524025375683</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1523261570664</updated>
-      <workItem from="1523261616540" duration="512000" />
-      <workItem from="1523262502130" duration="934000" />
-      <workItem from="1523273645793" duration="68000" />
-      <workItem from="1523279973426" duration="8601000" />
-      <workItem from="1523321595026" duration="3235000" />
-      <workItem from="1523343515392" duration="5866000" />
-      <workItem from="1523366316018" duration="6949000" />
-      <workItem from="1523407586976" duration="2249000" />
-      <workItem from="1523428839001" duration="10834000" />
-      <workItem from="1523493797577" duration="32958000" />
-      <workItem from="1523542007322" duration="207000" />
-      <workItem from="1523543097349" duration="1252000" />
-      <workItem from="1523583020431" duration="24019000" />
-      <workItem from="1523613056933" duration="2649000" />
-      <workItem from="1523666589306" duration="8422000" />
-      <workItem from="1523675844437" duration="21000" />
-      <workItem from="1523676297161" duration="877000" />
-      <workItem from="1523688609699" duration="1525000" />
-      <workItem from="1523840050838" duration="15041000" />
-      <workItem from="1523862266338" duration="18000" />
-      <workItem from="1523862721306" duration="558000" />
-      <workItem from="1523873120113" duration="4059000" />
-      <workItem from="1523882854662" duration="6523000" />
-      <workItem from="1523924974157" duration="6370000" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <workItem from="1524011618749" duration="4971000" />
-      <workItem from="1524024648161" duration="346000" />
-=======
-      <workItem from="1524011618749" duration="137000" />
-      <workItem from="1524018622212" duration="1122000" />
-      <workItem from="1524022655703" duration="1472000" />
->>>>>>> a5324b1ff9e01326cbd315c0242a8ea7a61c7aa2
-=======
-      <workItem from="1523966100802" duration="1498000" />
-      <workItem from="1523967843591" duration="172000" />
-      <workItem from="1523968031055" duration="30000" />
-      <workItem from="1523968071630" duration="547000" />
-      <workItem from="1524011671346" duration="14525000" />
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
+      <updated>1524025375683</updated>
+      <workItem from="1524025380274" duration="4143000" />
+      <workItem from="1524035206466" duration="1318000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="OrderDaoImpl_test1 - 2018.04.18 at 09h 06m 41s.xml">
-      <configuration name="OrderDaoImpl.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderDaoImpl_test4 - 2018.04.18 at 09h 21m 38s.xml">
-      <configuration name="OrderDaoImpl.test4" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderDaoImpl_test5 - 2018.04.18 at 09h 28m 18s.xml">
-      <configuration name="OrderDaoImpl.test5" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderDaoImpl_test6 - 2018.04.18 at 11h 24m 25s.xml">
-      <configuration name="OrderDaoImpl.test6" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderDaoImpl_test6 - 2018.04.18 at 11h 28m 21s.xml">
-      <configuration name="OrderDaoImpl.test6" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderDaoImpl_test6 - 2018.04.18 at 11h 30m 08s.xml">
-      <configuration name="OrderDaoImpl.test6" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderDaoImpl_test6 - 2018.04.18 at 11h 32m 44s.xml">
-      <configuration name="OrderDaoImpl.test6" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderDaoImpl_test6 - 2018.04.18 at 11h 35m 09s.xml">
-      <configuration name="OrderDaoImpl.test6" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderDaoImpl_test6 - 2018.04.18 at 11h 44m 28s.xml">
-      <configuration name="OrderDaoImpl.test6" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderDaoImpl_test6 - 2018.04.18 at 12h 15m 46s.xml">
-      <configuration name="OrderDaoImpl.test6" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="149064000" />
+    <option name="totallyTimeSpent" value="5461000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-=======
-    <option name="totallyTimeSpent" value="146478000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
->>>>>>> a5324b1ff9e01326cbd315c0242a8ea7a61c7aa2
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3752039" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5611746" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2602118" sideWeight="0.48287112" order="0" side_tool="false" content_ui="combo" />
-=======
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18669528" sideWeight="0.48287112" order="0" side_tool="false" content_ui="combo" />
->>>>>>> a5324b1ff9e01326cbd315c0242a8ea7a61c7aa2
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24432677" sideWeight="0.5171289" order="2" side_tool="true" content_ui="tabs" />
-=======
-    <option name="totallyTimeSpent" value="160519000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3752039" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59659094" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32045454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284091" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.101136364" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20708154" sideWeight="0.4775" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20708154" sideWeight="0.5225" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789558" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28668684" sideWeight="0.5135135" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59477127" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-=======
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.112561174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28668684" sideWeight="0.5135135" order="2" side_tool="true" content_ui="tabs" />
->>>>>>> a5324b1ff9e01326cbd315c0242a8ea7a61c7aa2
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6503268" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7044025" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789558" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-=======
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5277778" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.501634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28668684" sideWeight="0.4864865" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2730711" sideWeight="0.50653595" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28668684" sideWeight="0.5135135" order="7" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -971,644 +512,114 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="46" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/js/jquery.qqFace.js">
+    <entry file="file://$PROJECT_DIR$/jkwinWeb.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
-          <caret line="51" column="30" lean-forward="false" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+        <state relative-caret-position="243">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/bootstrap-theme.css">
+    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/webSocket/ChatSocket.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="1050">
-          <caret line="35" column="45" lean-forward="false" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
-          <folding>
-            <marker date="1524017754726" expanded="true" signature="2013:2032" ph="..." />
-            <marker date="1524017754726" expanded="true" signature="2047:2053" ph="&amp;nbsp;" />
-            <marker date="1524017754726" expanded="true" signature="2134:2153" ph="..." />
-            <marker date="1524017754726" expanded="true" signature="2264:2276" ph="..." />
-            <marker date="1524017754726" expanded="true" signature="2467:2473" ph="&amp;nbsp;" />
-            <marker date="1524017754726" expanded="true" signature="2857:2863" ph="&amp;nbsp;" />
-            <marker date="1524017754726" expanded="true" signature="3200:3219" ph="..." />
-            <marker date="1524017754726" expanded="true" signature="3234:3240" ph="&amp;nbsp;" />
-            <marker date="1524017754726" expanded="true" signature="3321:3340" ph="..." />
-            <marker date="1524017754726" expanded="true" signature="3450:3462" ph="..." />
-          </folding>
-=======
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="783">
+          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/bootstrap.js">
+    <entry file="file://$PROJECT_DIR$/web/jsp/TestLogin.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="405">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/publicTop.js">
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="262">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/publicTop.css">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="3488">
+          <caret line="1610" column="20" lean-forward="false" selection-start-line="1610" selection-start-column="20" selection-end-line="1610" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jkwinWeb.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/jkwinWeb_war_exploded.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        <state relative-caret-position="135">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/net/DualStackPlainSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/webSocket/ChatSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/weixinPay.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/QQface.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/ChatRoom.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="45" column="57" lean-forward="false" selection-start-line="45" selection-start-column="57" selection-end-line="45" selection-end-column="57" />
-          <folding>
-            <marker date="1523965948621" expanded="true" signature="2013:2032" ph="..." />
-            <marker date="1523965948621" expanded="true" signature="2047:2053" ph="&amp;nbsp;" />
-            <marker date="1523965948621" expanded="true" signature="2134:2153" ph="..." />
-            <marker date="1523965948621" expanded="true" signature="2264:2276" ph="..." />
-            <marker date="1523965948621" expanded="true" signature="2467:2473" ph="&amp;nbsp;" />
-            <marker date="1523965948621" expanded="true" signature="2857:2863" ph="&amp;nbsp;" />
-            <marker date="1523965948621" expanded="true" signature="3200:3219" ph="..." />
-            <marker date="1523965948621" expanded="true" signature="3234:3240" ph="&amp;nbsp;" />
-            <marker date="1523965948621" expanded="true" signature="3321:3340" ph="..." />
-            <marker date="1523965948621" expanded="true" signature="3450:3462" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/WeixinPayServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="68" column="26" lean-forward="true" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/WeixinPayStatusServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/PayServlet/x.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/WeixinPayHuiDiaoServlet.java">
+    <entry file="file://$PROJECT_DIR$/web/jsp/ChatRoom.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/UserServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/ChatServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        <state relative-caret-position="167">
+          <caret line="35" column="69" lean-forward="false" selection-start-line="35" selection-start-column="69" selection-end-line="35" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/WeixinPayStatusServlet.java">
+    <entry file="file://$PROJECT_DIR$/web/jsp/TestLogin.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="235">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <entry file="jar://D:/Java_jar包/apache-tomcat-8.5.15/lib/websocket-api.jar!/javax/websocket/server/ServerApplicationConfig.class">
-=======
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Entity/Order.java">
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="jar://D:/Java_jar包/apache-tomcat-8.5.15/lib/tomcat-coyote.jar!/org/apache/tomcat/util/net/SocketProcessorBase.class">
-=======
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Entity/PayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Entity/Pay.java">
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/filter/UTF8Filter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-=======
-    <entry file="jar://D:/Java_jar包/apache-tomcat-8.5.15/lib/websocket-api.jar!/javax/websocket/server/ServerApplicationConfig.class" />
-    <entry file="jar://D:/Java_jar包/apache-tomcat-8.5.15/lib/tomcat-coyote.jar!/org/apache/tomcat/util/net/SocketProcessorBase.class" />
-    <entry file="jar://D:/Java_jar包/apache-tomcat-8.5.15/lib/jasper.jar!/org/apache/jasper/runtime/HttpJspBase.class" />
->>>>>>> a5324b1ff9e01326cbd315c0242a8ea7a61c7aa2
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/webSocket/WebSocket.java" />
-    <entry file="file://$PROJECT_DIR$/web/js/jquery-3.3.1.js">
-=======
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Utils/MD5.java">
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Utils/MyX509TrustManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Utils/SignTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Utils/SignUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="jar://D:/Java_jar包/apache-tomcat-8.5.15/lib/tomcat-websocket.jar!/org/apache/tomcat/websocket/pojo/PojoMessageHandlerWholeBase.class" />
-    <entry file="jar://D:/Java_jar包/apache-tomcat-8.5.15/lib/tomcat-websocket.jar!/org/apache/tomcat/websocket/WsFrameBase.class" />
-    <entry file="jar://D:/Java_jar包/apache-tomcat-8.5.15/lib/servlet-api.jar!/javax/servlet/RequestDispatcher.class" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js" />
-    <entry file="file://$PROJECT_DIR$/web/socket/ChatSocket.jsp">
-=======
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Utils/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Utils/XmlTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Utils/XStreamUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Utils/OrderNumber.java">
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Utils/AlipayConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Utils/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Utils/HttpsRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pay/weixin/success.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="jar://D:/Java_jar包/apache/commons-dbutils-1.4.jar!/org/apache/commons/dbutils/AsyncQueryRunner.class" />
-    <entry file="file://D:/a我的学习/javaweb/UploadServlet.java" />
-    <entry file="file://$PROJECT_DIR$/../NewsSystemWeb/src/org/News/Base/BaseDao.java" />
-    <entry file="file://$PROJECT_DIR$/web/arclist/75.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-=======
-    <entry file="file://$PROJECT_DIR$/web/pay/ali/alipay.trade.page.pay.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pay/weixin/WeChatPaying.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="94" column="23" lean-forward="false" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/publicTop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/publicTop1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/TestLogin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    <entry file="file://$PROJECT_DIR$/source/dbcp.properties">
-=======
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Test/OrderDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1640">
-          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Dao/Impl/OrderDaoImpl.java">
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3137">
-          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1224#1231#0" expanded="true" />
-            <element signature="e#2021#2028#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
->>>>>>> a5324b1ff9e01326cbd315c0242a8ea7a61c7aa2
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/UserServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Dao/OrderDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding />
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Service/WeixinPayOrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="108">
-          <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-=======
-        <state relative-caret-position="200">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Service/ServiceImpl/WeixinPayOrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="135">
-          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-=======
-        <state relative-caret-position="160">
-          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#935#936#0" expanded="true" />
-            <element signature="e#1017#1018#0" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
-            <element signature="e#1124#1125#0" expanded="true" />
-            <element signature="e#1151#1152#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/WeixinPayHuiDiaoServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <state relative-caret-position="432">
-=======
-        <state relative-caret-position="0">
->>>>>>> a5324b1ff9e01326cbd315c0242a8ea7a61c7aa2
-          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-=======
-        <state relative-caret-position="192">
-          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding />
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/ErrorPay.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="405">
-          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding>
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-          </folding>
-=======
-        <state relative-caret-position="457">
-          <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-          <folding />
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/WeixinPayServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="459">
-          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-=======
-        <state relative-caret-position="218">
-          <caret line="80" column="17" lean-forward="true" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="26" />
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/TestWeixinPay.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="405">
-          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-=======
-        <state relative-caret-position="377">
-          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="31" />
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="783">
-          <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-=======
-        <state relative-caret-position="574">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/filter/weixinFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="1890">
-          <caret line="70" column="1" lean-forward="false" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/dbcp.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Base/BaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-=======
-        <state relative-caret-position="320">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/web/ChatRoom.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="27">
-          <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-=======
-        <state relative-caret-position="891">
-          <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
->>>>>>> a5324b1ff9e01326cbd315c0242a8ea7a61c7aa2
-          <folding>
-            <marker date="1524017754726" expanded="true" signature="2013:2032" ph="..." />
-            <marker date="1524017754726" expanded="true" signature="2047:2053" ph="&amp;nbsp;" />
-            <marker date="1524017754726" expanded="true" signature="2134:2153" ph="..." />
-            <marker date="1524017754726" expanded="true" signature="2264:2276" ph="..." />
-            <marker date="1524017754726" expanded="true" signature="2467:2473" ph="&amp;nbsp;" />
-            <marker date="1524017754726" expanded="true" signature="2857:2863" ph="&amp;nbsp;" />
-            <marker date="1524017754726" expanded="true" signature="3200:3219" ph="..." />
-            <marker date="1524017754726" expanded="true" signature="3234:3240" ph="&amp;nbsp;" />
-            <marker date="1524017754726" expanded="true" signature="3321:3340" ph="..." />
-            <marker date="1524017754726" expanded="true" signature="3450:3462" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Base/BaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
->>>>>>> a5324b1ff9e01326cbd315c0242a8ea7a61c7aa2
-          <folding />
-        </state>
-      </provider>
-    </entry>
-=======
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
   </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>jkwinWeb:war exploded</last-edited>
+          <last-edited>unnamed</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2522686" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1656,7 +667,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2522686" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1664,11 +674,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-<<<<<<< HEAD
           <last-edited>lib</last-edited>
-=======
-          <last-edited>lib (2)</last-edited>
->>>>>>> ac3a0f61042ddd6e0c9f578dc20a5150510871a8
           <splitter-proportions>
             <option name="proportions">
               <list>
