@@ -1,5 +1,10 @@
 package cn.com.jkwin.java.Servlet;
 
+import cn.com.jkwin.java.Dao.Impl.OrderDaoImpl;
+import cn.com.jkwin.java.Dao.OrderDao;
+import cn.com.jkwin.java.Entity.Order;
+import cn.com.jkwin.java.Service.ServiceImpl.WeixinPayOrderServiceImpl;
+import cn.com.jkwin.java.Service.WeixinPayOrderService;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.DocumentHelper;
@@ -11,6 +16,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -44,7 +50,10 @@ public class WeixinPayHuiDiaoServlet extends HttpServlet {
             Document document = DocumentHelper.parseText(respXml);
             Element rootElement = document.getRootElement();
             List<Element> elements = rootElement.elements();
+            HashMap<String,String> map=new HashMap<String,String>();
+            Order order=new Order();
             for (Element element : elements) {
+                map.put(element.getName(),element.getText());
                 if (element.getName().equals("result_code")) {
                     code = element.getTextTrim();
                     System.out.println("成功code" + code);
@@ -62,6 +71,12 @@ public class WeixinPayHuiDiaoServlet extends HttpServlet {
                     }
                 }
             }
+            //根据获取的xml修改相应的订单状态
+            System.out.println(map);
+            String out_trade_no=map.get("out_trade_no");
+            String result_code=map.get("result_code");
+            WeixinPayOrderService orderService=new WeixinPayOrderServiceImpl();
+            orderService.updateStatus(out_trade_no,"支付完成");
         } catch (DocumentException e) {
             e.printStackTrace();
         }

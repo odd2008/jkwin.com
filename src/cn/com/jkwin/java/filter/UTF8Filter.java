@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
 import java.io.IOException;
 
-@WebFilter(filterName = "UTF-8Filter")
+@WebFilter(value ="/*")
 public class UTF8Filter implements Filter {
     public void destroy() {
     }

@@ -24,7 +24,7 @@
     <title>微信支付页面</title>
 </head>
 <body>
-<%@include file="../../publicTop1.html"  %>
+<%@include file="../../html/publicTop1.html"  %>
 
 <div class="container-fluid gradient">
     <div class="row" style="padding: 0 15px 0 15px;">
@@ -92,9 +92,10 @@
     $(document).ready(function () {
         var a = true;
         var b = 1;
-        $.post("/WeixinPayStatusServlet",${x}, callBack)
+        $.post("/WeixinPayStatusServlet",{"out_trade_no":"${requestScope.out_trade_no}"}, callBack)
+
         function callBack(data) {
-            if (data==1){
+            if (data!="未支付"){
                 window.location.href="/test.jsp";
             }
         }

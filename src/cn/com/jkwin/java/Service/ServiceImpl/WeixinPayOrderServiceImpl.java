@@ -25,8 +25,29 @@ public class WeixinPayOrderServiceImpl implements WeixinPayOrderService {
     }
 
     @Override
-    public void update(String status, String out_trade_no) {
+    public String queryOut_trade_no(String out_trade_no) {
+        /**
+         * 获取订单号,并且判断订单状态是否改变,返回订单状态
+         */
+        String status=null;
+        for (int i=0;i<1800;i++){
+            status=orderDao.findOrderByOut_trade_no(out_trade_no).getStatus();
+            if (!(status.equals("未支付"))){
+                System.out.println(status);
+                return status;
+            }
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+        return status;
+    }
 
+    @Override
+    public int updateStatus(String status, String out_trade_no) {
+       return orderDao.updateOrder(status,out_trade_no);
     }
 
     @Override

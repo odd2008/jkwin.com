@@ -35,7 +35,7 @@ public class WeixinPayServlet extends javax.servlet.http.HttpServlet {
         String body = "医事通";
         String trade_type = "NATIVE";
         //String notify_url = "http://zhuzuohua.oicp.net/ercodePay/pay-huidao.action";
-        String notify_url = "2i0590x817.iok.la:11365/PayHuiDiaoServlet";
+        String notify_url = "http://2i0590x817.iok.la:48633/WeixinPayHuiDiaoServlet";
 /*
         int total_fee = Integer.parseInt(request.getParameter("total_fee"));
 */
@@ -83,10 +83,11 @@ public class WeixinPayServlet extends javax.servlet.http.HttpServlet {
         order.setAppid(pay.getAppid());
         order.setBody(pay.getBody());
         order.setOut_trade_no(pay.getOut_trade_no());
+        order.setMch_id(pay.getMch_id());
         WeixinPayOrderService rderService = new WeixinPayOrderServiceImpl();
         int tag = rderService.addOrder(order);
         if (tag<0){
-            request.getRequestDispatcher("ErrorPay.jsp");
+            request.getRequestDispatcher("/jsp/ErrorPay.jsp");
         }
 
         //生成请求xml
@@ -129,6 +130,8 @@ public class WeixinPayServlet extends javax.servlet.http.HttpServlet {
         //
         System.out.println(ercodeUrl+"二维码");
         request.setAttribute("ercodeUrl",ercodeUrl);
+        //将订单号传过去
+        request.setAttribute("out_trade_no",out_trade_no);
 /*
         response.sendRedirect("/pay/weixin/WeChatPaying.jsp");
 */

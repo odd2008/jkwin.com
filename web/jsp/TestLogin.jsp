@@ -26,8 +26,8 @@
 <body>
 
 
-<a href="ChatServlet?userId=1">在线咨询1</a>
-<a href="ChatServlet?userId=2">在线咨询2</a>
+<a href="/ChatServlet?userId=1">在线咨询1</a>
+<a href="/ChatServlet?userId=2">在线咨询2</a>
 <form name="testform" action="ChatServlet" method="post">
 
     <%--用户名：<input name="userId" type="text"><br>--%>
