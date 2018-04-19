@@ -1,6 +1,6 @@
 package cn.com.jkwin.java.Entity;
 
-public class Order {
+public class WeixinOrder {
     private Integer id;
     private String status;//订单状态,提交,未支付,支付,删除4种状态
     private  String appid;//公众账号Id
