@@ -61,7 +61,11 @@
                     }
                 }else {
                     if(username!=uname) {
+<<<<<<< HEAD:web/jsp/ChatRoom.jsp
+                        alert("对方的对话框");
+=======
                         // alert("对方的对话框");
+>>>>>>> 81875a402da61e264c7f18724d1809ab5c97bb6b:out/artifacts/jkwinWeb_war_exploded/ChatRoom.jsp
                         var name = "<span>" + uname + "&nbsp;" + CurentTime() + "</span>";
                         var sp = "<br><span>" + replace_em(jsonObj.msg) + "</span>";
                         kefu.innerHTML += "<p class='kehuimg'>" + name + sp + "</p>";

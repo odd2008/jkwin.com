@@ -1,8 +1,6 @@
 package cn.com.jkwin.java.Servlet;
 
-import cn.com.jkwin.java.Dao.Impl.OrderDaoImpl;
-import cn.com.jkwin.java.Dao.OrderDao;
-import cn.com.jkwin.java.Entity.Order;
+import cn.com.jkwin.java.Entity.WeixinOrder;
 import cn.com.jkwin.java.Service.ServiceImpl.WeixinPayOrderServiceImpl;
 import cn.com.jkwin.java.Service.WeixinPayOrderService;
 import org.dom4j.Document;
@@ -51,7 +49,7 @@ public class WeixinPayHuiDiaoServlet extends HttpServlet {
             Element rootElement = document.getRootElement();
             List<Element> elements = rootElement.elements();
             HashMap<String,String> map=new HashMap<String,String>();
-            Order order=new Order();
+            WeixinOrder order=new WeixinOrder();
             for (Element element : elements) {
                 map.put(element.getName(),element.getText());
                 if (element.getName().equals("result_code")) {

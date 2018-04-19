@@ -2,7 +2,7 @@ package cn.com.jkwin.java.Servlet;
 
 
 
-import cn.com.jkwin.java.Entity.Order;
+import cn.com.jkwin.java.Entity.WeixinOrder;
 import cn.com.jkwin.java.Entity.Pay;
 import cn.com.jkwin.java.Service.ServiceImpl.WeixinPayOrderServiceImpl;
 import cn.com.jkwin.java.Service.WeixinPayOrderService;
@@ -75,7 +75,7 @@ public class WeixinPayServlet extends javax.servlet.http.HttpServlet {
 
         //生成订单并添加到数据库
 
-        Order order=new Order();
+        WeixinOrder order=new WeixinOrder();
         order.setUserIDcard(request.getParameter("userIdcard"));
         order.setTrade_type(pay.getTrade_type());
         order.setTotal_fee(pay.getTotal_fee());
