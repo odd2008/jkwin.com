@@ -11,6 +11,45 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/json_lib.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/lib1.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_26_bin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/login-footer.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/login-header.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/login-section.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/register-footer.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/register-header.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/register-section.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/html/login.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/html/register.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/bottom_wsj_logo.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/bottom_wsj_logo2.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/bottom_yst_logo.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/bottom_yst_logo2.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/mbx_arrow.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/pic_02.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/pic_03.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/ValidateCode.do" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/bottom_img1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/bottom_img2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/bottom_wsj_logo.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/bottom_wsj_logo2.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/bottom_yst_logo.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/bottom_yst_logo2.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/light_000_03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/mbx_arrow.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/mbx_ico.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/pic_02.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/pic_03.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/top_arrow.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/top_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/top_line.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/top_logo2.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/top_search_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/zhuc_banner.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/time_ico.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/zhuc_banner.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/LoginRoll.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/LoginVerify.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/RegisterVerify.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/imgVerify.js" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/jkwinWeb_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/jkwinWeb_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/jkwinWeb.iml" afterPath="$PROJECT_DIR$/jkwinWeb.iml" />
@@ -104,7 +143,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="67" />
     <option name="y" value="26" />
     <option name="width" value="1678" />
@@ -126,8 +165,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,7 +193,51 @@
             <path>
               <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jkwin" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="arclist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
@@ -172,6 +253,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -181,7 +264,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2522686" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/jkwin" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/newsSystem" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -439,14 +522,15 @@
       <workItem from="1524035206466" duration="1318000" />
       <workItem from="1524043487246" duration="93000" />
       <workItem from="1524104399528" duration="980000" />
+      <workItem from="1524194862300" duration="455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6534000" />
+    <option name="totallyTimeSpent" value="6989000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="26" width="1678" height="995" extended-state="1" />
+    <frame x="67" y="26" width="1678" height="995" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -491,6 +575,38 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/webSocket/ChatSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/ChatRoom.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/ChatServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="35" column="69" lean-forward="false" selection-start-line="35" selection-start-column="69" selection-end-line="35" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/TestLogin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="41" lean-forward="false" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/webSocket/ChatSocket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
