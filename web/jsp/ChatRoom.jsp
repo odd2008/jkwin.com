@@ -20,11 +20,11 @@
         var userId = "${requestScope.user.userId}";
         var username = "${requestScope.user.username}";
         var userType="${requestScope.usertype}";
-            alert("userType"+userType+"????????");
+
         }else{
             var userId = "${requestScope.userId}";
             var userType="${requestScope.userType}";
-            var username="游客"+userId;
+            var username="游客";
         }
         //编译为二进制传出去
         var username2=encodeURI(username);
@@ -49,30 +49,31 @@
                 var uname=decodeURI(jsonObj.username);
                 if(userType=="咨询师"){
                     if(username==uname) {
-                        alert("咨询师的对话框");
+                        // alert("咨询师的对话框");
                         var name = "<span style='padding-left: 278px'>" + uname + "&nbsp;" + CurentTime() + "</span>";
                         var sp = "<br><span style='padding-left: 330px'>" + replace_em(jsonObj.msg) + "</span>";
                         kefu.innerHTML += "<p  id='kehuchat' style='float: right'>" + name + sp + "</p><p class='clear'></p>";
                     }else if(username!=uname){
-                        alert("客户的对话框");
+                        // alert("客户的对话框");
                         var name = "<span >" + uname + "&nbsp;" + CurentTime() + "</span>";
                         var sp = "<br><span >" + replace_em(jsonObj.msg) + "</span>";
                         kefu.innerHTML += "<p id='huiyuan' >" + name + sp + "</p>";
                     }
                 }else {
                     if(username!=uname) {
-                        alert("对方的对话框");
+
+                        // alert("对方的对话框");
+
                         var name = "<span>" + uname + "&nbsp;" + CurentTime() + "</span>";
                         var sp = "<br><span>" + replace_em(jsonObj.msg) + "</span>";
                         kefu.innerHTML += "<p class='kehuimg'>" + name + sp + "</p>";
                     }else if(username==uname){
-                        alert("我的对话框");
+                        // alert("我的对话框");
                         var name = "<span style='padding-left: 278px'>" + uname + "&nbsp;" + CurentTime() + "</span>";
                         var sp = "<br><span style='padding-left: 330px'>" + replace_em(jsonObj.msg) + "</span>";
                         kefu.innerHTML += "<p class='myimg' style='float: right'>" + name + sp + "</p><p class='clear'></p>";
                     }
                 }
-
                 //设置滚动条
                 var heit = $("#kefu")[0].scrollHeight;
                 $("#kefu").scrollTop(heit);
@@ -125,12 +126,6 @@
         //设置回车键发送功能，并禁止换行
         document.onkeydown=function(event){
             var e = event || window.event || arguments.callee.caller.arguments[0];
-            if(e && e.keyCode==27){ // 按 Esc
-                //要做的事情
-            }
-            if(e && e.keyCode==113){ // 按 F2
-                //要做的事情
-            }
             if(e && e.keyCode==13){ // enter 键
                 //要做的事情
                 subSend();
