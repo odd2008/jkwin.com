@@ -22,6 +22,4 @@ public interface CityDao {
      * @return CITY集合
      */
     List<City> getAllCity();
-
-
 }
