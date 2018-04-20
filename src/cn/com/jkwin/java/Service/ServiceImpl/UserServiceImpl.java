@@ -9,7 +9,7 @@ import cn.com.jkwin.java.Service.UserService;
 public class UserServiceImpl  implements UserService {
 
     @Override
-    public String getUsertype(int Id) {
+    public String getUsertype(String Id) {
         UserDao userDao = new UserImpl();
         User users = userDao.findByUserId(Id);
         if(users==null){
@@ -27,7 +27,7 @@ public class UserServiceImpl  implements UserService {
     }
 
     @Override
-    public User getByUserId(int Id) {
+    public User getByUserId(String Id) {
         UserDao userDao = new UserImpl();
         User users = userDao.findByUserId(Id);
         return users;

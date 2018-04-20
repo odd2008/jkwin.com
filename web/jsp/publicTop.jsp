@@ -86,7 +86,8 @@
                     </a>
                 </div>
                 <div id="sidebar_content2">
-                    <a href="http://192.168.5.77:8080/ChatServlet?userId=${requestScope.User.userId}">
+                    <%--在线咨询--%>
+                    <a href="/ChatServlet?userId=${requestScope.User.userId}">
                         <button class="btn btn-default btn-md sidebarbtn">
             <span class="glyphicon glyphicon-headphones"
                   aria-hidden="true"></span>

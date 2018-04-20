@@ -1,7 +1,7 @@
 package cn.com.jkwin.java.Entity;
 
 public class User {
-    private Integer userId;
+    private String userId;
     private String username;
     private Integer userType;
 
@@ -13,11 +13,11 @@ public class User {
         this.username = username;
     }
 
-    public Integer getUserId() {
+    public String getUserId() {
         return userId;
     }
 
-    public void setUserId(Integer userId) {
+    public void setUserId(String userId) {
         this.userId = userId;
     }
 

@@ -24,7 +24,7 @@
         }else{
             var userId = "${requestScope.userId}";
             var userType="${requestScope.userType}";
-            var username="游客"+userId;
+            var username="游客";
         }
         //编译为二进制传出去
         var username2=encodeURI(username);
