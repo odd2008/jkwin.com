@@ -108,6 +108,7 @@
             });
 
         });
+        //给表情拼接成特定的表情格式
         function replace_em(str){
 
             str = str.replace(/\</g,'&lt;');
