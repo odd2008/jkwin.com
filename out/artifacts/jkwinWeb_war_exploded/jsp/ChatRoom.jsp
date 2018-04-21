@@ -24,7 +24,7 @@
         }else{
             var userId = "${requestScope.userId}";
             var userType="${requestScope.userType}";
-            var username="游客"+userId;
+            var username="游客";
         }
         //编译为二进制传出去
         var username2=encodeURI(username);
@@ -61,7 +61,9 @@
                     }
                 }else {
                     if(username!=uname) {
+
                         // alert("对方的对话框");
+
                         var name = "<span>" + uname + "&nbsp;" + CurentTime() + "</span>";
                         var sp = "<br><span>" + replace_em(jsonObj.msg) + "</span>";
                         kefu.innerHTML += "<p class='kehuimg'>" + name + sp + "</p>";
