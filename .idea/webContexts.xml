@@ -5,6 +5,7 @@
       <map>
         <entry key="file://$PROJECT_DIR$/web/ChatRoom.jsp" value="file://$PROJECT_DIR$/web" />
         <entry key="file://$PROJECT_DIR$/web/TestLogin.jsp" value="file://$PROJECT_DIR$/web" />
+        <entry key="file://$PROJECT_DIR$/web/jsp/mainPage.jsp" value="file://$PROJECT_DIR$/web" />
         <entry key="file://$PROJECT_DIR$/web/socket/ChatSocket.jsp" value="file://$PROJECT_DIR$/web/socket" />
         <entry key="file://$PROJECT_DIR$/web/socket/MySocket.jsp" value="file://$PROJECT_DIR$/web/socket" />
       </map>

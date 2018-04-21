@@ -1,7 +1,7 @@
 package cn.com.jkwin.java.Test;
 
 import cn.com.jkwin.java.Dao.Impl.OrderDaoImpl;
-import cn.com.jkwin.java.Entity.Order;
+import cn.com.jkwin.java.Entity.WeixinOrder;
 import org.junit.Test;
 
 import java.util.List;
@@ -9,7 +9,7 @@ import java.util.List;
 public class OrderDaoTest extends OrderDaoImpl {
     @Test
     public void test1(){
-        Order order=new Order();
+        WeixinOrder order=new WeixinOrder();
         order.setUserIDcard("33");
         order.setBody("12");
         order.setAppid("12");
@@ -23,12 +23,12 @@ public class OrderDaoTest extends OrderDaoImpl {
     }
     @Test
     public void test2(){
-        List<Order> orders = findOrderByUserIDcard("33");
+        List<WeixinOrder> orders = findOrderByUserIDcard("33");
         System.out.println(orders);
     }
     @Test
     public void test3(){
-        Order order = findOrderByOut_trade_no("12");
+        WeixinOrder order = findOrderByOut_trade_no("12");
         System.out.println(order);
     }
     @Test

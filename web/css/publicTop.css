@@ -12,6 +12,7 @@
     background-color: #31b0d5;
 }
 
+/*侧边栏*/
 #sidebar{
     z-index: 100;
     width: 40px;
@@ -32,7 +33,7 @@
 .sidebarbtn{
     height:40px;
 }
-
+/*返回首页*/
 #backToTop{
     z-index: 100;
     width: 40px;

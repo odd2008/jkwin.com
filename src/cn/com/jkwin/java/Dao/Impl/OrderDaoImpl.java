@@ -2,11 +2,10 @@ package cn.com.jkwin.java.Dao.Impl;
 
 import cn.com.jkwin.java.Base.BaseDao;
 import cn.com.jkwin.java.Dao.OrderDao;
-import cn.com.jkwin.java.Entity.Order;
+import cn.com.jkwin.java.Entity.WeixinOrder;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
-import org.junit.Test;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -14,7 +13,7 @@ import java.util.List;
 
 public class OrderDaoImpl implements OrderDao {
     @Override
-    public int addOrder(Order order) {
+    public int addOrder(WeixinOrder order) {
         int num=-1;
         String sql="INSERT INTO `weixin_order` (`appid`, userIDcard,`mch_id`, `body`, `out_trade_no`, `total_fee`, `trade_type`, `status`) VALUES ( ?,?, ?, ?, ?, ?, ?, ?)";
         Object[] param={order.getAppid(),order.getUserIDcard(),order.getMch_id(),order.getBody(),
@@ -29,12 +28,12 @@ public class OrderDaoImpl implements OrderDao {
 
 
     @Override
-    public List<Order> findOrderByUserIDcard(String userIDcard) {
-        List<Order> orders=new ArrayList<Order>();
+    public List<WeixinOrder> findOrderByUserIDcard(String userIDcard) {
+        List<WeixinOrder> orders=new ArrayList<WeixinOrder>();
 
         String sql="select * from `weixin_order` where userIDcard=?";
         try {
-            orders=BaseDao.getRunner().query(sql,new BeanListHandler<Order>(Order.class ),userIDcard);
+            orders=BaseDao.getRunner().query(sql,new BeanListHandler<WeixinOrder>(WeixinOrder.class ),userIDcard);
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -43,11 +42,11 @@ public class OrderDaoImpl implements OrderDao {
 
 
     @Override
-    public Order findOrderByOut_trade_no(String out_trade_no) {
-        Order order=null;
+    public WeixinOrder findOrderByOut_trade_no(String out_trade_no) {
+        WeixinOrder order=null;
         String sql="select * from `weixin_order` where out_trade_no=?";
         try {
-            order= BaseDao.getRunner().query(sql, new BeanHandler<Order>(Order.class),out_trade_no);
+            order= BaseDao.getRunner().query(sql, new BeanHandler<WeixinOrder>(WeixinOrder.class),out_trade_no);
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -56,11 +55,11 @@ public class OrderDaoImpl implements OrderDao {
 
 
     @Override
-    public List<Order> getOrder() {
-        List<Order> orders=new ArrayList<Order>();
+    public List<WeixinOrder> getOrder() {
+        List<WeixinOrder> orders=new ArrayList<WeixinOrder>();
         String sql="select * from weixin_order";
         try {
-            orders=BaseDao.getRunner().query(sql, new BeanListHandler<Order>(Order.class));
+            orders=BaseDao.getRunner().query(sql, new BeanListHandler<WeixinOrder>(WeixinOrder.class));
         } catch (SQLException e) {
             e.printStackTrace();
         }

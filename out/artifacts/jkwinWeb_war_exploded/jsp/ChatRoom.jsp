@@ -10,10 +10,10 @@
 <html>
 <head>
     <title>医事通-客服咨询</title>
-    <script type="text/javascript" src="../js/jquery-3.3.1.js"></script>
-    <script type="text/javascript" src="../js/jquery.qqFace.js"></script>
-    <link href="../css/Chat.css" rel="stylesheet" type="text/css">
-    <link href="../css/bootstrap.css" rel="stylesheet" >
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/jquery.qqFace.js"></script>
+    <link href="css/Chat.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" >
     <script type="text/javascript">
         var ws;//一个ws就相当于一个通信管道
         if(${requestScope.user!=null}){
@@ -70,7 +70,6 @@
                         kefu.innerHTML += "<p class='myimg' style='float: right'>" + name + sp + "</p><p class='clear'></p>";
                     }
                 }
-
                 //设置滚动条
                 var heit = $("#kefu")[0].scrollHeight;
                 $("#kefu").scrollTop(heit);
@@ -107,6 +106,7 @@
             });
 
         });
+        //给表情拼接成特定的表情格式
         function replace_em(str){
 
             str = str.replace(/\</g,'&lt;');
@@ -123,12 +123,6 @@
         //设置回车键发送功能，并禁止换行
         document.onkeydown=function(event){
             var e = event || window.event || arguments.callee.caller.arguments[0];
-            if(e && e.keyCode==27){ // 按 Esc
-                //要做的事情
-            }
-            if(e && e.keyCode==113){ // 按 F2
-                //要做的事情
-            }
             if(e && e.keyCode==13){ // enter 键
                 //要做的事情
                 subSend();
@@ -156,7 +150,7 @@
         </div>
         <div id="mid">
             <p>
-                <span class="emotion"><img src="../arclist/1.gif"> </span>
+                <span class="emotion"><img src="arclist/1.gif"> </span>
             </p>
         </div>
         <div id="sent">
@@ -182,7 +176,7 @@
 
         </div>
         <div id="logoimg">
-            <img src="../img/100527321392371416.jpg">
+            <img src="img/100527321392371416.jpg">
         </div>
     </div>
      <div class="clear"></div>
