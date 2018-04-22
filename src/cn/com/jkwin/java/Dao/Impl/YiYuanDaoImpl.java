@@ -9,12 +9,13 @@ import org.apache.commons.dbutils.handlers.BeanHandler;
 import javax.sql.DataSource;
 
 public class YiYuanDaoImpl extends BaseDao implements YiYuanDao {
-    public static DataSource dataSource;
-    QueryRunner queryRunner=new QueryRunner(dataSource);
+//    public static DataSource dataSource;
+//    QueryRunner queryRunner=new QueryRunner(dataSource);
     @Override
     public YiYuan getYiYuan(String name) throws Exception {
         String sql = "select *  from yiyuan where y_name=?";
-        return queryRunner.query(sql,new BeanHandler<YiYuan>(YiYuan.class),name);
+        QueryRunner runner = getRunner();
+        return runner.query(sql,new BeanHandler<YiYuan>(YiYuan.class),name);
     }
 }
 

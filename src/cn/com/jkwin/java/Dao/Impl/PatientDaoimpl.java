@@ -9,11 +9,11 @@ import javax.sql.DataSource;
 import java.sql.SQLException;
 
 public class PatientDaoimpl extends BaseDao implements PatientDao {
-    public static DataSource dataSource;
- QueryRunner queryRunner=new QueryRunner(dataSource);
+
     @Override
     public int addByPatientId(Patient Patient) throws SQLException {
         String sql = "insert into Patient (Pname,Pidcard,Pphone) values (?,?,?)";
-        return queryRunner.update(sql,Patient.getPname(),Patient.getPidcard(),Patient.getPphone());
+        QueryRunner runner =getRunner();
+        return runner.update(sql,Patient.getPname(),Patient.getPidcard(),Patient.getPphone());
     }
 }

@@ -40,7 +40,7 @@
         6、取消预约至少提前1天网上或电话联系，当日不做取消。在退号中若有疑问，请拨打4008-115-160咨询。</p>
     <p>9、目前医事通平台预约挂号支付方式为：手机支付、支付宝支付、网银支付。
         咨询电话：4008-115-160</p><br/>
-    <a href="/DoctorServlet"><input type="submit" value="确定" style="margin-left: 360px;"></a>
+    <a href="/jsp/Register.jsp"><input type="submit" value="确定" style="margin-left: 360px;"></a>
 
 </div>
 

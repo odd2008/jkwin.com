@@ -24,7 +24,7 @@
     <p>4、本《协议》的效力、解释、变更、执行与争议解决均适用中华人民共和国法律。如双方就本协议内容或其执行发生任何争议，双方应尽量友好协商解决；如协商不成，
         任何与本协议有关的争议均由医事通平台所在地的人民法院管辖。 </p>
     <br/>
-    <a href="/DoctorServlet"><input type="submit" value="确定" style="margin-left: 360px;"></a>
+    <a href="/jsp/Register.jsp"><input type="submit" value="确定" style="margin-left: 360px;"></a>
 </div>
 </body>
 </body>

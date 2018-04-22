@@ -21,12 +21,13 @@ public class PatientServlet extends HttpServlet {
             String pname = request.getParameter("Pname");
             String pidcard = request.getParameter("Pidcard");
             String pphone = request.getParameter("Pphone");
+            System.out.println(pname);
             if(pname.equals("") || null==pname){
-               request.getRequestDispatcher("/jkwin.jsp").forward(request,response);
+               request.getRequestDispatcher("/Register.jsp").forward(request,response);
           }else if(null==pidcard||pidcard.equals("")){
-              request.getRequestDispatcher("/jkwin.jsp").forward(request,response);
+              request.getRequestDispatcher("/Register.jsp").forward(request,response);
             }else if(pphone.equals("") || null==pphone){
-               request.getRequestDispatcher("/jkwin.jsp").forward(request,response);
+               request.getRequestDispatcher("/Register.jsp").forward(request,response);
            }
             PatientService patientService = new PatientServiceimpl();
             Patient pat = new Patient();
@@ -35,7 +36,7 @@ public class PatientServlet extends HttpServlet {
             pat.setPphone(pphone);
             int i = patientService.add(pat);
             //跳转到任志勇的支付页面
-            request.getRequestDispatcher("/jsp/pay.jsp");
+            request.getRequestDispatcher("/pay.jsp");
         } catch (Exception e) {
             e.printStackTrace();
         }

@@ -23,10 +23,10 @@ public class YiYuanServlet extends HttpServlet {
             if (yiYuan == null) {
                 //如果没有此医院
                 request.getSession().getAttribute(y_name);
-                response.sendRedirect("/jsp/yiyuan.jsp");
+                response.sendRedirect("/yiyuan.jsp");
             }else {  //查询有医院
                 request.getSession().setAttribute("yiYuan",yiYuan);
-                response.sendRedirect("/jsp/renai.jsp");
+                response.sendRedirect("/renai.jsp");
 
             }
         } catch (Exception e) {

@@ -21,28 +21,28 @@ function checkUser(){
     }
 }
 function validate(theform) {
-    if (document.getElementById('Pname').value != "") {
-        if (document.getElementById('Pname').value.length == 1) {
-            document.getElementById('_Pname').innerHTML ="真实姓名必须是一个字以上！";
-            document.getElementById('Pname').focus();
+    if (document.getElementById("P").value != "") {
+        if (document.getElementById("P").value.length == 1) {
+            document.getElementById("_Pname").innerHTML ="真实姓名必须是一个字以上！";
+            document.getElementById("P").focus();
             return false;
         }
-        var nnname = document.getElementById('Pname').value;
+        var nnname = document.getElementById("P").value;
         var reg = /^([\u4E00-\u9FA5])*$/;
         if (arr = nnname.match(reg)) {
             if (!check_surname(nnname)) {
-                document.getElementById('_Pname').innerHTML ="真实姓名格式错误！";
-                document.getElementById('Pname').focus();
+                document.getElementById("_Pname").innerHTML ="真实姓名格式错误！";
+                document.getElementById("P").focus();
                 return false;
             }
         } else {  // www.jbxue.com
-            document.getElementById('_Pname').innerHTML ="真实姓名必须全部为中文";
-            document.getElementById('Pname').focus();
+            document.getElementById("_Pname").innerHTML ="真实姓名必须全部为中文";
+            document.getElementById("P").focus();
             return false;
         }
-        document.getElementById('_Pname').innerHTML ="姓名格式正确！";
+        document.getElementById("_Pname").innerHTML ="姓名格式正确！";
     }else{
-        document.getElementById('_Pname').innerHTML ="请填入真实姓名！";
+        document.getElementById("_Pname").innerHTML ="请填入真实姓名！";
     }
     return true;
 }
