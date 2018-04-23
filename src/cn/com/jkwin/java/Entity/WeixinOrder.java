@@ -1,5 +1,7 @@
 package cn.com.jkwin.java.Entity;
 
+import java.util.Date;
+
 public class WeixinOrder {
     private Integer id;
     private String status;//订单状态,提交,未支付,支付,删除4种状态
@@ -10,10 +12,12 @@ public class WeixinOrder {
     private int total_fee;//总金额
     private String  trade_type;//交易类型
     private String userIDcard;//患者身份证
+    private Date    generated_time;
+    private Date    completion_time;
 
     @Override
     public String toString() {
-        return "Order{" +
+        return "WeixinOrder{" +
                 "id=" + id +
                 ", status='" + status + '\'' +
                 ", appid='" + appid + '\'' +
@@ -23,7 +27,25 @@ public class WeixinOrder {
                 ", total_fee=" + total_fee +
                 ", trade_type='" + trade_type + '\'' +
                 ", userIDcard='" + userIDcard + '\'' +
+                ", generated_time=" + generated_time +
+                ", completion_time=" + completion_time +
                 '}';
+    }
+
+    public Date getGenerated_time() {
+        return generated_time;
+    }
+
+    public void setGenerated_time(Date generated_time) {
+        this.generated_time = generated_time;
+    }
+
+    public Date getCompletion_time() {
+        return completion_time;
+    }
+
+    public void setCompletion_time(Date completion_time) {
+        this.completion_time = completion_time;
     }
 
     public String getUserIDcard() {

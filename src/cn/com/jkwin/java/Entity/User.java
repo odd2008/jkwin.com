@@ -4,6 +4,24 @@ public class User {
     private Integer userId;
     private String username;
     private Integer userType;
+    private String userNumber;
+    private String userPwd;
+
+    public String getUserNumber() {
+        return userNumber;
+    }
+
+    public void setUserNumber(String userNumber) {
+        this.userNumber = userNumber;
+    }
+
+    public String getUserPwd() {
+        return userPwd;
+    }
+
+    public void setUserPwd(String userPwd) {
+        this.userPwd = userPwd;
+    }
 
     public String getUsername() {
         return username;

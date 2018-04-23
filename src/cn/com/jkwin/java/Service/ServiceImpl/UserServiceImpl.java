@@ -33,4 +33,9 @@ public class UserServiceImpl  implements UserService {
         return users;
     }
 
+    @Override
+    public User queryUser(String number, String pwd) {
+        return new UserImpl().queryUser(number,pwd);
+    }
+
 }

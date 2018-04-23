@@ -8,7 +8,7 @@
 
 <%@ page import="com.alipay.api.*"%>
 <%@ page import="com.alipay.api.request.*"%>
-<%@ page import="cn.com.jkwin.java.Entity.AlipayConfig" %>
+<%@ page import="cn.com.jkwin.java.Utils.AlipayConfig" %>
 <%@ page import="cn.com.jkwin.java.Utils.OrderNumber" %>
 <%@ page import="cn.com.jkwin.java.Entity.WeixinOrder" %>
 

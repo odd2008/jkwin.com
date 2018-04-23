@@ -6,10 +6,7 @@ import cn.com.jkwin.java.Entity.WeixinOrder;
 import cn.com.jkwin.java.Entity.Pay;
 import cn.com.jkwin.java.Service.ServiceImpl.WeixinPayOrderServiceImpl;
 import cn.com.jkwin.java.Service.WeixinPayOrderService;
-import cn.com.jkwin.java.Utils.HttpsRequest;
-import cn.com.jkwin.java.Utils.SignUtil;
-import cn.com.jkwin.java.Utils.Util;
-import cn.com.jkwin.java.Utils.XStreamUtil;
+import cn.com.jkwin.java.Utils.*;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.DocumentHelper;
@@ -18,6 +15,7 @@ import org.dom4j.Element;
 
 import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
+import java.util.Date;
 import java.util.List;
 import java.util.SortedMap;
 import java.util.TreeMap;
@@ -84,6 +82,7 @@ public class WeixinPayServlet extends javax.servlet.http.HttpServlet {
         order.setBody(pay.getBody());
         order.setOut_trade_no(pay.getOut_trade_no());
         order.setMch_id(pay.getMch_id());
+        order.setGenerated_time(new Date());
         WeixinPayOrderService rderService = new WeixinPayOrderServiceImpl();
         int tag = rderService.addOrder(order);
         if (tag<0){
