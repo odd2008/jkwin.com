@@ -1,0 +1,57 @@
+
+.form-head{
+	font-size: 16px;
+	height: 50px;
+	line-height: 50px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #EAEAEA;
+}
+.form-head a{
+	padding-right:20px ;
+	background: url(../img/mbx_arrow.gif) center right no-repeat;
+	color:  #62a23a;
+	margin-left: 5px;
+}
+
+	.login-form input{
+	height: 50px;
+	margin-bottom: 10px;
+}
+.login-submit{
+	height: 40px;	
+}
+/*验证前提示*/
+.login-form .default{
+	color:#999; 
+}
+/*验证后提示*/
+.login-form .error{
+	font-size: 18px;
+	color: #f00;
+}
+
+/*滚动列表*/
+.roll{
+	background: url(../img/time_ico.png) no-repeat left center;
+	padding-left: 30px;
+	margin-left: 40px;
+}
+.roll-title{
+	height: 40px;
+	line-height: 40px;
+	color: #78a245;
+	font-size: 18px;
+}
+#sItem{
+	margin-left: 130px;
+}
+#sItem li{
+	margin-top: 10px;
+}
+#sItem .org{
+	color: #f60;
+	padding: 0 5px;
+}
+#sItem .name{
+	color: #78a245;
+}

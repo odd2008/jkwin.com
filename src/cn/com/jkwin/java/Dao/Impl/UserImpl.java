@@ -15,7 +15,7 @@ import java.util.List;
 public class UserImpl extends BaseDao implements UserDao {
 
     @Override
-    public User findByUserId(int Id) {
+    public User findByUserId(String Id) {
         User user = null;
         String sql = "select * from user where userId= ?";
         QueryRunner runner = getRunner();

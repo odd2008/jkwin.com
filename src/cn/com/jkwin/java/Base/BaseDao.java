@@ -13,8 +13,7 @@ public class BaseDao {
     static {
         Properties properties = new Properties();
         InputStream in = BaseDao.class.getClassLoader().getResourceAsStream("dbcp.properties");
-        try {
-            properties.load(in);
+        try { properties.load(in);
             dataSource = DruidDataSourceFactory.createDataSource(properties);
         } catch (Exception e) {
             e.printStackTrace();

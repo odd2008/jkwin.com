@@ -11,7 +11,7 @@ public class OrderDaoTest extends OrderDaoImpl {
     @Test
     public void test1(){
         WeixinOrder order=new WeixinOrder();
-        order.setUserIDcard("332322342342323");
+        order.setUserIDcard("33322342342323");
         order.setBody("12");
         order.setAppid("12");
         order.setMch_id("12");
