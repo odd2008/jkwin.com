@@ -7,54 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1606314e-bb9f-4255-a748-ca8b298592ed" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/druid_1_0_15.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/json_lib.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/lib1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_26_bin.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/FETCH_HEAD" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/login-footer.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/login-header.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/login-section.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/register-footer.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/register-header.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/register-section.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/html/login.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/html/register.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/bottom_wsj_logo.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/bottom_wsj_logo2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/bottom_yst_logo.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/bottom_yst_logo2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/mbx_arrow.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/pic_02.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/pic_03.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/ValidateCode.do" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/bottom_img1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/bottom_img2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/bottom_wsj_logo.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/bottom_wsj_logo2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/bottom_yst_logo.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/bottom_yst_logo2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/light_000_03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/mbx_arrow.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/mbx_ico.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/pic_02.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/pic_03.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/top_arrow.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/top_bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/top_line.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/top_logo2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/top_search_bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/register/zhuc_banner.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/time_ico.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/zhuc_banner.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/LoginRoll.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/LoginVerify.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/RegisterVerify.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/js/imgVerify.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/jkwinWeb_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/jkwinWeb_war_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/jkwinWeb.iml" afterPath="$PROJECT_DIR$/jkwinWeb.iml" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/ChatRoom.jsp" afterPath="$PROJECT_DIR$/web/jsp/ChatRoom.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChatRoom.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ChatRoom.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/jsp/ChatRoom.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2970">
-              <caret line="110" column="23" lean-forward="false" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="23" />
+            <state relative-caret-position="32">
+              <caret line="172" column="19" lean-forward="true" selection-start-line="172" selection-start-column="19" selection-end-line="172" selection-end-column="19" />
               <folding>
                 <marker date="1524276725460" expanded="true" signature="1959:1978" ph="..." />
                 <marker date="1524276725460" expanded="true" signature="1993:1999" ph="&amp;nbsp;" />
@@ -97,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestLogin.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestLogin.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/jsp/TestLogin.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="262">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -137,6 +91,12 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="279" />
+    <option name="y" value="112" />
+    <option name="width" value="877" />
+    <option name="height" value="588" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -165,17 +125,6 @@
             <path>
               <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -187,7 +136,32 @@
             <path>
               <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jkwin" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -199,6 +173,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\jkwinWeb\jkwin.com" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -212,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.TestLogin.jsp">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -254,6 +233,7 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="register.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:8080/html/register.html" />
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -363,12 +343,92 @@
         </option>
       </method>
     </configuration>
+    <configuration name="login.html (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.15" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/html/login.html" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="jkwinWeb:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="login_html_(1)_jkwin_com" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50213" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="jkwinWeb:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.register.html" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.TestLogin.jsp" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.login.html (1)" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -383,16 +443,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524276408559</updated>
-      <workItem from="1524276430525" duration="504000" />
+      <workItem from="1524276430525" duration="4424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="504000" />
+    <option name="totallyTimeSpent" value="4424000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -409,7 +468,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -445,10 +504,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/html/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1269">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/html/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/TestLogin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/ChatRoom.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2970">
-          <caret line="110" column="23" lean-forward="false" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="23" />
+        <state relative-caret-position="32">
+          <caret line="172" column="19" lean-forward="true" selection-start-line="172" selection-start-column="19" selection-end-line="172" selection-end-column="19" />
           <folding>
             <marker date="1524276725460" expanded="true" signature="1959:1978" ph="..." />
             <marker date="1524276725460" expanded="true" signature="1993:1999" ph="&amp;nbsp;" />
@@ -461,22 +560,6 @@
             <marker date="1524276725460" expanded="true" signature="3276:3295" ph="..." />
             <marker date="1524276725460" expanded="true" signature="3405:3417" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/TestLogin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
