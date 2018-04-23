@@ -12,8 +12,8 @@ public class PatientDaoimpl extends BaseDao implements PatientDao {
 
     @Override
     public int addByPatientId(Patient Patient) throws SQLException {
-        String sql = "insert into Patient (Pname,Pidcard,Pphone) values (?,?,?)";
+        String sql = "insert into Patient (PatientName,PatientIDcard,PatientPhone) values (?,?,?)";
         QueryRunner runner =getRunner();
-        return runner.update(sql,Patient.getPname(),Patient.getPidcard(),Patient.getPphone());
+        return runner.update(sql,Patient.getPatientName(),Patient.getPatientIDcard(),Patient.getPatientPhone());
     }
 }

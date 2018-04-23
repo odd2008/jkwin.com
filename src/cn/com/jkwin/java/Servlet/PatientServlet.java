@@ -18,10 +18,9 @@ public class PatientServlet extends HttpServlet {
         try {
             //处理编码
             request.setCharacterEncoding("utf-8");
-            String pname = request.getParameter("Pname");
-            String pidcard = request.getParameter("Pidcard");
-            String pphone = request.getParameter("Pphone");
-            System.out.println(pname);
+            String pname = request.getParameter("patientName");
+            String pidcard = request.getParameter("patientIDcard");
+            String pphone = request.getParameter("patientPhone");
             if(pname.equals("") || null==pname){
                request.getRequestDispatcher("/Register.jsp").forward(request,response);
           }else if(null==pidcard||pidcard.equals("")){
@@ -31,9 +30,9 @@ public class PatientServlet extends HttpServlet {
            }
             PatientService patientService = new PatientServiceimpl();
             Patient pat = new Patient();
-            pat.setPname(pname);
-            pat.setPidcard(pidcard);
-            pat.setPphone(pphone);
+            pat.setPatientName(pname);
+            pat.setPatientIDcard(pidcard);
+            pat.setPatientPhone(pphone);
             int i = patientService.add(pat);
             //跳转到任志勇的支付页面
             request.getRequestDispatcher("/pay.jsp");

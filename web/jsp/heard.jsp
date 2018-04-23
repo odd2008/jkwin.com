@@ -26,7 +26,7 @@
                 <div class="collapse navbar-collapse" id="navbar-collapse" style="overflow: hidden">
                     <ul class="nav navbar-nav navbar-right" id="navbar_collapse">
                         <li>
-                            <form action="/YiYuanServlet" method="post" class="navbar-form navbar-left" role="search">
+                            <form action="" method="post" class="navbar-form navbar-left" role="search">
                                 <div class="form-group form-inline input-group">
                                     <input type="text" class="form-control" id="searchArea" placeholder="Search"/>
                                     <span class="input-group-btn">

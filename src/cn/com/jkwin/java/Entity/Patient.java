@@ -1,44 +1,44 @@
 package cn.com.jkwin.java.Entity;
 
 public class Patient {
-    private Integer Pid;
-    private String Pname;
-    private String Pidcard;
-    private String Pphone;
+    private Integer patientid;
+    private String patientName;
+    private String patientIDcard;
+    private String patientPhone;
 
     public Patient() {
 
     }
 
-    public Integer getPid() {
-        return Pid;
+    public Integer getPatientid() {
+        return patientid;
     }
 
-    public void setPid(Integer pid) {
-        Pid = pid;
+    public void setPatientid(Integer patientid) {
+        this.patientid = patientid;
     }
 
-    public String getPname() {
-        return Pname;
+    public String getPatientName() {
+        return patientName;
     }
 
-    public void setPname(String pname) {
-        Pname = pname;
+    public void setPatientName(String patientName) {
+        this.patientName = patientName;
     }
 
-    public String getPidcard() {
-        return Pidcard;
+    public String getPatientIDcard() {
+        return patientIDcard;
     }
 
-    public void setPidcard(String pidcard) {
-        Pidcard = pidcard;
+    public void setPatientIDcard(String patientIDcard) {
+        this.patientIDcard = patientIDcard;
     }
 
-    public String getPphone() {
-        return Pphone;
+    public String getPatientPhone() {
+        return patientPhone;
     }
 
-    public void setPphone(String pphone) {
-        Pphone = pphone;
+    public void setPatientPhone(String patientPhone) {
+        this.patientPhone = patientPhone;
     }
 }
