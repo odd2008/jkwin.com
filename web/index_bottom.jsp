@@ -22,6 +22,12 @@
     }
 
 </style>
+<%--<script>
+    location.href="/CityServlet";
+    location.href="/HospitalServlet";
+    location.href="/DoctorContServlet";
+    location.href="/DoctorInfoServlet";
+</script>--%>
 <body>
 <div class="container">
     <div class="g-hd-guahao col-lg-12 col-xs-12 row">

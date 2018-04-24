@@ -7,10 +7,7 @@
         <element id="directory" name="classes">
           <element id="module-output" name="jkwinWeb" />
         </element>
-        <element id="directory" name="lib">
-          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.2.jar" />
-          <element id="library" level="project" name="lib" />
-        </element>
+        <element id="directory" name="lib" />
       </element>
     </root>
   </artifact>

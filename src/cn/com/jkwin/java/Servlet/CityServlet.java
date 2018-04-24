@@ -4,7 +4,6 @@ package cn.com.jkwin.java.Servlet;
 import cn.com.jkwin.java.Entity.City;
 import cn.com.jkwin.java.Service.ServiceImpl.CityServiceImpl;
 
-
 import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
 import java.sql.SQLException;
