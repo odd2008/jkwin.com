@@ -16,11 +16,6 @@ public class DoctorServiceImpl implements DoctorService {
 
 
     @Override
-    public Doctor getDoctor(int Did) throws Exception {
-        return null;
-    }
-
-    @Override
     public List<Doctor> getDoctorByOidHid(Integer oficeId, Integer hospitalId) {
         DoctorDaoImpl doctorDao = new DoctorDaoImpl();
         return doctorDao.getDoctorByOidHid(oficeId,hospitalId);

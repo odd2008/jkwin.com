@@ -2,24 +2,26 @@ package cn.com.jkwin.java.Entity;
 
 import java.util.Date;
 
+/**
+ * @Author: Allen
+ * @Description:
+ * @Date: Created in 2018/4/24 13:58
+ * @Modified By:
+ */
 public class Doctor {
-    private int doctorId;
-    private  String doctorName;
+    private Integer doctorId;
+    private String doctorName;
     private String doctorGrade;
     private String doctorIntro;
-    private Date doctorTime;
-    private int oficeId;
-    private int hospitalId;
 
     public Doctor() {
-
     }
 
-    public int getDoctorId() {
+    public Integer getDoctorId() {
         return doctorId;
     }
 
-    public void setDoctorId(int doctorId) {
+    public void setDoctorId(Integer doctorId) {
         this.doctorId = doctorId;
     }
 
@@ -55,19 +57,24 @@ public class Doctor {
         this.doctorTime = doctorTime;
     }
 
-    public int getOficeId() {
+    public Integer getOficeId() {
         return oficeId;
     }
 
-    public void setOficeId(int oficeId) {
+    public void setOficeId(Integer oficeId) {
         this.oficeId = oficeId;
     }
 
-    public int getHospitalId() {
+    public Integer getHospitalId() {
         return hospitalId;
     }
 
-    public void setHospitalId(int hospitalId) {
+    public void setHospitalId(Integer hospitalId) {
         this.hospitalId = hospitalId;
     }
+
+    private Date doctorTime;
+    private Integer oficeId;
+    private Integer hospitalId;
+
 }

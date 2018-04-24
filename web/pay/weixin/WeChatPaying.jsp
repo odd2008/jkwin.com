@@ -23,7 +23,7 @@
     <%----%>
     <title>微信支付页面</title>
 </head>
-<body>
+<body style="padding:50px">
 <%@include file="/jsp/publicTop.jsp" %>
 
 <div class="container-fluid gradient">

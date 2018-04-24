@@ -16,6 +16,10 @@ import java.util.List;
  */
 public class AdminOficeDaoImpl implements AdminOficeDao{
 
+    /**
+     * 获取所有科室门诊信息
+     * @return 返回科室门诊信息list
+     */
     @Override
     public List<AdminOfice> getAllAdminOfice() {
         String sql = "SELECT * FROM admin_ofice";
@@ -26,5 +30,22 @@ public class AdminOficeDaoImpl implements AdminOficeDao{
             e.printStackTrace();
         }
         return adminOfices;
+    }
+
+
+    /**
+     * 通过医院ID查找当前医院下的科室
+     * @param hospitalId
+     */
+    @Override
+    public List<AdminOfice> getOficeIdByHospitalId(Integer hospitalId) {
+        String sql="SELECT a.* FROM admin_ofice a ,hospital h,temp t where t.oficeId = a.oficeId AND t.hospitalId = h.hospitalId AND h.hospitalId=?";
+        List<AdminOfice> adminOfices = null;
+        try {
+            adminOfices = BaseDao.getRunner().query(sql,new BeanListHandler<AdminOfice>(AdminOfice.class),hospitalId);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return  adminOfices;
     }
 }

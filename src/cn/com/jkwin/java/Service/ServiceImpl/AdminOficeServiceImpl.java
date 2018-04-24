@@ -15,8 +15,11 @@ import java.util.List;
 public class AdminOficeServiceImpl implements AdminOficeService {
 
     @Override
-    public List<AdminOfice> getAllAdminOfice() {
+    public List<AdminOfice> getAllAdminOfice(Integer hospitalId) {
         AdminOficeDaoImpl adminOficeDao = new AdminOficeDaoImpl();
-        return adminOficeDao.getAllAdminOfice();
+        List<AdminOfice> adminOfices = null;
+
+        adminOfices = adminOficeDao.getOficeIdByHospitalId(hospitalId);
+        return adminOfices;
     }
 }

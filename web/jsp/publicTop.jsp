@@ -43,10 +43,31 @@
                             <a href="#"><span class="glyphicon glyphicon-leaf"></span>&nbsp;药品库</a>
                         </li>
                         <li class=" checkedli">
-                            <a href="Login.jsp">登录</a>
+
+
+
+                            <c:choose>
+                                <c:when test="${empty sessionScope.user}">
+                                    <a href="Login.jsp">登录</a>
+                                </c:when>
+                                <c:otherwise>
+                                    <a href="#">${sessionScope.user.getUsername()}</a>
+                                </c:otherwise>
+                            </c:choose>
+
                         </li>
                         <li class=" checkedli">
                             <a href="Register.jsp">注册</a>
+                        </li>
+                        <li class=" checkedli">
+                            <c:choose>
+                                <c:when test="${empty sessionScope.user}">
+                                </c:when>
+                                <c:otherwise>
+                                    <a href="/LoginOutServlet">注销</a>
+                                </c:otherwise>
+                            </c:choose>
+
                         </li>
                         <li class=" checkedli">
                             <a href="#"></a>
@@ -87,7 +108,7 @@
                 </div>
                 <div id="sidebar_content2">
                     <%--在线咨询--%>
-                    <a href="/ChatServlet?userId=${requestScope.User.userId}">
+                    <a href="/ChatServlet?userId=${sessionScope.user.getUserId()}">
                         <button class="btn btn-default btn-md sidebarbtn">
             <span class="glyphicon glyphicon-headphones"
                   aria-hidden="true"></span>

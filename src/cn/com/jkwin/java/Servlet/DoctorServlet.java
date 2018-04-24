@@ -1,7 +1,7 @@
 package cn.com.jkwin.java.Servlet;
 
 import cn.com.jkwin.java.Dao.DoctorDao;
-import cn.com.jkwin.java.Dao.Impl.DoctorDaoimpl;
+import cn.com.jkwin.java.Dao.Impl.DoctorDaoImpl;
 import cn.com.jkwin.java.Entity.Doctor;
 
 import javax.servlet.ServletException;
@@ -16,7 +16,7 @@ public class DoctorServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //处理编码
         request.setCharacterEncoding("utf-8");
-        DoctorDao doctorDao=new DoctorDaoimpl();
+        DoctorDao doctorDao=new DoctorDaoImpl();
         Doctor doctor = null;
         try {
             doctor= doctorDao.GetDoctorBydoctorId(1);
