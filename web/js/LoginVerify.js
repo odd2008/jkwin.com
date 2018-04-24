@@ -1,7 +1,17 @@
-function checkForm() {
-	var phonetip = checkPhone();
-	var pwdtip = checkPassword();
-	return phonetip && pwdtip;
+﻿function checkForm() {
+	var number=$("#userphone").val();
+	var pwd=$("#pwd").val();
+	if (checkPhone==false || checkPassword==false){
+		return;
+	}
+	$.post("/UserLoginServlet","userNumber="+number+"&userPwd="+pwd,x);
+	function  x(data) {
+		if(data=="true"){
+			window.location.href="/mainPageServlet";
+		}else {
+			alert("用户名或密码错误,请重新登录")
+		}
+    }
 }
 //验证手机号 
 function checkPhone() {
@@ -34,6 +44,7 @@ function checkPassword() {
 		userpwderr.className = "error"
 		return false;
 	} else {
+		userpwderr.innerHTML="";
 		return true;
 	}
 }

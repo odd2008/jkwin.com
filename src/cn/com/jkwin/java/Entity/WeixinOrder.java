@@ -12,8 +12,8 @@ public class WeixinOrder {
     private int total_fee;//总金额
     private String  trade_type;//交易类型
     private String userIDcard;//患者身份证
-    private Date    generated_time;
-    private Date    completion_time;
+    private Date    generated_time;//订单生成时间
+    private Date    completion_time;//支付完成时间
 
     @Override
     public String toString() {

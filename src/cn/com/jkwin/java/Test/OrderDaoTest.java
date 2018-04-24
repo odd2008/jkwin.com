@@ -48,4 +48,22 @@ public class OrderDaoTest extends OrderDaoImpl {
         int a = updateOrder("12333", "支付完成");
         System.out.println(a);
     }
+    @Test
+    public  void test7(){
+        int random=888;
+        for (int a=0;a<6;a++){
+            int num= (int) (Math.random()*10);
+            if (a==0){
+                random=num;
+            }else {
+                int num2=num;
+                for (int i=0;i<a;i++){
+                    num2= num2*10;
+                }
+                random+=num2;
+            }
+
+        }
+        System.out.println(random);
+    }
 }

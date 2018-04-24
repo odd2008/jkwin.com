@@ -32,7 +32,8 @@ public class UserImpl extends BaseDao implements UserDao {
         int num=-3;
         String sql="select count(*) from user where userNumber=?";
         try {
-            num=(Integer) BaseDao.getRunner().query(sql,new ScalarHandler(),Number);
+           Long n= (Long) BaseDao.getRunner().query(sql,new ScalarHandler(),Number);
+           num=n.intValue();
         } catch (SQLException e) {
             e.printStackTrace();
         }
