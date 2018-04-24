@@ -167,12 +167,12 @@ background:-webkit-gradient(linear, 0 0, 0 bottom, from(#AECEA9), to(#F8FCFF));"
                 <%--支付宝微信选择--%>
                 </p>
                 <ul id="myTab" class="nav nav-tabs">
-                    <li class="active">
+                    <li class="active" onclick="weixin()">
                         <a href="#home" data-toggle="tab" >
                             微信支付
                         </a>
                     </li>
-                    <li>
+                    <li onclick="zhifubao()">
                         <a href="#ios" data-toggle="tab">支付宝支付</a>
                     </li>
                 </ul><br/>
@@ -201,6 +201,7 @@ background:-webkit-gradient(linear, 0 0, 0 bottom, from(#AECEA9), to(#F8FCFF));"
                     <span class="state1"style="color: red;font-weight: normal">请输入身份证</span><br/><br/>
                     电话:&nbsp;&nbsp;&nbsp; &nbsp;<input type="text" name="patientPhone">
                     <span class="state1"style="color: red;font-weight: normal">请输入电话</span><br/><br/>
+                    <input id="pay" name="pay" style="display: none">
                     <br/><input  type="submit" name="submit"onclick="click()" value="确认支付" style="background-color:
                      green;color: white;width: 80px;height: 40px;"/>
                 </form>
