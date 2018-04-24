@@ -6,74 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bb3ea67-993d-47bd-8e02-c8ea1e74b4ca" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/WEB-INF/classes/cn/com/jkwin/java/Dao/DoctorDao.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/WEB-INF/classes/cn/com/jkwin/java/Dao/Impl/DoctorDaoimpl.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/WEB-INF/classes/cn/com/jkwin/java/Dao/Impl/PatientDaoimpl.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/WEB-INF/classes/cn/com/jkwin/java/Dao/PatientDao.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/WEB-INF/classes/cn/com/jkwin/java/Entity/Doctor.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/WEB-INF/classes/cn/com/jkwin/java/Entity/Patient.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/WEB-INF/classes/cn/com/jkwin/java/Service/DoctorService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/WEB-INF/classes/cn/com/jkwin/java/Service/PatientService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/WEB-INF/classes/cn/com/jkwin/java/Service/ServiceImpl/DoctorServiceimpl.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/WEB-INF/classes/cn/com/jkwin/java/Service/ServiceImpl/PatientServiceimpl.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/WEB-INF/classes/cn/com/jkwin/java/Servlet/DoctorServlet.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/WEB-INF/classes/cn/com/jkwin/java/Servlet/PatientServlet.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/css/Register.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/img/16.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/img/mbx_ico.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/img/suou.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/img/top_logo2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/img/top_search_bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/img/wxpay.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/img/zfb.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/jsp/footer.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/jsp/heard.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/jsp/text.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Dao/DoctorDao.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Dao/Impl/DoctorDaoimpl.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Dao/Impl/PatientDaoimpl.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Dao/PatientDao.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Entity/Doctor.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Entity/Patient.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Service/DoctorService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Service/PatientService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Service/ServiceImpl/DoctorServiceimpl.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Service/ServiceImpl/PatientServiceimpl.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Servlet/DoctorServlet.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Servlet/PatientServlet.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Dao/DoctorDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Dao/Impl/DoctorDaoimpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Dao/Impl/PatientDaoimpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Dao/PatientDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Entity/Doctor.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Entity/Patient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Service/DoctorService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Service/PatientService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Service/ServiceImpl/DoctorServiceimpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Service/ServiceImpl/PatientServiceimpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/DoctorServlet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Servlet/PatientServlet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/css/Register.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/16.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/mbx_ico.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/suou.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/top_logo2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/top_search_bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/wxpay.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/img/zfb.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/AppointmentRegister.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/footer.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/heard.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/jsp/text.jsp" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/html/footer.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/jsp/ChatRoom.jsp" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/jsp/ChatRoom.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/jsp/Register.jsp" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/jsp/Register.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/jsp/mainPage.jsp" afterPath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/jsp/mainPage.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/ChatRoom.jsp" afterPath="$PROJECT_DIR$/web/jsp/ChatRoom.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/mainPage.jsp" afterPath="$PROJECT_DIR$/web/jsp/mainPage.jsp" />
-    </list>
+    <list default="true" id="4bb3ea67-993d-47bd-8e02-c8ea1e74b4ca" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -97,8 +30,8 @@
       <file leaf-file-name="ChatSocket.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/webSocket/ChatSocket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+            <state relative-caret-position="135">
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -159,7 +92,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="877" />
@@ -424,15 +357,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524541946380</updated>
-      <workItem from="1524541949630" duration="533000" />
+      <workItem from="1524541949630" duration="1241000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="533000" />
+    <option name="totallyTimeSpent" value="1241000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -515,8 +448,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/com/jkwin/webSocket/ChatSocket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        <state relative-caret-position="135">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding />
         </state>
       </provider>
