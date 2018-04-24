@@ -9,10 +9,6 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="lib" />
-          <element id="library" level="project" name="lib1" />
-          <element id="library" level="project" name="json-lib" />
-          <element id="library" level="project" name="mysql-connector-java-5.1.26-bin" />
-          <element id="library" level="project" name="druid-1.0.15" />
         </element>
       </element>
     </root>
