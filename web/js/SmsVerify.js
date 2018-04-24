@@ -51,8 +51,9 @@ function checkSms() {
             Smserr.innerHTML = "<img src='../img/register/pic_03.gif'>"
             return true;
         } else {
-            Smserr.innerHTML = random;
-            Smserr.className = "error";
+            Smserr.innerHTML = "<img src='../img/register/pic_02.gif'>"
+            Smserr.innerHTML = "验证码错误";
+
             return false;
         }
     }

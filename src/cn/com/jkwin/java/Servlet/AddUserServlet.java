@@ -3,6 +3,7 @@ package cn.com.jkwin.java.Servlet;
 import cn.com.jkwin.java.Entity.User;
 import cn.com.jkwin.java.Service.ServiceImpl.UserServiceImpl;
 import cn.com.jkwin.java.Service.UserService;
+import cn.com.jkwin.java.Utils.OrderNumber;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -20,6 +21,7 @@ public class AddUserServlet extends HttpServlet {
         User user=new User();
         user.setUserNumber(number);
         user.setUserPwd(pwd);
+        user.setUserId(OrderNumber.WIDout_trade_no());
         UserService userService=new UserServiceImpl();
         userService.addUser(user);
         response.sendRedirect("/jsp/RegisterSuccess.jsp");

@@ -43,8 +43,8 @@ public class UserImpl extends BaseDao implements UserDao {
     @Override
     public int addUser(User user) {
         int num=-3;
-        String sql="INSERT INTO user(userNumber,userPwd)values(?,?)";
-        Object[] param={user.getUserNumber(),user.getUserPwd()};
+        String sql="INSERT INTO user(userId,userNumber,userPwd)values(?,?,?)";
+        Object[] param={user.getUserId(), user.getUserNumber(),user.getUserPwd()};
         try {
             num = BaseDao.getRunner().update(sql,param);
         } catch (SQLException e) {

@@ -31,7 +31,7 @@
                             </form>
                         </li>
                         <li class=" checkedli" >
-                            <a href="#"><span class="glyphicon glyphicon-home"></span>&nbsp;首页</a>
+                            <a href="mainPage.jsp"><span class="glyphicon glyphicon-home"></span>&nbsp;首页</a>
                         </li>
                         <li class=" checkedli">
                             <a href="#"><span class="glyphicon glyphicon-th-list"></span>&nbsp;资讯</a>
@@ -43,10 +43,10 @@
                             <a href="#"><span class="glyphicon glyphicon-leaf"></span>&nbsp;药品库</a>
                         </li>
                         <li class=" checkedli">
-                            <a href="#">登录</a>
+                            <a href="Login.jsp">登录</a>
                         </li>
                         <li class=" checkedli">
-                            <a href="#">注册</a>
+                            <a href="Register.jsp">注册</a>
                         </li>
                         <li class=" checkedli">
                             <a href="#"></a>

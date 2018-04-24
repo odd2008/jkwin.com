@@ -14,7 +14,6 @@ public class WeixinOrder {
     private String userIDcard;//患者身份证
     private Date    generated_time;//订单生成时间
     private Date    completion_time;//支付完成时间
-
     @Override
     public String toString() {
         return "WeixinOrder{" +

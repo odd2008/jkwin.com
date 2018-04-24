@@ -27,7 +27,13 @@ public class PatientServlet extends HttpServlet {
             pat.setPatientPhone(pphone);
             int i = patientService.add(pat);
             //跳转到任志勇的支付页面
-            request.getRequestDispatcher("").forward(request,response);
+            String pay=request.getParameter("pay");
+            if (pay.equals("ali")){
+                request.getRequestDispatcher("/AliPayServlet").forward(request,response);
+            }else {
+                request.getRequestDispatcher("/WeixinPayServlet").forward(request,response);
+            }
+
         } catch (Exception e) {
             e.printStackTrace();
         }
