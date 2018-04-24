@@ -13,14 +13,23 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Date;
 
-@WebServlet(value = "/ChatServlet")
+@WebServlet("/ChatServlet")
 public class ChatServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
         response.setCharacterEncoding("UTF-8");
         response.setContentType("text/html;charset=UTF-8");
+        String userId;
+        //获取传过来的参数
         String parameter = request.getParameter("userId");
-        int userId = Integer.parseInt(parameter);
+        System.out.println("parameter"+parameter);
+        //如果是游客，则获取到的参数为“”，此时应该将session的id赋给userId
+        if(parameter.equals("")){
+            String sessionId=request.getSession().getId();
+            userId = sessionId;
+        }else{
+            userId = parameter;
+        }
         UserService userService = new UserServiceImpl();
         User user = userService.getByUserId(userId);
         String usertype = userService.getUsertype(userId);

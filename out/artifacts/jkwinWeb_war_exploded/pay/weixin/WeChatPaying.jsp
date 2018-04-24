@@ -92,9 +92,10 @@
     $(document).ready(function () {
         var a = true;
         var b = 1;
-        $.post("/WeixinPayStatusServlet",${x}, callBack)
+        $.post("/WeixinPayStatusServlet",{"out_trade_no":"${requestScope.out_trade_no}"}, callBack)
+
         function callBack(data) {
-            if (data==1){
+            if (data!="未支付"){
                 window.location.href="/test.jsp";
             }
         }

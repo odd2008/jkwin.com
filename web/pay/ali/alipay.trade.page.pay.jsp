@@ -8,11 +8,12 @@
 
 <%@ page import="com.alipay.api.*"%>
 <%@ page import="com.alipay.api.request.*"%>
-<%@ page import="cn.com.jkwin.java.Utils.AlipayConfig" %>
+<%@ page import="cn.com.jkwin.java.Entity.AlipayConfig" %>
 <%@ page import="cn.com.jkwin.java.Utils.OrderNumber" %>
+<%@ page import="cn.com.jkwin.java.Entity.WeixinOrder" %>
 
 <%
-	request.setAttribute("x","x");
+
 	//获得初始化的AlipayClient
 	AlipayClient alipayClient = new DefaultAlipayClient(AlipayConfig.gatewayUrl, AlipayConfig.app_id, AlipayConfig.merchant_private_key, "json", AlipayConfig.charset, AlipayConfig.alipay_public_key, AlipayConfig.sign_type);
 	
@@ -29,6 +30,11 @@
 	String subject = new String("假装我是个订单");
 	//商品描述，可空
 	String body = new String("没有详情");
+	//生成订单
+	WeixinOrder order=new WeixinOrder();
+	order.setAppid(AlipayConfig.app_id);
+
+
 	
 	alipayRequest.setBizContent("{\"out_trade_no\":\""+ out_trade_no +"\"," 
 			+ "\"total_amount\":\""+ total_amount +"\"," 

@@ -23,7 +23,6 @@
 
 </style>
 <body>
-<%@include file="html/publicTop1.html"%>
 <div class="container">
     <div class="g-hd-guahao col-lg-12 col-xs-12 row">
         <div class="hospital-tj col-lg-8 col-xs-12  ">
@@ -32,10 +31,10 @@
                 <div class="col-lg-3 col-xs-6 hospital-hd-cit ">
                     <ul id="myTab" class="nav nav-tabs">
                         <li class="active">
-                            <a href="#cq" data-toggle="tab">重庆</a>
+                            <a href="#cq" data-toggle="tab">${requestScope.byIdCity.getCityName()}</a>
                         </li>
                         <li>
-                            <a href="#sc" data-toggle="tab">四川</a>
+                            <a href="#sc" data-toggle="tab">${requestScope.byIdCity1.getCityName()}</a>
                         </li>
                     </ul>
                 </div>
@@ -52,33 +51,33 @@
                                 <img src="img/20180228115008388_948.jpg" />
                                 <dl>
                                     <dd>
-                                        <a>陆军军医大学西南医院</a>
+                                        <a href="">${requestScope.hospitalByid1.getHospitalName()}</a>
                                     </dd>
-                                    <dd>三级甲等</dd>
-                                    <dd>总机：（023）65318301</dd>
-                                    <dd><span>1113</span>位医生可挂号</dd>
+                                    <dd>${requestScope.hospitalByid1.hospitalLevel}</dd>
+                                    <dd>${requestScope.hospitalByid1.getHospitalPhoneNum()}</dd>
+                                    <dd><span>${requestScope.doctorCountsByTid1}</span>位医生可挂号</dd>
                                 </dl>
                             </div>
                             <div class="hospital-tj-d col-lg-4 col-xs-4">
                                 <img src="img/20180402165740359_629.jpg" />
                                 <dl>
                                     <dd>
-                                        <a>陆军军医大学新桥医院</a>
+                                        <a href="">${requestScope.hospitalByid2.getHospitalName()}</a>
                                     </dd>
-                                    <dd>三级甲等</dd>
-                                    <dd>总机：（023）68755114</dd>
-                                    <dd><span>1646</span>位医生可挂号</dd>
+                                    <dd>${requestScope.hospitalByid2.hospitalLevel}</dd>
+                                    <dd>${requestScope.hospitalByid2.getHospitalPhoneNum()}</dd>
+                                    <dd><span>${requestScope.doctorCountsByTid2}</span>位医生可挂号</dd>
                                 </dl>
                             </div>
                             <div class="hospital-tj-d col-lg-4 col-xs-4">
                                 <img src="img/08DE4413_B9A2_493D_AD0E_D8637E459AA4.jpg" />
                                 <dl>
                                     <dd>
-                                        <a>陆军军医大学附属医院</a>
+                                        <a href="">${requestScope.hospitalByid3.getHospitalName()}</a>
                                     </dd>
-                                    <dd>三级甲等</dd>
-                                    <dd>023-68811229</dd>
-                                    <dd><span>1023</span>位医生可挂号</dd>
+                                    <dd>${requestScope.hospitalByid3.hospitalLevel}</dd>
+                                    <dd>${requestScope.hospitalByid3.getHospitalPhoneNum()}</dd>
+                                    <dd><span>${requestScope.doctorCountsByTid3}</span>位医生可挂号</dd>
                                 </dl>
                             </div>
                         </div>
@@ -87,31 +86,33 @@
                                 <img src="img/hosptial.jpg" />
                                 <dl>
                                     <dd>
-                                        <a>阆中市妇幼保健院</a>
+                                        <a href="">${requestScope.hospitalByid4.hospitalName}</a>
                                     </dd>
-                                    <dd>二级甲等</dd>
-                                    <dd><span>0</span>位医生可挂号</dd>
+                                    <dd>${requestScope.hospitalByid4.hospitalLevel}</dd>
+                                    <dd>${requestScope.hospitalByid4.getHospitalPhoneNum()}</dd>
+                                    <dd><span>${requestScope.doctorCountsByTid4}</span>位医生可挂号</dd>
                                 </dl>
                             </div>
                             <div class="hospital-tj-d col-lg-4 col-xs-4">
                                 <img src="img/hosptial.jpg" />
                                 <dl>
                                     <dd>
-                                        <a>广元市人民医院</a>
+                                        <a href="">${requestScope.hospitalByid5.hospitalName}</a>
                                     </dd>
-                                    <dd>三级甲等</dd>
-                                    <dd><span>0</span>位医生可挂号</dd>
+                                    <dd>${requestScope.hospitalByid5.hospitalLevel}</dd>
+                                    <dd>${requestScope.hospitalByid5.getHospitalPhoneNum()}</dd>
+                                    <dd><span>${requestScope.doctorCountsByTid5}</span>位医生可挂号</dd>
                                 </dl>
                             </div>
                             <div class="hospital-tj-d col-lg-4 col-xs-4">
                                 <img src="img/hosptial.jpg" />
                                 <dl>
                                     <dd>
-                                        <a>简阳市人民医院</a>
+                                        <a href="">${requestScope.hospitalByid6.hospitalName}</a>
                                     </dd>
-                                    <dd>三级特等</dd>
-                                    <dd>02827017805</dd>
-                                    <dd><span>308</span>位医生可挂号</dd>
+                                    <dd>${requestScope.hospitalByid6.hospitalLevel}</dd>
+                                    <dd>${requestScope.hospitalByid6.hospitalPhoneNum}</dd>
+                                    <dd><span>${requestScope.doctorCountsByTid6}</span>位医生可挂号</dd>
                                 </dl>
                             </div>
                         </div>
@@ -123,7 +124,7 @@
         <div class="hospital-num col-lg-4 col-xs-12 ">
             <div class="hd col-lg-12 col-xs-12">
                 <p class="hd-p1">现已开通</p>
-                <p class="hd-p2"><span>1502</span>家医院</p>
+                <p class="hd-p2"><span>${requestScope.hospitalCountsByTid}</span>家医院</p>
             </div>
             <div class="bd col-lg-12 col-xs-12">
                 <div class="col-lg-12 col-xs-12">
@@ -199,9 +200,9 @@
                         <div class="doctor-con-d-top">
                             <div class="radius"><img src="img/20141020111455.jpg" /></div>
                             <dl>
-                                <dt>李廷玉<span>礼嘉李廷玉</span></dt>
-                                <dd>儿保科专家</dd>
-                                <dd>重庆医科大学附属儿童医院</dd>
+                                <dt><a href="">${requestScope.doctor1.doctorName}</a><span>${requestScope.doctor1.doctorGrade}</span></dt>
+                                <dd>${requestScope.doctor1.oficeName}</dd>
+                                <dd>${requestScope.doctor1.hospitalName}</dd>
                             </dl>
                         </div>
                         <div class="mid">
@@ -215,7 +216,7 @@
                             </p>
                         </div>
                         <div class="bottom">
-                            <span>擅长：</span> 擅长儿童营养、发育行为疾病诊治、儿童早期教育。
+                            <span>擅长：</span> ${requestScope.doctor1.doctorIntro}
                         </div>
                         <div class="bottom-btn">
                             <a href="#">
@@ -233,9 +234,9 @@
                         <div class="doctor-con-d-top">
                             <div class="radius"><img src="img/20141113114159.jpg" /></div>
                             <dl>
-                                <dt>刘恩梅<span>礼嘉刘恩梅</span></dt>
-                                <dd>呼吸科专家</dd>
-                                <dd>重庆医科大学附属儿童医院</dd>
+                                <dt><a href="">${requestScope.doctor2.doctorName}</a><span>${requestScope.doctor2.doctorGrade}</span></dt>
+                                <dd>${requestScope.doctor2.oficeName}</dd>
+                                <dd>${requestScope.doctor2.hospitalName}</dd>
                             </dl>
                         </div>
                         <div class="mid">
@@ -249,7 +250,7 @@
                             </p>
                         </div>
                         <div class="bottom">
-                            <span>擅长：</span> 熟悉小儿内科常见病、多发病及危重病的诊断和处理。擅长诊治反复呼吸道感染、难治性肺炎、支气管哮喘、慢性咳嗽、胸膜腔疾病等各种呼吸系统疾病。
+                            <span>擅长：</span> ${requestScope.doctor2.doctorIntro}
                         </div>
                         <div class="bottom-btn">
                             <a href="#">
@@ -267,9 +268,9 @@
                         <div class="doctor-con-d-top">
                             <div class="radius"><img src="img/20160302101254889_706.jpg" /></div>
                             <dl>
-                                <dt>余加林<span>礼嘉余加林</span></dt>
-                                <dd>新生儿专家</dd>
-                                <dd>重庆医科大学附属儿童医院</dd>
+                                <dt><a href="">${requestScope.doctor3.doctorName}</a><span>${requestScope.doctor3.doctorGrade}</span></dt>
+                                <dd>${requestScope.doctor3.oficeName}</dd>
+                                <dd>${requestScope.doctor3.hospitalName}</dd>
                             </dl>
                         </div>
                         <div class="mid">
@@ -283,7 +284,7 @@
                             </p>
                         </div>
                         <div class="bottom">
-                            <span>擅长：</span> 熟悉小儿内科常见病、多发病及危重病的诊断和处理。擅长诊治反复呼吸道感染、难治性肺炎、支气管哮喘、慢性咳嗽、胸膜腔疾病等各种呼吸系统疾病。
+                            <span>擅长：</span> ${requestScope.doctor3.doctorIntro}
                         </div>
                         <div class="bottom-btn">
                             <a href="#">
@@ -301,9 +302,9 @@
                         <div class="doctor-con-d-top">
                             <div class="radius"><img src="img/20160406101725490_770.jpg" /></div>
                             <dl>
-                                <dt>周德凯<span>礼嘉周德凯</span></dt>
-                                <dd>血管瘤专业专家</dd>
-                                <dd>重庆医科大学附属儿童医院</dd>
+                                <dt><a href="">${requestScope.doctor4.doctorName}</a><span>${requestScope.doctor4.doctorGrade}</span></dt>
+                                <dd>${requestScope.doctor4.oficeName}</dd>
+                                <dd>${requestScope.doctor4.hospitalName}</dd>
                             </dl>
                         </div>
                         <div class="mid">
@@ -317,7 +318,7 @@
                             </p>
                         </div>
                         <div class="bottom">
-                            <span>擅长：</span> 小儿普外科各种疾病；各类血管瘤、血管畸形、淋巴管瘤的诊治
+                            <span>擅长：</span> ${requestScope.doctor4.doctorIntro}
                         </div>
                         <div class="bottom-btn">
                             <a href="#">
@@ -337,9 +338,9 @@
                         <div class="doctor-con-d-top">
                             <div class="radius"><img src="img/20110402100357357.jpg" /></div>
                             <dl>
-                                <dt>梁志清<span>专家门诊</span></dt>
-                                <dd>妇科专家门诊</dd>
-                                <dd>陆军军医大学西南医院</dd>
+                                <dt><a href="">${requestScope.doctor5.doctorName}</a><span>${requestScope.doctor5.doctorGrade}</span></dt>
+                                <dd>${requestScope.doctor5.oficeName}</dd>
+                                <dd>${requestScope.doctor5.hospitalName}</dd>
                             </dl>
                         </div>
                         <div class="mid">
@@ -353,7 +354,7 @@
                             </p>
                         </div>
                         <div class="bottom">
-                            <span>擅长：</span> 擅长于卵巢恶性肿瘤、子宫颈癌、外阴癌和子宫体癌，恶性黑色素瘤的综合治疗，尤以妇科良性和恶性肿瘤领域的手术治疗（特别是腹腔镜下手术治疗）有较深的造诣。 率先在国内开展了子宫内膜癌的腹腔镜下广泛子宫切除术和盆腔淋巴结切除术、压力性尿失禁的腹腔镜膀胱颈悬吊术、盆腔器官脱垂的子宫颈悬吊和直肠悬吊术等。 独创了腹腔镜下子宫动脉阻断加子宫肌瘤挖除治疗子宫肌瘤、三角形子宫体切除治疗子宫腺肌症、以及阴道癌的腹腔镜下全阴道切除术等。 擅长出生缺陷和胎儿疾病的诊断与宫内干预，在国内率先开展胎儿镜下激光凝固术阻断胎盘血管交通支治疗双胎输血综合征和EXIT处理胎儿气道梗阻性疾病。
+                            <span>擅长：</span> ${requestScope.doctor5.doctorIntro}
                         </div>
                         <div class="bottom-btn">
                             <a href="#">
@@ -371,9 +372,9 @@
                         <div class="doctor-con-d-top">
                             <div class="radius"><img src="img/20110402100526526.jpg" /></div>
                             <dl>
-                                <dt>常青<span>专家门诊</span></dt>
-                                <dd>妇科专家门诊</dd>
-                                <dd>陆军军医大学西南医院</dd>
+                                <dt><a href="">${requestScope.doctor6.doctorName}</a><span>${requestScope.doctor6.doctorGrade}</span></dt>
+                                <dd>${requestScope.doctor6.oficeName}</dd>
+                                <dd>${requestScope.doctor6.hospitalName}</dd>
                             </dl>
                         </div>
                         <div class="mid">
@@ -387,7 +388,7 @@
                             </p>
                         </div>
                         <div class="bottom">
-                            <span>擅长：</span> 擅长妇科内分泌和老年疾病的保健与治疗。尤其是对围绝经期疾病的诊断和处理有独特的方法和丰富经验。擅长出生缺陷、母婴血型不合等高危妊娠的诊断和处理。
+                            <span>擅长：</span> ${requestScope.doctor6.doctorIntro}
                         </div>
                         <div class="bottom-btn">
                             <a href="#">
@@ -405,9 +406,9 @@
                         <div class="doctor-con-d-top">
                             <div class="radius"><img src="img/20151217154132445_39.jpg" /></div>
                             <dl>
-                                <dt>朱宁生<span>副高专家号</span></dt>
-                                <dd>乳腺科</dd>
-                                <dd>重庆肿瘤医院（未用）</dd>
+                                <dt><a href="">${requestScope.doctor7.doctorName}</a><span>${requestScope.doctor7.doctorGrade}</span></dt>
+                                <dd>${requestScope.doctor7.oficeName}</dd>
+                                <dd>${requestScope.doctor7.hospitalName}</dd>
                             </dl>
                         </div>
                         <div class="mid">
@@ -421,7 +422,7 @@
                             </p>
                         </div>
                         <div class="bottom">
-                            <span>擅长：</span> 对乳腺癌的早期诊断、前哨淋巴结的活检、保留乳房、乳腺癌治疗的规范化等方面进行了深入研究，积累了丰富的经验，在该领域具有较高的临床理论和实践水平
+                            <span>擅长：</span> ${requestScope.doctor7.doctorIntro}
                         </div>
                         <div class="bottom-btn">
                             <a href="#">
@@ -439,9 +440,9 @@
                         <div class="doctor-con-d-top">
                             <div class="radius"><img src="img/20150618111107.jpg" /></div>
                             <dl>
-                                <dt>杨锡蒂<span>主任医师教授</span></dt>
-                                <dd>产科</dd>
-                                <dd>重庆学府医院</dd>
+                                <dt><a href="">${requestScope.doctor8.doctorName}</a><span>${requestScope.doctor8.doctorGrade}</span></dt>
+                                <dd>${requestScope.doctor8.oficeName}</dd>
+                                <dd>重${requestScope.doctor8.hospitalName}</dd>
                             </dl>
                         </div>
                         <div class="mid">
@@ -455,7 +456,7 @@
                             </p>
                         </div>
                         <div class="bottom">
-                            <span>擅长：</span> 擅长项目：围产医学、各种的高危妊娠、妊娠合并症、并发症的诊断，妇科内分泌及不育症的诊治，妇科肿瘤诊断，享誉重庆地区乃至西南地区。
+                            <span>擅长：</span> ${requestScope.doctor8.doctorName}
                         </div>
                         <div class="bottom-btn">
                             <a href="#">
@@ -475,9 +476,9 @@
                         <div class="doctor-con-d-top">
                             <div class="radius"><img src="img/20160216155507807_752.jpg" /></div>
                             <dl>
-                                <dt>周志奇<span>主任医师</span></dt>
-                                <dd>眼科</dd>
-                                <dd>重庆爱尔眼科医院</dd>
+                                <dt><a href="">${requestScope.doctor9.doctorName}</a><span>${requestScope.doctor9.doctorGrade}</span></dt>
+                                <dd>${requestScope.doctor9.oficeName}</dd>
+                                <dd>${requestScope.doctor9.hospitalName}</dd>
                             </dl>
                         </div>
                         <div class="mid">
@@ -491,7 +492,7 @@
                             </p>
                         </div>
                         <div class="bottom">
-                            <span>擅长：</span> 屈光不正、眼表疾病的诊治，2010年在重庆成功实施飞秒激光近视矫正术，对超高度近视者有丰富的临床研究经验。
+                            <span>擅长：</span> ${requestScope.doctor9.doctorIntro}
                         </div>
                         <div class="bottom-btn">
                             <a href="#">
@@ -509,9 +510,9 @@
                         <div class="doctor-con-d-top">
                             <div class="radius"><img src="img/20110402160353353.jpg" /></div>
                             <dl>
-                                <dt>阴正晴<span>名医门诊</span></dt>
-                                <dd>眼科名医门诊</dd>
-                                <dd>陆军军医大学西南医院</dd>
+                                <dt><a href="">${requestScope.doctor10.doctorName}</a><span>${requestScope.doctor10.doctorGrade}</span></dt>
+                                <dd>${requestScope.doctor10.oficeName}</dd>
+                                <dd>${requestScope.doctor10.hospitalName}</dd>
                             </dl>
                         </div>
                         <div class="mid">
@@ -525,7 +526,7 @@
                             </p>
                         </div>
                         <div class="bottom">
-                            <span>擅长：</span> 有丰富的临床工作经验和坚实宽广的医学和眼科学基础理论知识，特别对眼底病和小儿眼科有较深入的研究，掌握本学科国际国内临床科研的发展现状。
+                            <span>擅长：</span> ${requestScope.doctor10.doctorIntro}
                         </div>
                         <div class="bottom-btn">
                             <a href="#">
@@ -543,9 +544,9 @@
                         <div class="doctor-con-d-top">
                             <div class="radius"><img src="img/20110402160814814.jpg" /></div>
                             <dl>
-                                <dt>王一<span>专家门诊</span></dt>
-                                <dd>眼科名医门诊</dd>
-                                <dd>陆军军医大学西南医院</dd>
+                                <dt><a href="">${requestScope.doctor11.doctorName}</a><span>${requestScope.doctor11.doctorGrade}</span></dt>
+                                <dd>${requestScope.doctor11.oficeName}</dd>
+                                <dd>${requestScope.doctor11.hospitalName}</dd>
                             </dl>
                         </div>
                         <div class="mid">
@@ -559,7 +560,7 @@
                             </p>
                         </div>
                         <div class="bottom">
-                            <span>擅长：</span> 从事眼科临床工作28年，有丰富的临床工作经验和坚实宽广的医学和眼科学基础理论知识，开展玻璃体视网膜手术多年，在重庆市率先开展现代玻璃体手术,治疗了大量的严重眼外伤、复杂性视网膜脱离及各种原因引起的玻璃体出血等疾病的患者。在玻璃体视网膜手术及眼外伤治疗方面有丰富的临床经验
+                            <span>擅长：</span> ${requestScope.doctor11.doctorIntro}
                         </div>
                         <div class="bottom-btn">
                             <a href="#">
@@ -577,9 +578,9 @@
                         <div class="doctor-con-d-top">
                             <div class="radius"><img src="img/20160301140042300_311.jpg" /></div>
                             <dl>
-                                <dt>戴超<span>副主任医师</span></dt>
-                                <dd>眼科门诊</dd>
-                                <dd>陆军军医大学西南医院</dd>
+                                <dt><a href="">${requestScope.doctor12.doctorName}</a><span>${requestScope.doctor12.doctorGrade}</span></dt>
+                                <dd>${requestScope.doctor12.oficeName}</dd>
+                                <dd>${requestScope.doctor12.hospitalName}</dd>
                             </dl>
                         </div>
                         <div class="mid">
@@ -593,7 +594,7 @@
                             </p>
                         </div>
                         <div class="bottom">
-                            <span>擅长：</span> 青光眼。
+                            <span>擅长：</span> ${requestScope.doctor12.doctorIntro}
                         </div>
                         <div class="bottom-btn">
                             <a href="#">
@@ -613,9 +614,9 @@
                         <div class="doctor-con-d-top">
                             <div class="radius"><img src="img/20170223161036698_197.jpg" /></div>
                             <dl>
-                                <dt>张家龙<span>主任医师</span></dt>
-                                <dd>皮肤科</dd>
-                                <dd>医事通认证医生</dd>
+                                <dt><a href="">${requestScope.doctor13.doctorName}</a><span>${requestScope.doctor13.doctorGrade}</span></dt>
+                                <dd>${requestScope.doctor13.oficeName}</dd>
+                                <dd>${requestScope.doctor13.hospitalName}</dd>
                             </dl>
                         </div>
                         <div class="mid">
@@ -629,7 +630,7 @@
                             </p>
                         </div>
                         <div class="bottom">
-                            <span>擅长：</span> 各种原因所致的瘢疤痕修复美容、功能重建整形； 各种瘢痕、色沉、黑毛痣、血管瘤、斑秃整形美容； 各种原因所致的软组织缺损、急诊修复再造； 毁容再造、再植。
+                            <span>擅长：</span> ${requestScope.doctor13.doctorIntro}
                         </div>
                         <div class="bottom-btn">
                             <a href="#">
@@ -647,9 +648,9 @@
                         <div class="doctor-con-d-top">
                             <div class="radius"><img src="img/20110402094602462.jpg" /></div>
                             <dl>
-                                <dt>李世荣<span>专家门诊</span></dt>
-                                <dd>整形外科专家门诊</dd>
-                                <dd>陆军军医大学西南医院</dd>
+                                <dt><a href="">${requestScope.doctor14.doctorName}</a><span>${requestScope.doctor14.doctorGrade}</span></dt>
+                                <dd>${requestScope.doctor14.oficeName}</dd>
+                                <dd>${requestScope.doctor14.hospitalName}</dd>
                             </dl>
                         </div>
                         <div class="mid">
@@ -663,7 +664,7 @@
                             </p>
                         </div>
                         <div class="bottom">
-                            <span>擅长：</span> 擅长各类整形美容手术，先后开展新业务新技术三十余项，在国际上率先采用阴囊皮瓣覆盖延长的海绵体作阴茎延长术，论文已在国际权威的美国整形外科杂志“PRS”（PRS105：596－599，2000）公开发表。1986年在国内率先将前臂尺侧皮瓣应用于临床，在国际上首先开展应用SOD提高非生理性皮瓣存活率的实验研究。
+                            <span>擅长：</span> ${requestScope.doctor14.doctorIntro}
                         </div>
                         <div class="bottom-btn">
                             <a href="#">
@@ -681,9 +682,9 @@
                         <div class="doctor-con-d-top">
                             <div class="radius"><img src="img/20151102145720459_346.gif" /></div>
                             <dl>
-                                <dt>张恒术<span>主任医师</span></dt>
-                                <dd>烧伤科/医疗美容科</dd>
-                                <dd>重庆医科大学附属第一医院</dd>
+                                <dt><a href="">${requestScope.doctor15.doctorName}</a><span>${requestScope.doctor15.doctorGrade}</span></dt>
+                                <dd>${requestScope.doctor15.oficeName}</dd>
+                                <dd>${requestScope.doctor15.hospitalName}</dd>
                             </dl>
                         </div>
                         <div class="mid">
@@ -697,7 +698,7 @@
                             </p>
                         </div>
                         <div class="bottom">
-                            <span>擅长：</span> 双眼皮、隆鼻术、眼袋切除术、除皱术、隆乳术、吸脂瘦身术、生殖器整形
+                            <span>擅长：</span> ${requestScope.doctor15.doctorIntro}
                         </div>
                         <div class="bottom-btn">
                             <a href="#">
@@ -715,9 +716,9 @@
                         <div class="doctor-con-d-top">
                             <div class="radius"><img src="img/20151229104605138_49.jpg" /></div>
                             <dl>
-                                <dt>李喆<span>主治医师</span></dt>
-                                <dd>整形外科门诊</dd>
-                                <dd>陆军军医大学西南医院</dd>
+                                <dt><a href="">${requestScope.doctor16.doctorName}</a><span>${requestScope.doctor16.doctorGrade}</span></dt>
+                                <dd>${requestScope.doctor16.oficeName}</dd>
+                                <dd>${requestScope.doctor16.hospitalName}</dd>
                             </dl>
                         </div>
                         <div class="mid">
@@ -731,7 +732,7 @@
                             </p>
                         </div>
                         <div class="bottom">
-                            <span>擅长：</span> 从事整形美容行业近十年，师从中华医师协会美容整形分会会长、著名整形外科专家李世荣教授，毕业后在西南医院整形美容外科工作至今，具有丰富的临床经验, 指导多名进修生、研究生开展临床工作。收治了大量来自全国各地的整形与美容患者，独立完成手术数千例，其中成功完成头皮撕脱伤7例，为酉阳县面部被丈夫砍伤六刀的杨女士进行了成功修复，取得了非常满意的效果。 在面部的微创美容手术中有独到见解，主张自然、微创、快速恢复，对先天性单眼皮、上睑皮肤松弛、眼袋、鼻、唇外形欠佳等美容顾客具有丰富的临床经验，并在胸部的综合整治上摸索出一套行之有效的办法，典型病例及临床经验在国内核心期刊发表多篇论文，并获得国家发明专利一项。学术论文在第五届中国美容与整形医师大会上进行交流，并获得中青年优秀论文。
+                            <span>擅长：</span> ${requestScope.doctor16.doctorIntro}
                         </div>
                         <div class="bottom-btn">
                             <a href="#">
@@ -751,9 +752,9 @@
                         <div class="doctor-con-d-top">
                             <div class="radius"><img src="img/201104021619451945.jpg" /></div>
                             <dl>
-                                <dt>杨希川<span>专家门诊</span></dt>
-                                <dd>皮肤科专家门诊</dd>
-                                <dd>陆军军医大学西南医院</dd>
+                                <dt><a href="">${requestScope.doctor17.doctorName}</a><span>${requestScope.doctor17.doctorGrade}</span></dt>
+                                <dd>${requestScope.doctor17.oficeName}</dd>
+                                <dd>${requestScope.doctor17.hospitalName}</dd>
                             </dl>
                         </div>
                         <div class="mid">
@@ -767,7 +768,7 @@
                             </p>
                         </div>
                         <div class="bottom">
-                            <span>擅长：</span> 主要从事毛囊基因调控及斑秃发病机理研究。擅长脱发性皮肤病的诊治及皮肤病理诊断。
+                            <span>擅长：</span> ${requestScope.doctor17.doctorIntro}
                         </div>
                         <div class="bottom-btn">
                             <a href="#">
@@ -785,9 +786,9 @@
                         <div class="doctor-con-d-top">
                             <div class="radius"><img src="img/20180403165311112_512.jpg" /></div>
                             <dl>
-                                <dt>李惠<span>主任医师</span></dt>
-                                <dd>皮肤科</dd>
-                                <dd>重庆医科大学附属第一医院</dd>
+                                <dt><a href="">${requestScope.doctor18.doctorName}</a><span>${requestScope.doctor18.doctorGrade}</span></dt>
+                                <dd>${requestScope.doctor18.oficeName}</dd>
+                                <dd>${requestScope.doctor18.hospitalName}</dd>
                             </dl>
                         </div>
                         <div class="mid">
@@ -801,7 +802,7 @@
                             </p>
                         </div>
                         <div class="bottom">
-                            <span>擅长：</span> 擅长皮肤美容、结缔组织病、银屑病及疑难杂症的诊治
+                            <span>擅长：</span> ${requestScope.doctor18.doctorIntro}
                         </div>
                         <div class="bottom-btn">
                             <a href="#">
@@ -819,9 +820,9 @@
                         <div class="doctor-con-d-top">
                             <div class="radius"><img src="img/20180403165712238_849.jpg" /></div>
                             <dl>
-                                <dt>郝飞<span>专家门诊</span></dt>
-                                <dd>皮肤科专家门诊</dd>
-                                <dd>陆军军医大学西南医院</dd>
+                                <dt><a href="">${requestScope.doctor19.doctorName}</a><span>${requestScope.doctor19.doctorGrade}</span></dt>
+                                <dd>${requestScope.doctor19.oficeName}</dd>
+                                <dd>${requestScope.doctor19.hospitalName}</dd>
                             </dl>
                         </div>
                         <div class="mid">
@@ -835,7 +836,7 @@
                             </p>
                         </div>
                         <div class="bottom">
-                            <span>擅长：</span> 从事临床工作30余年，擅长痤疮、面部皮炎、感染性皮肤病、性病、过敏性皮肤病以及复杂疑难皮肤病的诊治。
+                            <span>擅长：</span> ${requestScope.doctor19.doctorIntro}
                         </div>
                         <div class="bottom-btn">
                             <a href="#">
@@ -853,9 +854,9 @@
                         <div class="doctor-con-d-top">
                             <div class="radius"><img src="img/20160817103850331_540.jpg" /></div>
                             <dl>
-                                <dt>何威<span>专家号</span></dt>
-                                <dd>皮肤.风湿免疫科门诊</dd>
-                                <dd>陆军军医大学新桥医院</dd>
+                                <dt><a href="">${requestScope.doctor20.doctorName}</a><span>${requestScope.doctor20.doctorGrade}</span></dt>
+                                <dd>${requestScope.doctor20.oficeName}</dd>
+                                <dd>${requestScope.doctor20.hospitalName}</dd>
                             </dl>
                         </div>
                         <div class="mid">
@@ -869,7 +870,7 @@
                             </p>
                         </div>
                         <div class="bottom">
-                            <span>擅长：</span> 银血病/白癜风等色素障碍性皮肤病/过敏性皮肤病/皮肤病理诊断/结缔组织疾病/风湿病/性传播疾病和疑难皮肤病的诊断与治疗。
+                            <span>擅长：</span> ${requestScope.doctor20.doctorIntro}
                         </div>
                         <div class="bottom-btn">
                             <a href="#">

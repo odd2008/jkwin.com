@@ -11,13 +11,11 @@
     <title>测试一下git</title>
   </head>
   <body>
-  git   命令 。。。。
-  git init初始化
-  git clone 克隆
-  。。。。。。。。。。。。。。。。。。。
-  !!!!!!!!!!!!!!!!!!!!!!!!
-  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-  $END$
-  aaaaaa
+  <script>
+      location.href="/CityServlet";
+      location.href="/HospitalServlet";
+      location.href="/DoctorContServlet";
+      location.href="/DoctorInfoServlet";
+  </script>
   </body>
 </html>
