@@ -5,7 +5,7 @@ var random = 888888;
 function getcodes() {
     var telnumber = document.getElementById('userPhone').value;
 
-    $.post("/TextingServlet", "telnumber=" + telnumber, x);
+    $.post("/TextingServlet", "telnumber=" + telnumber, x,"text");
 
     function x(data) {
         random = data;
@@ -44,14 +44,14 @@ function checkSms() {
         Smserr.className = "error";
         return false;
     } else {
-        Smserr.innerHTML = "";
+
 
         var SmsCode = document.getElementById('SmsCode').value;
         if (random == SmsCode) {
-            Smserr.innerHTML = "<img src='../img/register/pic_03.gif>"
+            Smserr.innerHTML = "<img src='../img/register/pic_03.gif'>"
             return true;
         } else {
-            Smserr.innerHTML = "验证码错误";
+            Smserr.innerHTML = random;
             Smserr.className = "error";
             return false;
         }

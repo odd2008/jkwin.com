@@ -24,16 +24,14 @@ import java.util.TreeMap;
 public class WeixinPayServlet extends javax.servlet.http.HttpServlet {
     protected void doPost(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
         String Key = "javastruts2springhibernate2016tr";
-/*
-        String Key = "javastruts2springhibernate2018al";
-*/
+
         String appid = "wx2537437d11cdec0b";
         String mch_id = "1381483602";
         String spbill_create_ip = "49.221.62.131";
         String body = "医事通";
         String trade_type = "NATIVE";
         //String notify_url = "http://zhuzuohua.oicp.net/ercodePay/pay-huidao.action";
-        String notify_url = "http://2i0590x817.iok.la:48633/WeixinPayHuiDiaoServlet";
+        String notify_url = "http://2i0590x817.iok.la:41149/WeixinPayHuiDiaoServlet";
 /*
         int total_fee = Integer.parseInt(request.getParameter("total_fee"));
 */
@@ -74,7 +72,7 @@ public class WeixinPayServlet extends javax.servlet.http.HttpServlet {
         //生成订单并添加到数据库
 
         WeixinOrder order=new WeixinOrder();
-        order.setUserIDcard(request.getParameter("userIdcard"));
+        order.setUserIDcard(OrderNumber.WIDout_trade_no());
         order.setTrade_type(pay.getTrade_type());
         order.setTotal_fee(pay.getTotal_fee());
         order.setStatus("未支付");

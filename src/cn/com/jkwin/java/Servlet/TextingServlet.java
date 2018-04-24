@@ -76,7 +76,8 @@ public class TextingServlet extends HttpServlet {
             e.printStackTrace();
         }
         PrintWriter out = response.getWriter();
-        out.write(random);
+        response.setContentType("text/html;charset=UTF-8");
+        out.write(String.valueOf(random));
         out.flush();
         out.close();
     }
