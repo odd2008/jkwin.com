@@ -8,7 +8,9 @@ import java.io.IOException;
 
 import java.util.logging.LogRecord;
 
+/*
 @WebFilter(filterName = "weixinFilter" ,value ="/WeixinPayServlet")
+*/
 public class weixinFilter implements javax.servlet.Filter {
     public void destroy() {
     }
@@ -20,7 +22,6 @@ public class weixinFilter implements javax.servlet.Filter {
         System.out.println(out_trade_no);
         System.out.println(total_fee);
         if (null==out_trade_no||null==total_fee){
-            System.out.println("jinlailema");
             HttpServletResponse response= (HttpServletResponse) resp;
             response.sendRedirect("/jsp/ErrorPay.jsp");
         }else {

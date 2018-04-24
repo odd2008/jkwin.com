@@ -11,8 +11,9 @@
     <title>医生显示页面</title>
 </head>
 <body>
-<script type="text/javascript">
+<%=request.getParameter("pay")+"===="%>
+<%--<script type="text/javascript">
     location.href="/DoctorServlet";
-</script>
+</script>--%>
 </body>
 </html>

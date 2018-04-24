@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>支付错误</title>
+    <title>网络连接失败</title>
 </head>
 <body>
 错误
