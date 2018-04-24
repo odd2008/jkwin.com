@@ -24,7 +24,7 @@
     <title>微信支付页面</title>
 </head>
 <body>
-<%@include file="../../html/publicTop1.html" %>
+<%@include file="/jsp/publicTop.jsp" %>
 
 <div class="container-fluid gradient">
     <div class="row" style="padding: 0 15px 0 15px;">
@@ -98,7 +98,7 @@
 
         function callBack(data) {
             if (data != "未支付") {
-                window.location.href = "/test.jsp";
+                window.location.href = "/jsp/paySuccess.jsp";
             }
         }
     })

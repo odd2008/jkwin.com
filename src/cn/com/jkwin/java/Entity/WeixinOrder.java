@@ -5,8 +5,8 @@ import java.util.Date;
 public class WeixinOrder {
     private Integer id;
     private String status;//订单状态,提交,未支付,支付,删除4种状态
-    private  String appid;//公众账号Id
-    private String mch_id;//商户好
+    private String appid;//公众账号Id
+    private String mch_id;//商户号
     private String body;//商品描述
     private String out_trade_no;//订单号
     private int total_fee;//总金额
@@ -14,6 +14,7 @@ public class WeixinOrder {
     private String userIDcard;//患者身份证
     private Date    generated_time;//订单生成时间
     private Date    completion_time;//支付完成时间
+
 
     @Override
     public String toString() {
