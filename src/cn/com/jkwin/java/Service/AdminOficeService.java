@@ -11,5 +11,5 @@ import java.util.List;
  * @Modified By:
  */
 public interface AdminOficeService {
-    List<AdminOfice> getAllAdminOfice();
+    List<AdminOfice> getAllAdminOfice(Integer hospitalId);
 }

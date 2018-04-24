@@ -10,11 +10,11 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
 <head>
+    <%--css--%>
     <meta charset="UTF-8">
     <%--自适应--%>
     <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no"/>
     <%--引入--%>
-    <%--css--%>
     <link rel="stylesheet" href="../css/publicTop.css"/>
     <link rel="stylesheet" href="../css/bootstrap.css"/>
     <%--<link rel="stylesheet " href="css/datepicker.css">--%>
@@ -76,7 +76,17 @@ background:-webkit-gradient(linear, 0 0, 0 bottom, from(#AECEA9), to(#F8FCFF));
 <div class="container-fluid">
     <div class="row list-group" style="padding: 0 15px 0 15px;">
         <div class="col-md-12 col-sm-12 list-group-item" style="background-color: #00AA88;">
-            流动式公告栏
+            <marquee scrollAmount="10" direction="left" scrollDelay="0"
+                     onmouseover="this.stop()" onmouseout="this.start()"
+                     direction="up"
+                     style="color: white;"
+            >
+                <a href="http://www.sina.com.cn">新浪</a>
+                <a href="http://www.baidu.com">baidu</a>
+                <a href=http://www.qq.com>腾讯</a>
+                <a href=http://www.sohu.com>搜狐</a>
+                <a href=http://www.nwnu.edu.cn>西北师范大学</a>
+            </marquee>
         </div>
     </div>
 </div>
@@ -87,7 +97,7 @@ background:-webkit-gradient(linear, 0 0, 0 bottom, from(#AECEA9), to(#F8FCFF));
         <div class="col-md-8 col-xs-12">
             <ul class="nav nav-tabs">
                 <li class="col-md-2 col-xs-12">
-                    <a href="" style="" data-toggle="tab"><b>预约挂号&nbsp;&nbsp;&nbsp;</b>
+                    <a href="" data-toggle="tab"><b>预约挂号&nbsp;&nbsp;&nbsp;</b>
                         <span class="glyphicon glyphicon-chevron-right"></span>
                     </a>
                 </li>
@@ -124,7 +134,7 @@ background:-webkit-gradient(linear, 0 0, 0 bottom, from(#AECEA9), to(#F8FCFF));
 
                 <li class="col-md-2 col-xs-12 text-center">
                     <a href="#date" data-toggle="tab">
-                        <span class="glyphicon glyphicon-calendar"></span>&nbsp;5选择日期
+                        <span class="glyphicon glyphicon-hand-right"></span>&nbsp;5挂号
                         <br>
                         <span id="checkDate" class="small"></span>
                     </a>
@@ -143,11 +153,11 @@ background:-webkit-gradient(linear, 0 0, 0 bottom, from(#AECEA9), to(#F8FCFF));
                                         <h4>西南地区</h4>
                                     </span>
                                 </li>
-                                <c:set var="checkSymbol" value="1" scope="page"></c:set>
+                                <%--<c:set var="checkSymbol" value="1" scope="page"></c:set>--%>
                                 <c:forEach var="city" varStatus="cities" items="${requestScope.cities}">
                                     <li class="list-group-item">
                                         <a href="javascript:void(0)"
-                                           onclick="checkSelect(this,'#checkCity')">${city.getCityName()}
+                                           onclick="checkSelect(this,'#checkCity',${city.getCityId()})">${city.getCityName()}
                                             <span></span></a><br>
                                     </li>
                                 </c:forEach>
@@ -159,67 +169,41 @@ background:-webkit-gradient(linear, 0 0, 0 bottom, from(#AECEA9), to(#F8FCFF));
                 <div class="tab-pane fade" id="hospital">
                     <div class="container-fluid">
                         <div class="row">
-                            <ul class="list-group">
-                                <li class="list-group-item">
-                                    <span>
-                                        <h4>沙坪坝区</h4>
-                                    </span>
-                                </li>
-                                <c:forEach var="hospital" items="${requestScope.hospitals}">
-                                    <li class="list-group-item">
-                                        <a href="javascript:void(0)"
-                                           onclick="checkSelect(this,'#checkHospital')">${hospital.getHospitalName()}
-                                            <span></span></a><br>
-                                    </li>
-                                </c:forEach>
+                            <ul class="list-group" id="region">
+                                <li class="list-group-item text-center">请先选择地区!</li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <%--选择科室--%>
                 <div class="tab-pane fade" id="department">
-                    <ul class="list-group">
-                        <li class="list-group-item">
-                                    <span>
-                                        <h4>科室名称</h4>
-                                    </span>
-                        </li>
-                        <c:forEach var="adminofice" items="${requestScope.adminofices}">
-                            <li class="list-group-item">
-                                <a href="javascript:void(0)"
-                                   onclick="checkSelect(this,'#checkOffice')">${adminofice.getOficeName()}
-                                    <span></span></a><br>
-                            </li>
-                        </c:forEach>
-                    </ul>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <ul class="list-group" id="ofice">
+                                <li class="list-group-item text-center">请先选择医院!</li>
+                                <%--
+                                <li class="list-group-item">
+                                            <span>
+                                                <h4>科室名称</h4>
+                                            </span>
+                                </li>
+                                <c:forEach var="adminofice" items="${requestScope.adminofices}">
+                                    <li class="list-group-item">
+                                        <a href="javascript:void(0)"
+                                           onclick="checkSelect(this,'#checkOffice')">${adminofice.getOficeName()}
+                                            <span></span></a><br>
+                                    </li>
+                                </c:forEach>--%>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                 <%--选择医生--%>
                 <div class="tab-pane fade" id="doctor">
                     <div class="container-fluid">
                         <div class="row">
-                            <ul class="list-group">
-                                <li class="list-group-item">
-                                    <h4>选择医生</h4>
-                                    <span class="glyphicon glyphicon-minus-sign">
-                                        已满
-                                    </span>
-                                    <span>/</span>
-                                    <span class="glyphicon glyphicon-plus-sign">
-                                        未满
-                                    </span>
-                                </li>
-                                <li class="list-group-item">
-                                    <ul class="list-group">
-                                        <li class="list-group-item">
-                                            <span class="lable glyphicon glyphicon-minus-sign "></span>
-                                            <a href="#" id="doctor2">别平（专家门诊(肝胆专家)）</a>
-                                        </li>
-                                        <li class="list-group-item">
-                                            <span class="lable glyphicon glyphicon-minus-sign "></span>
-                                            <a href="#">王槐志（专家门诊(肝胆专家)）</a>
-                                        </li>
-                                    </ul>
-                                </li>
+                            <ul class="list-group" id="doctorx">
+                                <li class="list-group-item text-center">暂无医生!</li>
                             </ul>
                         </div>
                     </div>
@@ -228,25 +212,18 @@ background:-webkit-gradient(linear, 0 0, 0 bottom, from(#AECEA9), to(#F8FCFF));
                 <div class="tab-pane fade" id="date">
                     <div class="container-fluid">
                         <div class="row">
-                            <ul class="list-group">
-                                <li class="list-group-item list-group-item-success ">
-                                    <span>
-                                        <h4>今月号源</h4>
-                                    </span>
-                                </li>
-                                <li class="list-group-item">
-                                    <input type="text" id="dpd1">
-                                    <input type="button" id="dpd2" value="选择日期">
-                                </li>
+                            <ul class="list-group" id="CheckInBTN">
+                                <li class="list-group-item text-center">请先完成前面的操作!</li>
+
+                                <%--挂号按钮--%>
+                                <%--<button type="button" class="btn btn-primary " data-toggle="button" style="line-height: 2; font-size: 150%; margin:5px 0 10px 0; ">--%>
+                                    <%--<a href="/DoctorServlet">立即挂号</a></button>--%>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <%--挂号按钮--%>
-                <button type="button" class="btn btn-primary "
-                        data-toggle="button"
-                        style="line-height: 2; font-size: 150%; margin:5px 0 10px 0; ">立即挂号
-                </button>
+
+
             </div>
         </div>
 
@@ -275,11 +252,105 @@ background:-webkit-gradient(linear, 0 0, 0 bottom, from(#AECEA9), to(#F8FCFF));
     })
 
     <%--选项打勾之后--%>
-    function checkSelect(aclick, checkString) {
+
+    function checkSelect(aclick, checkString, Id, Id2) {
         $(checkString).text($(aclick).text());
         $(aclick).find("span").addClass("lable lable-primary glyphicon glyphicon-ok");
         $(aclick).parent().siblings().find("span").removeClass("lable lable-primary glyphicon glyphicon-ok");
         $(checkString).parent().parent().next().find("a").tab('show');
+
+        if (checkString == "#checkCity") {
+            cityToHospital(Id);
+        } else if (checkString == "#checkHospital") {
+            HospitalToOfice(Id);
+        } else if (checkString == "#checkOffice") {
+            OficeToDoctor(Id, Id2);
+        } else if (checkString == "#checkDoctor"){
+            checkIn(Id);
+        }
     }
+
+    //城市-->地区+医院
+    function cityToHospital(Id) {
+        //异步请求
+        $.ajax({
+            url: "/CityIdtoNextServlet",
+            type: "POST",
+            dataType: "json",
+            data: "cityId=" + Id,
+            success: function (data) {
+                $("#region").html("");
+                $.each(data, function (key, val) {
+                    $("#region").append("<li class=\"list-group-item prev\" ><span><h4>" + key + "</h4></span></li>");
+                    for (var i = 0; i < val.length; i++) {
+                        $("#region").children().last().append("<a href=\"javascript:void(0)\" onclick=\"checkSelect(this,'#checkHospital'," + val[i].hospitalId + ")\">"
+                            + val[i].hospitalName + "<span></span></a>&nbsp;&nbsp;&nbsp;&nbsp;");
+                    }
+                });
+            },
+            error: function () {
+                alert("医院请求没成功");
+            }
+        });
+        //----异步请求结束
+    }
+
+    //医院-->科室
+    function HospitalToOfice(Id) {
+        //异步请求
+        $.ajax({
+            url: "/HospitalToNextServlet",
+            type: "POST",
+            dataType: "json",
+            data: "hospitalId=" + Id,
+            success: function (data) {
+                $("#ofice").html("");
+                $.each(data, function (key, val) {
+                    $("#ofice").append("<li class=\"list-group-item prev\" ><span><a href=\"javascript:void(0)\" onclick=\"checkSelect(this,'#checkOffice'," + key + "," + Id + ")\">" + val.oficeName + "</a>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>");
+                });
+            },
+            error: function () {
+                alert("科室请求没成功");
+            }
+        });
+        //----异步请求结束
+    }
+
+    //科室-->医生
+    function OficeToDoctor(Id, Id2) {
+        //异步请求
+        $.ajax({
+            url: "/OficeToNextServlet",
+            type: "POST",
+            dataType: "json",
+            data: "oficeId=" + Id + "&hospitalId=" + Id2,
+            success: function (data) {
+                console.log(Id, Id2);
+                $("#doctorx").html("");
+                $.each(data, function (key, val) {
+                    $("#doctorx").append("<li class=\"list-group-item prev\" ><span><a href=\"javascript:void(0)\" onclick=\"checkSelect(this,'#checkDoctor'," + val.doctorId + ")\">" + val.doctorName + "</a>&nbsp;&nbsp;&nbsp;&nbsp;</span></li>");
+                });
+            },
+            error: function () {
+                alert("请点击挂号按钮,进行挂号");
+            }
+        });
+        //----异步请求结束
+    }
+
+    //医生-->挂号
+    function checkIn(doctorId) {
+        $("#CheckInBTN").html("");
+        $("#CheckInBTN").append("<a class='btn btn-primary' href=\"/DoctorServlet?doctorId="+doctorId+"\" style='color: white;'>立即挂号</a></a>");
+        $("#CheckInBTN").append("<a class='btn btn-primary' href=\"javascript:location.reload();\" style='color: white;'>重置</a></a>");
+    }
+
 </script>
+
+<%--
+<li class="list-group-item">
+    <a href="javascript:void(0)" onclick="checkSelect(this,'#checkHospital')">${hospital.getHospitalName()}
+        <span></span></a><br>
+</li>
+--%>
 </html>

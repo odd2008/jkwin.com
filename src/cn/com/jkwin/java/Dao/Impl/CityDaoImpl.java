@@ -50,17 +50,4 @@ public class CityDaoImpl implements CityDao {
         return cities;
     }
 
-
-
-    @Test
-    public void  Test(){
-        List<City> cities = new ArrayList<>();
-        cities.addAll(getAllCity());
-        int i = 0;
-        for (City city : cities) {
-            if (cities.size()>0){
-                city = cities.get(i);
-            }
-        }
-    }
 }

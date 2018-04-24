@@ -20,5 +20,5 @@ public interface HospitalDao {
      */
     List<Hospital> getAllHospital() throws Exception;
 
-//    Map<String,List<Hospital>> getHospitalsByCityId();
+    List<Hospital> getHospitalsByRegionId(Integer regionId) throws Exception;
 }

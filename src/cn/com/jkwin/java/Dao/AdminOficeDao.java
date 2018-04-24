@@ -16,4 +16,6 @@ public interface AdminOficeDao {
      * @return 返回科室门诊信息list
      */
     List<AdminOfice> getAllAdminOfice();
+
+    List<AdminOfice> getOficeIdByHospitalId(Integer hospitalId);
 }

@@ -3,9 +3,6 @@ package cn.com.jkwin.java.Dao.Impl;
 import cn.com.jkwin.java.Base.BaseDao;
 import cn.com.jkwin.java.Dao.RegionDao;
 import cn.com.jkwin.java.Entity.Region;
-import com.sun.org.apache.bcel.internal.generic.LSTORE;
-import com.sun.org.apache.bcel.internal.generic.NEW;
-import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 
 import java.sql.SQLException;
@@ -24,14 +21,14 @@ public class RegionDaoImpl implements RegionDao{
      * @return 返回该城市下所有地区名list<String>
      */
     @Override
-    public List<String> getRegionNameByCityId(Integer cityId) {
-        String sql = "SELECT r.regionName FROM region r LEFT JOIN city c ON r.cityid=c.cityid WHERE c.cityid=?";
-        List<String> regionNames = null;
+    public List<Region> getAllRegionByCityId(Integer cityId) {
+        String sql = "SELECT r.* FROM region r LEFT JOIN city c ON r.cityid=c.cityid WHERE c.cityid=?";
+        List<Region> regions = null;
         try {
-            regionNames = BaseDao.getRunner().query(sql, new BeanListHandler<String>(String.class),cityId);
+            regions = BaseDao.getRunner().query(sql, new BeanListHandler<Region>(Region.class),cityId);
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        return regionNames;
+        return regions;
     }
 }

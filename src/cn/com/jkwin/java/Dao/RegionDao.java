@@ -15,5 +15,5 @@ public interface RegionDao {
      * 通过城市ID查找地区
      * @return 返回该城市下所有地区名list<String>
      */
-    List<String> getRegionNameByCityId(Integer cityId);
+    List<Region> getAllRegionByCityId(Integer cityId);
 }
