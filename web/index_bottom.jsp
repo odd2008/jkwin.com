@@ -23,6 +23,7 @@
 
 </style>
 <body>
+<%@include file="html/publicTop1.html"%>
 <div class="container">
     <div class="g-hd-guahao col-lg-12 col-xs-12 row">
         <div class="hospital-tj col-lg-8 col-xs-12  ">

@@ -34,7 +34,7 @@ public class ChatServlet extends HttpServlet {
         }
 
 //        request.getRequestDispatcher("/socket/ChatSocket.jsp").forward(request,response);
-        request.getRequestDispatcher("/ChatRoom.jsp").forward(request,response);
+        request.getRequestDispatcher("/jsp/ChatRoom.jsp").forward(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
