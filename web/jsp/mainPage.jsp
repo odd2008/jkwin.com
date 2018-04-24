@@ -264,7 +264,7 @@ background:-webkit-gradient(linear, 0 0, 0 bottom, from(#AECEA9), to(#F8FCFF));
 </div>
 <%--公告栏结束--%>
 
-<%@include file="/html/footer.html" %>
+<%--<%@include file="/html/footer.html" %>--%>
 </body>
 
 <script type="text/javascript">
