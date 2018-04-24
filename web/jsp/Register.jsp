@@ -29,7 +29,7 @@
     <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <head>
-    <title>Title</title>
+    <title>微胜挂号-重庆预约挂号</title>
         <script>
             /*协议模态框*/
             $(function () {
@@ -42,38 +42,38 @@
                 var ok3=false;
                 // 验证用户名
                 $('input[name="patientName"]').focus(function(){
-                    $(this).next().text("姓名应该为2-12位之间").removeClass("state1").addClass("state2");
+                    $(this).next().text("请输入正确的姓名...").removeClass("state1").addClass("state2");
                 }).blur(function(){
-                    if($(this).val().length >= 2 && $(this).val().length <=12 && $(this).val()!=""){
-                        $(this).next().text("输入成功").removeClass("state1").addClass("state4");
+                    if($(this).val().length >= 2 && $(this).val().length <=4 && $(this).val()!=""){
+                        $(this).next().text("输入正确").removeClass("state1").addClass("state4");
                         ok1=true;
                     }else{
-                        $(this).next().text("姓名应该为2-12位之间").removeClass("state1").addClass("state3");
+                        $(this).next().text("请输入正确的姓名...").removeClass("state1").addClass("state3");
                     }
 
                 });
 
                 //验证密码
                 $('input[name="patientIDcard"]').focus(function(){
-                    $(this).next().text("密码应该为18位").removeClass("state1").addClass("state2");
+                    $(this).next().text("请输入正确的18位身份证号码...").removeClass("state1").addClass("state2");
                 }).blur(function(){
                     if($(this).val().length >= 18 && $(this).val().length <=18 && $(this).val()!=""){
-                        $(this).next().text("输入成功").removeClass("state1").addClass("state4");
+                        $(this).next().text("输入正确").removeClass("state1").addClass("state4");
                         ok2=true;
                     }else{
-                        $(this).next().text("密码应该为18位").removeClass("state1").addClass("state3");
+                        $(this).next().text("请输入正确的18位身份证号码...").removeClass("state1").addClass("state3");
                     }
 
                 });
 
                 //验证邮箱
                 $('input[name="patientPhone"]').focus(function(){
-                    $(this).next().text("电话应该位11位 ").removeClass("state1").addClass("state2");
+                    $(this).next().text("请输入正确的11位电话号码... ").removeClass("state1").addClass("state2");
                 }).blur(function(){
                     if($(this).val().length>=11&&$(this).val()!=""){
-                        $(this).next().text("输入成功").removeClass("state1").addClass("state3");
+                        $(this).next().text("输入正确").removeClass("state1").addClass("state3");
                     }else{
-                        $(this).next().text('输入成功').removeClass("state1").addClass("state4");
+                        $(this).next().text("请输入正确的11位电话号码...").removeClass("state1").addClass("state4");
                         ok3=true;
                     }
 
@@ -101,7 +101,7 @@ background:-webkit-gradient(linear, 0 0, 0 bottom, from(#AECEA9), to(#F8FCFF));"
 <div class="container-fluid">
     <div class="row list-group" style="padding: 0 15px 0 15px;">
         <div class="col-md-12 col-sm-12 list-group-item" style="background-color: wheat">
-            <a href="" style="color:green; font-weight: bold">预约挂号</a>
+            <a href="mainPage.jsp" style="color:green; font-weight: bold">预约挂号</a>
         </div>
     </div>
 </div>
@@ -113,17 +113,15 @@ background:-webkit-gradient(linear, 0 0, 0 bottom, from(#AECEA9), to(#F8FCFF));"
 <%--医生头像--%>
         <div class="col-md-1 col-xs-12">
             <div class="row list-group" >
-                <div class="col-md-12 list-group-item"style="background-color: wheat">医生照片</div>
-                <div class="col-md-12 list-group-item"style="background-color: wheat;padding-top: 33px"><img src="../img/16.jpg"></div>
+                <div class="col-md-12 list-group-item"style="background-color: wheat;"><img src="../img/16.jpg"style="margin-bottom: 23px"></div>
             </div>
         </div>
         <div class="col-md-2 col-xs-12">
             <div class="row list-group " style="font-weight: bold" >
-                <div class="col-md-12 list-group-item"style="background-color: wheat">姓名:</div>
+                <div class="col-md-12 list-group-item"style="background-color: wheat">姓名: ${requestScope.doctor.doctorName}</div>
                 <div class="col-md-12 list-group-item"style="background-color: wheat">医院:</div>
-                <div class="col-md-12 list-group-item"style="background-color: wheat">科室:</div>
-                <div class="col-md-12 list-group-item"style="background-color: wheat">性别:</div>
-                <div class="col-md-12 list-group-item"style="background-color: wheat;">年龄:</div>
+                <div class="col-md-12 list-group-item"style="background-color: wheat">科室:${requestScope.doctor.doctorGrade}</div>
+                <div class="col-md-12 list-group-item"style="background-color: wheat">日期:${requestScope.doctor.doctorTime}</div>
             </div>
         </div>
         <div class="col-md-1 col-xs-12">
@@ -133,8 +131,7 @@ background:-webkit-gradient(linear, 0 0, 0 bottom, from(#AECEA9), to(#F8FCFF));"
         </div>
         <div class="col-md-6 col-xs-12">
             <div class="row list-group"style="font-weight: bold" >
-                <div class="col-md-12 list-group-item"style="background-color: wheat;padding-bottom: 133px">医生擅长:</div>
-                <div class="col-md-12 list-group-item"style="background-color: wheat;">预约时间:</div>
+                <div class="col-md-12 list-group-item"style="background-color: wheat;padding-bottom: 115px">医生擅长:${requestScope.doctor.doctorIntro}</div>
 
             </div>
         </div>
@@ -149,7 +146,7 @@ background:-webkit-gradient(linear, 0 0, 0 bottom, from(#AECEA9), to(#F8FCFF));"
             <div class="col-md-12 list-group-item"style="background-color: wheat;font-weight: bold">
                 <h5 style="color: red">温馨提示:您将为本次预约支付：1.00元 ,本次支付只收取短信服务费， 您还需到医院支付挂号诊疗费。
                     短信服务费是由医事通网站收取，与医院无关，如不同意收取，请取消本次挂号。</h5>
-                <br/>支付协议:<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">点击查看</button>
+                <br/><span style="color: green;margin-left: 10px;">支付协议:</span><button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg"style="margin-left: 38px">点击查看</button>
                 <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
                     <div class="modal-dialog modal-lg" role="document">
                         <div class="modal-content">
@@ -196,24 +193,15 @@ background:-webkit-gradient(linear, 0 0, 0 bottom, from(#AECEA9), to(#F8FCFF));"
 
                 </div>
                 <%--提交表单内容--%>
-              <%--  <form action="/PatientServlet" method="post">
-                    <br/> 姓名:<input  name="Pname" type="text"style="margin-left: 40px;margin-bottom: 25px" />
-                    <br/>身份证:<input name="Pidcard" type="text" style="margin-left: 30px ;margin-bottom: 26px">
-                    <span id="show"></span>
-                    <br/><td >手机号码:</td>
-                    <td><input   id="Pphone" name="Pphone" type="text"   id="Pphone"  value=""style="margin-left: 12px; margin-bottom: 25px"/>  </td>
-                    <br/><input id="button" type="submit" name="submit"onclick="myFunction()" value="确认支付" style="background-color:
-                     green;color: white;width: 80px;height: 40px;">
-                </form>--%>
-                <form action="/PatientServlet" method='post' >
+                <form action="/PatientServlet" method="post" >
                     姓名:&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="patientName">
-                    <span class='state1'>请输入姓名</span><br/><br/>
+                    <span class="state1" style="color: red;font-weight: normal">请输入姓名</span><br/><br/>
                     身份证: <input type="text" name="patientIDcard">
-                    <span class='state1'>请输入身份证</span><br/><br/>
+                    <span class="state1"style="color: red;font-weight: normal">请输入身份证</span><br/><br/>
                     电话:&nbsp;&nbsp;&nbsp; &nbsp;<input type="text" name="patientPhone">
-                    <span class='state1'>请输入电话</span><br/><br/>
+                    <span class="state1"style="color: red;font-weight: normal">请输入电话</span><br/><br/>
                     <br/><input  type="submit" name="submit"onclick="click()" value="确认支付" style="background-color:
-                     green;color: white;width: 80px;height: 40px;">
+                     green;color: white;width: 80px;height: 40px;"/>
                 </form>
                 <h5 style="color: red">温馨提示:微信支付/支付宝支付请在15分钟内完成支付，逾期支付将导致该预约无效。</h5>
             </div>
