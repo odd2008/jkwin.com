@@ -1,12 +1,19 @@
-<!--row行下添加style:"padding: 0 15px 0 15px;"-->
+<%--
+  Created by IntelliJ IDEA.
+  User: baojize
+  Date: 2018/4/21
+  Time: 14:21
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!--row行下添加style="padding: 0 15px 0 15px;"-->
 <!--返回顶部  header-->
 <header class="bs-docs-nav" id="top"></header>
-
 <!--导航栏-->
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="col-md-12 col-xs-12">
-            <nav class="navbar navbar-default" id="">
+            <nav class="navbar navbar-default navbar-fixed-top navbar-static-top" id="" role="navigation">
                 <div class="navbar-header">
                     <a href="#" class="navbar-brand">医事通</a>
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
@@ -16,10 +23,10 @@
                     </button>
                 </div>
                 <!--收缩内容-->
-                <div class="collapse navbar-collapse" id="navbar-collapse" style="overflow-x: hidden">
+                <div class="collapse navbar-collapse" id="navbar-collapse" style="overflow: hidden">
                     <ul class="nav navbar-nav navbar-right" id="navbar_collapse">
                         <li>
-                            <form action="" class="navbar-form navbar-left" role="search">
+                            <form action="" method="post" class="navbar-form navbar-left" role="search">
                                 <div class="form-group form-inline input-group">
                                     <input type="text" class="form-control" id="searchArea" placeholder="Search"/>
                                     <span class="input-group-btn">
@@ -30,23 +37,20 @@
                                 </div>
                             </form>
                         </li>
-                        <li class="active">
+                        <li class=" checkedli" >
                             <a href="#"><span class="glyphicon glyphicon-home"></span>&nbsp;首页</a>
                         </li>
-                        <li class="">
-                            <a href="#"><span class="glyphicon glyphicon-th-list"></span>&nbsp;资讯</a>
+                        <li class=" checkedli">
+                            <a href="#"><span class="glyphicon glyphicon-leaf"></span>&nbsp;欢迎来到医事通!</a>
                         </li>
-                        <li class="">
-                            <a href="#"><span class="glyphicon glyphicon-header"></span>&nbsp;医院</a>
-                        </li>
-                        <li class="">
-                            <a href="#"><span class="glyphicon glyphicon-leaf"></span>&nbsp;药品库</a>
-                        </li>
-                        <li class="">
+                        <li class=" checkedli">
                             <a href="#">登录</a>
                         </li>
-                        <li class="">
+                        <li class=" checkedli">
                             <a href="#">注册</a>
+                        </li>
+                        <li class=" checkedli">
+                            <a href="#"></a>
                         </li>
                     </ul>
                 </div>
@@ -83,7 +87,8 @@
                     </a>
                 </div>
                 <div id="sidebar_content2">
-                    <a href="http://192.168.5.77:8080/ChatServlet">
+                    <%--在线咨询--%>
+                    <a href="/ChatServlet?userId=${requestScope.User.userId}">
                         <button class="btn btn-default btn-md sidebarbtn">
             <span class="glyphicon glyphicon-headphones"
                   aria-hidden="true"></span>
@@ -106,9 +111,3 @@
     </div>
 </div>
 <!-- 导航栏标签结束-->
-
-<!-- 附加导航-->
-
-<!-- 附加导航结束-->
-
-

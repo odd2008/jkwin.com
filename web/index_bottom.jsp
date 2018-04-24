@@ -29,7 +29,8 @@
     location.href="/DoctorInfoServlet";
 </script>--%>
 <body>
-<div class="container">
+<%@include file="jsp/mainPage.jsp"%>
+<div class="container" style="background: white">
     <div class="g-hd-guahao col-lg-12 col-xs-12 row">
         <div class="hospital-tj col-lg-8 col-xs-12  ">
             <div class="hospital-hd col-lg-12 col-xs-12">

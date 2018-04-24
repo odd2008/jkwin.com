@@ -1,6 +1,5 @@
 package cn.com.jkwin.java.Dao.Impl;
 
-
 import cn.com.jkwin.java.Base.BaseDao;
 import cn.com.jkwin.java.Dao.DoctorDao;
 import cn.com.jkwin.java.Entity.Doctor;
@@ -37,4 +36,10 @@ public class DoctorDaoImpl extends BaseDao implements DoctorDao {
         return query;
     }
 
-}
+    @Override
+    public Doctor GetDoctorBydoctorId(int doctorId) throws Exception {
+        String sql = "select *  from Doctor where doctorId=?";
+        QueryRunner runner=getRunner();
+        return runner.query(sql,new BeanHandler<Doctor>(Doctor.class),doctorId);
+        }
+        }

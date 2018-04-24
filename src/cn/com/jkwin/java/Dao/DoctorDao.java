@@ -1,6 +1,7 @@
 package cn.com.jkwin.java.Dao;
 
 
+
 import cn.com.jkwin.java.Entity.Doctor;
 
 import java.sql.SQLException;
@@ -21,4 +22,8 @@ public interface DoctorDao {
      * @throws SQLException
      */
    Doctor findDoctorById(Integer Did);
+
+    //通过医生Did查询医生信息
+    Doctor GetDoctorBydoctorId(int doctorId) throws Exception;
+
 }

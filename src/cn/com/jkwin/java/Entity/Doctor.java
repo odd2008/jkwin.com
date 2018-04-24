@@ -1,5 +1,8 @@
 package cn.com.jkwin.java.Entity;
 
+
+import java.util.Date;
+
 public class Doctor {
     private Integer doctorId;
     private String doctorName;
@@ -7,16 +10,14 @@ public class Doctor {
     private String doctorIntro;
     private String oficeName;
     private String hospitalName;
-    public Doctor() {
+    private Date doctorTime;
+
+    public Date getDoctorTime() {
+        return doctorTime;
     }
 
-    public Doctor(Integer doctorId, String doctorName, String doctorGrade, String doctorIntro, String oficeName, String hospitalName) {
-        this.doctorId = doctorId;
-        this.doctorName = doctorName;
-        this.doctorGrade = doctorGrade;
-        this.doctorIntro = doctorIntro;
-        this.oficeName = oficeName;
-        this.hospitalName = hospitalName;
+    public void setDoctorTime(Date doctorTime) {
+        this.doctorTime = doctorTime;
     }
 
     public Integer getDoctorId() {

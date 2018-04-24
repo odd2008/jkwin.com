@@ -22,6 +22,7 @@ public class ChatServlet extends HttpServlet {
         String userId;
         //获取传过来的参数
         String parameter = request.getParameter("userId");
+        
         System.out.println("parameter"+parameter);
         //如果是游客，则获取到的参数为“”，此时应该将session的id赋给userId
         if(parameter.equals("")){

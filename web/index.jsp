@@ -12,10 +12,10 @@
   </head>
   <body>
   <script>
-      location.href="/CityServlet";
+
+      location.href="/DoctorInfoServlet";/*location.href="/CityServlet";
       location.href="/HospitalServlet";
-      location.href="/DoctorContServlet";
-      location.href="/DoctorInfoServlet";
+      location.href="/DoctorContServlet";*/
   </script>
   </body>
 </html>
