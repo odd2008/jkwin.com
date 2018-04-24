@@ -20,7 +20,6 @@
         var userId = "${requestScope.user.userId}";
         var username = "${requestScope.user.username}";
         var userType="${requestScope.usertype}";
-
         }else{
             var userId = "${requestScope.userId}";
             var userType="${requestScope.userType}";
@@ -28,9 +27,9 @@
         }
         //编译为二进制传出去
         var username2=encodeURI(username);
-        // var target="ws://localhost:8080/yangli?username="+username2;
-        var target="ws://192.168.1.111:8080/yangli?username="+username2;
-        var num = 0;//用于计数
+
+        var target="ws://localhost:8080/yangli?username="+username2;
+        // var target="ws://192.168.1.111:8080/yangli?username="+username2;
         window.onload=subOpen();
         function subOpen(){
             if ('WebSocket' in window) {
