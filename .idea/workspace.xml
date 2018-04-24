@@ -7,6 +7,104 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fec0342-fd0f-4733-9279-1750b7ac7702" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/WEB-INF/classes/cn/com/jkwin/java/Servlet/ChatServlet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/js/publicTop.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/jsp/ChatRoom.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/jsp/Register.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jkwinWeb_war_exploded/jsp/mainPage.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Base/BaseConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Base/BaseDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Base/BaseServlet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Dao/AdminOficeDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Dao/CityDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Dao/HospitalDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Dao/Impl/AdminOficeDaoImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Dao/Impl/CityDaoImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Dao/Impl/HospitalDaoImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Dao/Impl/OrderDaoImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Dao/Impl/RegionDaoImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Dao/Impl/UserImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Dao/OrderDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Dao/RegionDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Dao/UserDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Entity/AdminOfice.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Entity/AliOrder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Entity/City.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Entity/Hospital.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Entity/Pay.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Entity/Region.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Entity/User.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Entity/UserType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Entity/WeixinOrder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Service/AdminOficeService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Service/CityService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Service/HospitalService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Service/RegionService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Service/ServiceImpl/AdminOficeServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Service/ServiceImpl/CityServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Service/ServiceImpl/HospitalServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Service/ServiceImpl/RegionServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Service/ServiceImpl/TextingServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Service/ServiceImpl/UserServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Service/ServiceImpl/VerificationInformationServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Service/ServiceImpl/WeixinPayOrderServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Service/TextingService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Service/UserService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Service/VerificationInformationService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Service/WeixinPayOrderService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Servlet/ChatServlet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Servlet/TextingServlet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Servlet/UserLoginServlet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Servlet/UserServlet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Servlet/VerificationInformationServlet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Servlet/WeixinPayHuiDiaoServlet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Servlet/WeixinPayServlet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Servlet/WeixinPayStatusServlet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Servlet/mainPageServlet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Test/OrderDaoTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Test/PayTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Test/SignTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Test/XmlTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Utils/AliPhoneVerification.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Utils/AlipayConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Utils/HttpsRequest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Utils/MD5.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Utils/MyX509TrustManager.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Utils/OrderNumber.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Utils/SignUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Utils/Util.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Utils/XStreamUtil$1$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Utils/XStreamUtil$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/Utils/XStreamUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/filter/UTF8Filter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/java/filter/weixinFilter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/cn/com/jkwin/webSocket/ChatSocket.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwin.com/dbcp.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Dao/AdminOficeDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Dao/DoctorDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Dao/HospitalDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Dao/Impl/AdminOficeDaoImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Dao/Impl/CityDaoImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Dao/Impl/DoctorDaoimpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Dao/Impl/HospitalDaoImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Dao/Impl/PatientDaoimpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Dao/Impl/RegionDaoImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Dao/PatientDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Dao/RegionDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Entity/Doctor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Entity/Patient.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Service/AdminOficeService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Service/DoctorService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Service/PatientService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Service/RegionService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Service/ServiceImpl/AdminOficeServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Service/ServiceImpl/DoctorServiceimpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Service/ServiceImpl/PatientServiceimpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Service/ServiceImpl/RegionServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Servlet/DoctorServlet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Servlet/PatientServlet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Servlet/mainPageServlet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/jkwinWeb/cn/com/jkwin/java/Utils/MD5.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/cn/com/jkwin/java/Dao/Impl/DoctorDaoImpl.java" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Dao/Impl/DoctorDaoImpl.java" />
       <change beforePath="$PROJECT_DIR$/src/cn/com/jkwin/java/Service/ServiceImpl/DoctorServiceImpl.java" afterPath="$PROJECT_DIR$/src/cn/com/jkwin/java/Service/ServiceImpl/DoctorServiceImpl.java" />
     </list>
@@ -44,7 +142,7 @@
         <entry file="file://$PROJECT_DIR$/web/pay/weixin/WeChatPaying.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+              <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -194,6 +292,12 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="877" />
+    <option name="height" value="588" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -250,47 +354,7 @@
             <path>
               <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jkwin" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Dao" type="462c0819:PsiDirectoryNode" />
-              <item name="Impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jkwin" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jkwin" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jkwin" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-              <item name="ServiceImpl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jkwin.com" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jkwin.com" type="b2602c69:ProjectViewProjectNode" />
@@ -592,16 +656,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524566897385</updated>
-      <workItem from="1524566900940" duration="2252000" />
+      <workItem from="1524566900940" duration="2576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2252000" />
+    <option name="totallyTimeSpent" value="2576000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -618,7 +681,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -764,7 +827,7 @@
     <entry file="file://$PROJECT_DIR$/web/pay/weixin/WeChatPaying.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
