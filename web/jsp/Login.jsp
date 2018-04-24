@@ -21,7 +21,7 @@
     <!--头部JS-->
     <script type="text/javascript" src="../js/publicTop.js"></script>
     <!--成功预约JS-->
-    <script type="text/javascript" src="../js/LoginRoll.js"></script>
+    <script type="text/javascript" src="../js/LoginRoll.js"  charset="utf-8"></script>
     <!--滚动的ili-->
     <script type="text/javascript">
         $(document).ready(function() {
@@ -181,7 +181,7 @@
     <div class="row">
         <div class="col-md-3"></div>
         <div class="col-md-3">
-            <form class="login-form" action="" method="get" onSubmit="return checkForm()">
+            <form class="login-form" action="" method="get" >
                 <div class="col-sm-8 col-md-10">
                     <div class="input-group">
                         <div class="input-group-addon glyphicon glyphicon-user"></div>
@@ -198,7 +198,7 @@
                 </div>
                 <div class="form-group">
                     <div class="col-md-12 col-sm-8 col-xs-12">
-                        <input type="submit" class="btn btn-success col-xs-12 col-md-10 login-submit" value="登陆"/>
+                        <input type="button" class="btn btn-success col-xs-12 col-md-10 login-submit" value="登陆" onclick="checkForm()"/>
                         <span>
 							<a href="Register.jsp" class="col-md-12 col-xs-12">还没有账号?立即注册</a>
 							</span>
@@ -216,77 +216,77 @@
                     于
                     <span class="time">09:45</span>
                     预约
-                    <a href="" target="_blank" class="org">重庆医科大学附属第二医院</a>
+                    <a href=""   class="org">重庆医科大学附属第二医院</a>
                     <span>></span>
-                    <a href=""  target="_blank" class="org">专家门诊</a>
+                    <a href=""    class="org">专家门诊</a>
                     <span>></span>
-                    <a href="" target="_blank" class="org">侯雪勤</a>
+                    <a href=""   class="org">侯雪勤</a>
                 </li>
                 <li>
                     <span class="name">王女士</span>
                     于
                     <span class="time">09:46</span>
                     预约
-                    <a href="" target="_blank" class="org">重庆医科大学附属医院</a>
+                    <a href=""   class="org">重庆医科大学附属医院</a>
                     <span>></span>
-                    <a href=""  target="_blank" class="org">专家门诊</a>
+                    <a href=""    class="org">专家门诊</a>
                     <span>></span>
-                    <a href="" target="_blank" class="org">柴虹</a>
+                    <a href=""   class="org">柴虹</a>
                 </li>
                 <li>
                     <span class="name">钟女士</span>
                     于
                     <span class="time">09:47</span>
                     预约
-                    <a href="" target="_blank" class="org">陆军军医大学西南医院</a>
+                    <a href=""   class="org">陆军军医大学西南医院</a>
                         <span>></span>
-                        <a href=""  target="_blank" class="org">专家门诊</a>
+                        <a href=""    class="org">专家门诊</a>
                         <span>></span>
-                        <a href="" target="_blank" class="org">张利军</a>
+                        <a href=""   class="org">张利军</a>
                 </li>
                 <li>
                     <span class="name">张先生</span>
                     于
                     <span class="time">09:45</span>
                     预约
-                    <a href="" target="_blank" class="org">陆军军医大学第三附属医院（大坪医院）</a>
+                    <a href=""   class="org">陆军军医大学第三附属医院（大坪医院）</a>
                     <span>></span>
-                    <a href=""  target="_blank" class="org">疼痛科门诊</a>
+                    <a href=""    class="org">疼痛科门诊</a>
                     <span>></span>
-                    <a href="" target="_blank" class="org">周远华</a>
+                    <a href=""   class="org">周远华</a>
                 </li>
                 <li>
                     <span class="name">蔡先生</span>
                     于
                     <span class="time">09:50</span>
                     预约
-                    <a href="" target="_blank" class="org">第一人民医院</a>
+                    <a href=""   class="org">第一人民医院</a>
                     <span>></span>
-                    <a href=""  target="_blank" class="org">口腔门诊</a>
+                    <a href=""    class="org">口腔门诊</a>
                     <span>></span>
-                    <a href="" target="_blank" class="org">陈俊霖</a>
+                    <a href=""   class="org">陈俊霖</a>
                 </li>
                 <li>
                     <span class="name">肖女士</span>
                     于
                     <span class="time">11:10</span>
                     预约
-                    <a href="" target="_blank" class="org">重庆医科大学附属大学城医院</a>
+                    <a href=""   class="org">重庆医科大学附属大学城医院</a>
                     <span>></span>
-                    <a href=""  target="_blank" class="org">妇科</a>
+                    <a href=""    class="org">妇科</a>
                     <span>></span>
-                    <a href="" target="_blank" class="org">王佳</a>
+                    <a href=""   class="org">王佳</a>
                 </li>
                 <li>
                     <span class="name">王先生</span>
                     于
                     <span class="time">11:35</span>
                     预约
-                    <a href="" target="_blank" class="org">陆军军医大学新桥医院</a>
+                    <a href=""   class="org">陆军军医大学新桥医院</a>
                     <span>></span>
-                    <a href=""  target="_blank" class="org">皮肤·风湿免疫科门诊</a>
+                    <a href=""    class="org">皮肤·风湿免疫科门诊</a>
                     <span>></span>
-                    <a href="" target="_blank" class="org">周春丽</a>
+                    <a href=""   class="org">周春丽</a>
                 </li>
             </ul>
         </div>

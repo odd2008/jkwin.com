@@ -5,7 +5,7 @@
   Time: 20:14
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java"   pageEncoding="UTF-8"%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -24,7 +24,7 @@
     <title>微信支付页面</title>
 </head>
 <body>
-<%@include file="../../html/publicTop1.html"  %>
+<%@include file="../../html/publicTop1.html" %>
 
 <div class="container-fluid gradient">
     <div class="row" style="padding: 0 15px 0 15px;">
@@ -38,7 +38,8 @@
                                 <div class="col-md-12">
                                     <div class="pay_text_content">
                                         <span>
-                                        请使用微信&nbsp;<span class="glyphicon glyphicon-qrcode"></span>&nbsp;<span style="color:#f90 ">扫一扫</span></span>
+                                        请使用微信&nbsp;<span class="glyphicon glyphicon-qrcode"></span>&nbsp;<span
+                                                style="color:#f90 ">扫一扫</span></span>
                                     </div>
                                 </div>
                             </div>
@@ -56,8 +57,9 @@
                                     <div class="pay_text_content"
                                          style=" width: 300px;height: 300px;">
                                         <%--<img src="${ercodeUrl}">--%>
+                                        //二维码展示
                                         <img src="${ercodeUrl}" alt="" class="media-object img-thumbnail" id="ercode">
-                                </div>
+                                    </div>
                                 </div>
                             </div>
 
@@ -89,14 +91,14 @@
 </html>
 
 <script>
+    //页面刷新二维码生成时向后台请求,当用户扫码支付成功时后台响应请求,页面跳转
+
     $(document).ready(function () {
-        var a = true;
-        var b = 1;
-        $.post("/WeixinPayStatusServlet",{"out_trade_no":"${requestScope.out_trade_no}"}, callBack)
+        $.post("/WeixinPayStatusServlet", {"out_trade_no": "${requestScope.out_trade_no}"}, callBack)
 
         function callBack(data) {
-            if (data!="未支付"){
-                window.location.href="/test.jsp";
+            if (data != "未支付") {
+                window.location.href = "/test.jsp";
             }
         }
     })

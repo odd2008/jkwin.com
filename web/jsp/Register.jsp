@@ -23,9 +23,10 @@
     <!--头部JS-->
     <script type="text/javascript" src="../js/publicTop.js"></script>
     <!--表单认证JS-->
-    <script type="text/javascript" src="../js/RegisterVerify.js"></script>
+    <script type="text/javascript" src="../js/RegisterVerify.js"  charset="utf-8"></script>
     <!--图片验证码JS-->
-    <script type="text/javascript" src="../js/imgVerify.js"></script>
+    <script type="text/javascript" src="../js/imgVerify.js"  charset="utf-8"></script>
+
     <title>注册</title>
 </head>
 
@@ -175,16 +176,15 @@
     <!--注册表单-->
     <div class="col-md-2 col-sm-1"></div>
     <div class="col-md-5 col-sm-6 col-xs-12">
-        <form action="Login.jsp" method="get" class="form-horizontal col-md-10 col-sm-10 form" onSubmit="return checkForm()">
+        <form action="/AddUserServlet" method="post" class="form-horizontal col-md-10 col-sm-10 form" onSubmit="return checkForm()">
             <div class="form-group form-div">
                 <label  class="col-sm-4 control-label">用户名</label>
                 <div class="col-sm-8 col-md-8">
-                    <input type="text" class="form-control" id="userPhone" placeholder="请输入手机号作为登陆账号" onblur="checkPhone()" oninput="checkPhone()">
+                    <input type="text" class="form-control" name="number" id="userPhone" placeholder="请输入手机号作为登陆账号" onblur="checkPhone()" oninput="checkPhone()">
                     <span class="default" id="phone-err">请输入11位手机号码</span>
                 </div>
             </div>
             <div class="form-group form-div">
-
                 <label  class="col-sm-4 control-label" style="word-break: keep-all;">输入验证码</label>
                 <div class="col-sm-6 col-md-6 col-xs-10">
                     <input type="text" class="form-control" id="Verify-Image" placeholder="请输入验证码" onblur="checkImg()" oninput="checkImg()">
@@ -197,17 +197,23 @@
                 </div>
                 <!-- 验证码图片End -->
             </div>
+            <%--短信验证码--%>
             <div class="form-group form-div">
                 <label  class="col-sm-4 control-label" style="word-break: keep-all;">短信验证码</label>
                 <div class="col-sm-6 col-md-7 col-xs-12 SMS">
-                    <input type="text" class="form-control col-xs-8" placeholder="请填写收到的验证码" />
-                    <a href="javascript:void(0)" id="getCode" onclick="count()">获取验证码</a>
+                    <input type="text" class="form-control col-xs-8" placeholder="请填写收到的验证码" id="SmsCode" onblur="checkSms()" oninput="checkSms()"/>
+                    <a href="javascript:void(0)" id="getCode" onclick="count(),getcodes()">获取验证码</a>
                 </div>
-            </div>
+                <%--短信验证码错误提示--%>
+                <div class="col-md-12">
+                    <div class="col-md-4"></div>
+                    <span class="col-md-8 default" id="Sms-err">请填写收到的验证码</span>
+                </div>
+            <%--密码--%>
             <div class="form-group form-div">
-                <label  class="col-sm-4 control-label">密码</label>
+                <label  class="col-sm-4 control-label" >密码</label>
                 <div class="col-sm-8 col-md-8">
-                    <input type="password" class="form-control" id="pwd" onblur="checkPassword()" oninput="checkPassword()" placeholder="请设置你的密码">
+                    <input type="password" class="form-control" name="pwd" id="pwd" onblur="checkPassword()" oninput="checkPassword()" placeholder="请设置你的密码">
                     <span class="default" id="pwd-err">4-8位密码</span>
                 </div>
             </div>
@@ -215,19 +221,20 @@
                 <div class="col-sm-offset-2 col-sm-10 button-submit">
                     <button type="submit" class="btn btn-success btn-lg center-block register-submit">确定注册</button>
                 </div>
+                </div>
             </div>
         </form>
     </div>
     <!--表单End-->
     <!--提示区域-->
-    <div class="col-md-3 col-sm-4 col-xs-12 hint">
+    <div class=" col-sm-4 col-xs-12 hint">
         <img src="../img/register/light_000_03.png" />
         <span class="">
 						<b>提示</b>
 					</span>
         <ul>
             <li>如果您已是医事通的注册用户，请用医事通用户名和密码
-                <a href="">登录</a>
+                <a href="Login.jsp">登录</a>
             </li>
         </ul>
     </div>
@@ -261,25 +268,10 @@
 </footer>
 <!--底部End-->
 </body>
+<!--短信验证JS-->
+<script type="text/javascript" src="../js/SmsVerify.js"></script>
 <script type="text/javascript">
-    var getcode = document.getElementById('getCode');
-    var flag =10;
-    function count() {
-        if(flag<10){
-            return;
-        }
-        timer();
-    }
-    function timer() {
-        flag--;
-        getcode.innerHTML=flag+"秒后重新获取";
-        if (flag == 0) {
-            getcode.innerHTML="获取验证码";
-            flag=10;
-        } else{
-            setTimeout("timer()",1000);
-        }
-    }
+
 </script>
 
 </html>
