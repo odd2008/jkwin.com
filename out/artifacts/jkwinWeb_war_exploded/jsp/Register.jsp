@@ -168,11 +168,13 @@ background:-webkit-gradient(linear, 0 0, 0 bottom, from(#AECEA9), to(#F8FCFF));"
                 </p>
                 <ul id="myTab" class="nav nav-tabs">
                     <li class="active">
-                        <a href="#home" data-toggle="tab">
+                        <a href="#home" data-toggle="tab" >
                             微信支付
                         </a>
                     </li>
-                    <li><a href="#ios" data-toggle="tab">支付宝支付</a></li>
+                    <li>
+                        <a href="#ios" data-toggle="tab">支付宝支付</a>
+                    </li>
                 </ul><br/>
                 <div id="myTabContent" class="tab-content">
                     <div class="tab-pane fade in active" id="home">
@@ -190,7 +192,6 @@ background:-webkit-gradient(linear, 0 0, 0 bottom, from(#AECEA9), to(#F8FCFF));"
                             及转账收款/水电煤缴费/信用卡还款/AA收款等生活服务应用
                         </p>
                     </div>
-
                 </div>
                 <%--提交表单内容--%>
                 <form action="/PatientServlet" method="post" >
@@ -208,8 +209,10 @@ background:-webkit-gradient(linear, 0 0, 0 bottom, from(#AECEA9), to(#F8FCFF));"
 </div>
 </div>
 </div>
+
 <%--底部--%>
-<div class="col-md-1"></div>
+<%@include file="footer.jsp" %>
+<%--<div class="col-md-1"></div>
 <div class="col-md-1"></div>
 <div class="col-md-3">
     <img src="../img/bottom_yst_logo.gif">
@@ -226,6 +229,6 @@ background:-webkit-gradient(linear, 0 0, 0 bottom, from(#AECEA9), to(#F8FCFF));"
     <p>增值电信业务经营许可证 B2-20070268</p>
     <p>互联网药品信息服务资格证书 (渝)-经营性-2016-0003</p></div>
 <div class="col-md-1"></div>
-<div class="col-md-1"></div>
+<div class="col-md-1"></div>--%>
 </body>
 </html>

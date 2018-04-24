@@ -24,7 +24,7 @@ public class DoctorServlet extends HttpServlet {
             e.printStackTrace();
         }
         request.setAttribute("doctor",doctor);
-        request.getRequestDispatcher("jsp/Register.jsp").forward(request,response);
+        request.getRequestDispatcher("jsp/AppointmentRegister.jsp").forward(request,response);
 
     }
 

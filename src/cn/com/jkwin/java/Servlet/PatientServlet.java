@@ -13,7 +13,6 @@ import java.io.IOException;
 
 @WebServlet("/PatientServlet")
 public class PatientServlet extends HttpServlet {
-
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         try {
             //处理编码
