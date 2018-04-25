@@ -26,7 +26,6 @@ public class ChatSocket {
         String queryString = session.getQueryString();
         username = queryString.split("=")[1];
         System.out.println("session"+session.getId());
-
     }
 
     @OnClose
@@ -49,5 +48,4 @@ public class ChatSocket {
             e.printStackTrace();
         }
     }
-
 }

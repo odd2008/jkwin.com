@@ -122,8 +122,7 @@ background:-webkit-gradient(linear, 0 0, 0 bottom, from(#AECEA9), to(#F8FCFF));"
         <%--医生头像--%>
         <div class="col-md-1 col-xs-12">
             <div class="row list-group">
-                <div class="col-md-12 list-group-item" style="background-color: wheat;"><img src="../img/16.jpg"
-                                                                                             >
+                <div class="col-md-12 list-group-item" style="background-color: wheat;"><img src="../img/16.jpg" style="margin-bottom: 23px">
                 </div>
             </div>
         </div>
@@ -134,8 +133,8 @@ background:-webkit-gradient(linear, 0 0, 0 bottom, from(#AECEA9), to(#F8FCFF));"
                 <div class="col-md-12 list-group-item" style="background-color: wheat">医院:</div>
                 <div class="col-md-12 list-group-item" style="background-color: wheat">
                     科室:${requestScope.doctor.doctorGrade}</div>
-                <div class="col-md-12 list-group-item" style="background-color: wheat;padding-bottom: 6px">
-                    ${requestScope.doctor.doctorTime}</div>
+                <div class="col-md-12 list-group-item" style="background-color: wheat">
+                    日期:${requestScope.doctor.doctorTime}</div>
             </div>
         </div>
         <div class="col-md-1 col-xs-12">

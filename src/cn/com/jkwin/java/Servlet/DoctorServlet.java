@@ -3,6 +3,8 @@ package cn.com.jkwin.java.Servlet;
 import cn.com.jkwin.java.Dao.DoctorDao;
 import cn.com.jkwin.java.Dao.Impl.DoctorDaoImpl;
 import cn.com.jkwin.java.Entity.Doctor;
+import cn.com.jkwin.java.Service.DoctorService;
+import cn.com.jkwin.java.Service.ServiceImpl.DoctorServiceImpl;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -16,13 +18,9 @@ public class DoctorServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //处理编码
         request.setCharacterEncoding("utf-8");
-        DoctorDao doctorDao=new DoctorDaoImpl();
-        Doctor doctor = null;
-        try {
-            doctor= doctorDao.GetDoctorBydoctorId(1);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        int doctorId = Integer.parseInt(request.getParameter("doctorId"));
+        DoctorService doctorService = new DoctorServiceImpl();
+        Doctor doctor = doctorService.getDoctorById(doctorId);
         request.setAttribute("doctor",doctor);
         request.getRequestDispatcher("jsp/AppointmentRegister.jsp").forward(request,response);
 
