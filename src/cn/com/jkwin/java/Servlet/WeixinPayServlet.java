@@ -31,7 +31,7 @@ public class WeixinPayServlet extends javax.servlet.http.HttpServlet {
         String body = "医事通";
         String trade_type = "NATIVE";
         //String notify_url = "http://zhuzuohua.oicp.net/ercodePay/pay-huidao.action";
-        String notify_url = "http://2i0590x817.iok.la:41149/WeixinPayHuiDiaoServlet";
+        String notify_url = "http://zcy.wxproxy.cqbdqn.cn/WeixinPayHuiDiaoServlet";
 /*
         int total_fee = Integer.parseInt(request.getParameter("total_fee"));
 */

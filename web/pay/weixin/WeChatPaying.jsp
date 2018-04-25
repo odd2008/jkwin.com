@@ -57,7 +57,7 @@
                                     <div class="pay_text_content"
                                          style=" width: 300px;height: 300px;">
                                         <%--<img src="${ercodeUrl}">--%>
-                                        
+
                                         <img src="${ercodeUrl}" alt="" class="media-object img-thumbnail" id="ercode">
                                     </div>
                                 </div>

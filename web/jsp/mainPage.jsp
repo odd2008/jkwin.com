@@ -79,14 +79,11 @@ background:-webkit-gradient(linear, 0 0, 0 bottom, from(#AECEA9), to(#F8FCFF));
             <marquee scrollAmount="10" direction="left" scrollDelay="0"
                      onmouseover="this.stop()" onmouseout="this.start()"
                      direction="up"
-                     style="color: white;"
             >
-                <a href="http://www.sina.com.cn">新浪</a>
-                <a href="http://www.baidu.com">baidu</a>
-                <a href=http://www.qq.com>腾讯</a>
-                <a href=http://www.sohu.com>搜狐</a>
-                <a href=http://www.nwnu.edu.cn>西北师范大学</a>
+                <a href="#" style="color: white;">随着“国家全面二孩政策”放开，孕妈扎推来医院产检和分娩已成常态。其中最让人孕妈操心的是“胎儿超声检查”，目前国内胎儿系统超声检查一般需要提前3-4个月预约，一旦预约不上，孕妈将错过孕期最重要的胎儿结构畸形筛查，留下安全隐患。</a>
+                <a href="#" style="color: white;">重庆医科大学附属第一医院产科总是“心系孕妈的期盼，忧孕妈所忧”，于2018年4月16日推出了“夜间产科超声”，“夜间产科超声”一经推出便得到了孕妈的一致好评。</a>
             </marquee>
+
         </div>
     </div>
 </div>
@@ -230,13 +227,14 @@ background:-webkit-gradient(linear, 0 0, 0 bottom, from(#AECEA9), to(#F8FCFF));
         <div class="col-md-4 col-xs-12">
             <div class="row list-group">
                 <div class="col-md-12 list-group-item-success text-center">公告</div>
-                <div class="col-md-12 list-group-item">内容</div>
-                <div class="col-md-12 list-group-item">内容</div>
-                <div class="col-md-12 list-group-item">内容</div>
-                <div class="col-md-12 list-group-item">内容</div>
-                <div class="col-md-12 list-group-item">内容</div>
+                <div class="col-md-12 list-group-item hidespace"><a href="#">亚洲心脏瓣膜病学会心脏二尖瓣修复技术培训中心落户新桥医院心血管外科</a></div>
+                <div class="col-md-12 list-group-item hidespace"><a href="#">重医儿童医院设100万元救助贫困重症患儿，每人最高可申请1万！</a></div>
+                <div class="col-md-12 list-group-item hidespace"><a href="#">国新办吹风会 | 来了！允许依托医疗机构发展互联网医院</a></div>
+                <div class="col-md-12 list-group-item hidespace"><a href="#">会议通知丨2018长江国际肿瘤学术会议第二轮通知</a></div>
+                <div class="col-md-12 list-group-item hidespace"><a href="#">便民｜2020年，重庆80%城市社区都有养老服务站</a></div>
             </div>
         </div>
+
     </div>
 </div>
 <%--公告栏结束--%>

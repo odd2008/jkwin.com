@@ -25,7 +25,7 @@
 	//商户订单号，商户网站订单系统中唯一订单号，必填
 	String out_trade_no = new String(OrderNumber.WIDout_trade_no());
 	//付款金额，必填
-	String total_amount = new String("12");
+	String total_amount = new String("1");
 	//订单名称，必填
 	String subject = new String("挂号订单");
 	//商品描述，可空

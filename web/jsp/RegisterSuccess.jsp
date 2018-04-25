@@ -44,7 +44,7 @@
         t--;
         document.getElementById('skip').innerHTML ="将于"+t+"秒后跳转至登陆界面,若没反应点击跳转" ;
         if(t == 0) {
-            location.href = 'Login.jsp';
+            location.href = '/index.jsp';
         }
         //每秒执行一次,showTime()
         setTimeout("showTime()", 1000);
