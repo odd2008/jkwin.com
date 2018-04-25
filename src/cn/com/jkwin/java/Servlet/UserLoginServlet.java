@@ -28,20 +28,12 @@ public class UserLoginServlet extends HttpServlet {
         String userPwd=request.getParameter("userPwd");
         User user = userDao.queryUser(userNumber, userPwd);
         //取不来名了,x代表回调的值
-        String x="false";
         if (user!=null){
             request.getSession().setAttribute("user",user);
-/*
-            request.getRequestDispatcher("/mainPageServlet").forward(request,response);
-*/
-            x="true";
-
+            request.getRequestDispatcher("/index.jsp").forward(request,response);
+        }else{
+            request.getRequestDispatcher("/jsp/Login.jsp").forward(request,response);
         }
-        PrintWriter out = response.getWriter();
-        out.write(x);
-        out.flush();
-        out.close();
-        //
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

@@ -14,6 +14,7 @@ public class Hospital {
     private Integer hospitalPhoneNum;//医院联系电话
     private String hospitalMainpage;//医院主页
     private String hospitalIntro;//医院简介
+    private String hospitalLevel;//医院等级
     private String regionId;//地区编号  与地区表链接
     public Integer getHospitalId() {
         return hospitalId;
@@ -77,5 +78,13 @@ public class Hospital {
 
     public void setRegionId(String regionId) {
         this.regionId = regionId;
+    }
+
+    public String getHospitalLevel() {
+        return hospitalLevel;
+    }
+
+    public void setHospitalLevel(String hospitalLevel) {
+        this.hospitalLevel = hospitalLevel;
     }
 }

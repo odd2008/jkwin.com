@@ -181,24 +181,24 @@
     <div class="row">
         <div class="col-md-3"></div>
         <div class="col-md-3">
-            <form class="login-form" action="" method="get" >
+            <form class="login-form" action="${pageContext.request.contextPath}/UserLoginServlet" method="get" >
                 <div class="col-sm-8 col-md-10">
                     <div class="input-group">
                         <div class="input-group-addon glyphicon glyphicon-user"></div>
-                        <input type="text" class="form-control" id="userphone" placeholder="请输入手机号" onBlur="checkPhone()" oninput="checkPhone()">
+                        <input type="text" class="form-control" id="userphone" name="userNumber" placeholder="请输入手机号" onBlur="checkPhone()" oninput="checkPhone()">
                     </div>
                     <span id="phone-err" class="default">请输入正确的11位电话号码</span>
                 </div>
                 <div class="col-sm-8 col-md-10" style="margin-top: 10px; margin-bottom: 10px;">
                     <div class="input-group">
                         <div class="input-group-addon glyphicon glyphicon-lock"></div>
-                        <input type="password" class="form-control" id="pwd"  placeholder="请输入密码" onblur="checkPassword()" oninput="checkPassword()">
+                        <input type="password" class="form-control" id="pwd" name="userPwd"  placeholder="请输入密码" onblur="checkPassword()" oninput="checkPassword()">
                     </div>
                     <span id="pwd-err"></span>
                 </div>
                 <div class="form-group">
                     <div class="col-md-12 col-sm-8 col-xs-12">
-                        <input type="button" class="btn btn-success col-xs-12 col-md-10 login-submit" value="登陆" onclick="checkForm()"/>
+                        <input type="submit" class="btn btn-success col-xs-12 col-md-10 login-submit" value="登陆"/>
                         <span>
 							<a href="Register.jsp" class="col-md-12 col-xs-12">还没有账号?立即注册</a>
 							</span>

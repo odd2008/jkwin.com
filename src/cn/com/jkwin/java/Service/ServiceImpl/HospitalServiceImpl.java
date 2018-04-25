@@ -24,4 +24,18 @@ public class HospitalServiceImpl implements HospitalService{
         HospitalDaoImpl hospitalDao = new HospitalDaoImpl();
         return hospitalDao.getAllHospital();
     }
+
+    @Override
+    public Integer fingHospitalCounts() {
+        HospitalDaoImpl hospitalDao = new HospitalDaoImpl();
+        Integer in = hospitalDao.fingHospitalCounts();
+        return in;
+    }
+
+    @Override
+    public Hospital findHospitalByid(Integer id) {
+        HospitalDaoImpl hospitalDao = new HospitalDaoImpl();
+        Hospital hospital = hospitalDao.findHospitalByid(id);
+        return hospital;
+    }
 }

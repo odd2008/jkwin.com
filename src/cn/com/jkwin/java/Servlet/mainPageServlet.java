@@ -43,7 +43,7 @@ public class mainPageServlet extends HttpServlet {
         request.setAttribute("cities",cityService.getAllCity());
 
         //转发
-        request.getRequestDispatcher("/jsp/mainPage.jsp").forward(request,response);
+        request.getRequestDispatcher("/index_bottom.jsp").forward(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

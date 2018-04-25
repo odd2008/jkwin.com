@@ -1,5 +1,6 @@
 package cn.com.jkwin.java.Entity;
 
+
 import java.util.Date;
 
 /**
@@ -10,9 +11,14 @@ import java.util.Date;
  */
 public class Doctor {
     private Integer doctorId;
-    private String doctorName;
+    private  String doctorName;
     private String doctorGrade;
     private String doctorIntro;
+    private Date doctorTime;
+    private int oficeId;
+    private int hospitalId;
+    private  String oficeName;
+    private String hospitalName;
 
     public Doctor() {
     }
@@ -57,24 +63,35 @@ public class Doctor {
         this.doctorTime = doctorTime;
     }
 
-    public Integer getOficeId() {
+    public int getOficeId() {
         return oficeId;
     }
 
-    public void setOficeId(Integer oficeId) {
+    public void setOficeId(int oficeId) {
         this.oficeId = oficeId;
     }
 
-    public Integer getHospitalId() {
+    public int getHospitalId() {
         return hospitalId;
     }
 
-    public void setHospitalId(Integer hospitalId) {
+    public void setHospitalId(int hospitalId) {
         this.hospitalId = hospitalId;
     }
 
-    private Date doctorTime;
-    private Integer oficeId;
-    private Integer hospitalId;
+    public String getOficeName() {
+        return oficeName;
+    }
 
+    public void setOficeName(String oficeName) {
+        this.oficeName = oficeName;
+    }
+
+    public String getHospitalName() {
+        return hospitalName;
+    }
+
+    public void setHospitalName(String hospitalName) {
+        this.hospitalName = hospitalName;
+    }
 }

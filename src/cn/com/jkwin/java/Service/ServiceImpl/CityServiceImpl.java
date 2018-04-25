@@ -22,4 +22,10 @@ public class CityServiceImpl implements CityService {
         CityDaoImpl cityDao = new CityDaoImpl();
         return cityDao.getAllCity();
     }
+
+    @Override
+    public City getCityById(Integer id) {
+        CityDaoImpl cityDao = new CityDaoImpl();
+        return cityDao.getCityById(id);
+    }
 }

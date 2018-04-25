@@ -14,6 +14,6 @@
 
 </body>
 <script type="text/javascript">
-    location.href = "/mainPageServlet";
+    // location.href = "/mainPageServlet";
 </script>
 </html>

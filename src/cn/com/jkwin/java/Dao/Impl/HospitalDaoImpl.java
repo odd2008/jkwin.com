@@ -3,8 +3,11 @@ package cn.com.jkwin.java.Dao.Impl;
 import cn.com.jkwin.java.Base.BaseDao;
 import cn.com.jkwin.java.Dao.HospitalDao;
 import cn.com.jkwin.java.Entity.Hospital;
+import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 import org.apache.commons.dbutils.handlers.MapHandler;
+import org.apache.commons.dbutils.handlers.ScalarHandler;
+
 
 import java.sql.SQLException;
 import java.util.List;
@@ -34,6 +37,7 @@ public class HospitalDaoImpl implements HospitalDao{
         return hospitals;
     }
 
+
     /**
      * 通过地区ID取得所有医院信息，并返回一个医院List集合
      * @return 当前地区ID下医院List集合
@@ -52,4 +56,35 @@ public class HospitalDaoImpl implements HospitalDao{
         }
         return hospitals;
     }
+
+    @Override
+    public Integer fingHospitalCounts() {
+        String sql="select count(hospitalId) from hospital";
+        long query = 0;
+        try {
+            query = (long) BaseDao.getRunner().query(sql, new ScalarHandler());
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        int i=(int)query;
+        return i;
+    }
+
+    @Override
+    public Hospital findHospitalByid(Integer id) {
+        String sql="select * from hospital where hospitalId=?";
+        Hospital query = null;
+        try {
+            query = BaseDao.getRunner().query(sql, new BeanHandler<>(Hospital.class), id);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return query;
+    }
+
+//    public Map<String, List<Hospital>> getHospitalsBy(){
+//        String sql="select * from";
+//        return null;
+//    }
+
 }
