@@ -20,5 +20,21 @@ public interface HospitalDao {
      */
     List<Hospital> getAllHospital() throws Exception;
 
+
     List<Hospital> getHospitalsByRegionId(Integer regionId) throws Exception;
+
+    /**
+     * 查询所有医院数量
+     * @return 所有医院数量
+     */
+    Integer fingHospitalCounts();
+
+    /**
+     * 通过医院id查询医院
+     * @param id
+     * @return 一个医院对象
+     */
+    Hospital  findHospitalByid(Integer id);
+//    Map<String,List<Hospital>> getHospitalsByCityId();
+
 }

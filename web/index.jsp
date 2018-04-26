@@ -8,16 +8,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>测试一下git</title>
+    <title>医事通</title>
   </head>
   <body>
-  git   命令 。。。。
-  git init初始化
-  git clone 克隆
-  。。。。。。。。。。。。。。。。。。。
-  !!!!!!!!!!!!!!!!!!!!!!!!
-  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-  $END$
-  aaaaaa
+  <script>
+      location.href = "/mainPageServlet";
+      location.href="/DoctorInfoServlet";
+  </script>
   </body>
 </html>

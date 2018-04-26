@@ -31,7 +31,7 @@
                             </form>
                         </li>
                         <li class=" checkedli" >
-                            <a href="#"><span class="glyphicon glyphicon-home"></span>&nbsp;首页</a>
+                            <a href="/DoctorInfoServlet"><span class="glyphicon glyphicon-home"></span>&nbsp;首页</a>
                         </li>
                         <li class=" checkedli">
                             <a href="#"><span class="glyphicon glyphicon-th-list"></span>&nbsp;资讯</a>
@@ -43,17 +43,21 @@
                             <a href="#"><span class="glyphicon glyphicon-leaf"></span>&nbsp;药品库</a>
                         </li>
                         <li class=" checkedli">
+
+
+
                             <c:choose>
                                 <c:when test="${empty sessionScope.user}">
-                                    <a href="#">登录</a>
+                                    <a href="${pageContext.request.contextPath}/jsp/Login.jsp">登录</a>
                                 </c:when>
                                 <c:otherwise>
                                     <a href="#">${sessionScope.user.getUsername()}</a>
                                 </c:otherwise>
                             </c:choose>
+
                         </li>
                         <li class=" checkedli">
-                            <a href="#">注册</a>
+                            <a href="${pageContext.request.contextPath}/jsp/Register.jsp">注册</a>
                         </li>
                         <li class=" checkedli">
                             <c:choose>

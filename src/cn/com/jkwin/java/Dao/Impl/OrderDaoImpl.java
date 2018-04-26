@@ -9,15 +9,16 @@ import org.apache.commons.dbutils.handlers.ScalarHandler;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class OrderDaoImpl implements OrderDao {
     @Override
     public int addOrder(WeixinOrder order) {
         int num=-1;
-        String sql="INSERT INTO `weixin_order` (`appid`, userIDcard,`mch_id`, `body`, `out_trade_no`, `total_fee`, `trade_type`, `status`) VALUES ( ?,?, ?, ?, ?, ?, ?, ?)";
+        String sql="INSERT INTO `weixin_order` (`appid`, userIDcard,`mch_id`, `body`, `out_trade_no`, `total_fee`, `trade_type`, `status`,generated_time) VALUES ( ?,?,?, ?, ?, ?, ?, ?, ?)";
         Object[] param={order.getAppid(),order.getUserIDcard(),order.getMch_id(),order.getBody(),
-                order.getOut_trade_no(),order.getTotal_fee(),order.getTrade_type(),order.getStatus()};
+                order.getOut_trade_no(),order.getTotal_fee(),order.getTrade_type(),order.getStatus(),order.getGenerated_time()};
         try {
             num=BaseDao.getRunner().update(sql,param);
         } catch (SQLException e) {
@@ -69,9 +70,9 @@ public class OrderDaoImpl implements OrderDao {
     @Override
     public int updateOrder(String out_trade_no,String status) {
         int num=-1;
-        String sql="update weixin_order set status=? where out_trade_no=?";
+        String sql="update weixin_order set status=?,completion_time=? where out_trade_no=?";
         try {
-            num=BaseDao.getRunner().update(sql,status,out_trade_no);
+            num=BaseDao.getRunner().update(sql,status,new Date(),out_trade_no);
         } catch (SQLException e) {
             e.printStackTrace();
         }

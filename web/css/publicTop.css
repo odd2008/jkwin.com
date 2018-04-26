@@ -5,7 +5,7 @@
 /*搜索按钮*/
 #searchBtn{
     border-radius: 2px;
-    padding: 9px 12px ;
+    padding:9px;
 }
 
 .full_mark{
@@ -39,4 +39,12 @@
     width: 40px;
     right:0px;
     margin-top: 300px;
+}
+
+/*标签页*/
+.tabwidth{
+    width: 120px;
+}
+.tabli{
+    margin-left: 30px;
 }

@@ -6,14 +6,25 @@ import cn.com.jkwin.java.Service.DoctorService;
 
 import java.util.List;
 
-/**
- * @Author: Allen
- * @Description:
- * @Date: Created in 2018/4/24 14:16
- * @Modified By:
- */
 public class DoctorServiceImpl implements DoctorService {
+    @Override
+    public Integer getDoctorCountsByHid(Integer Hid) {
+        DoctorDaoImpl doctorDao = new DoctorDaoImpl();
+        Integer doctorCountsByTid = doctorDao.findDoctorCountsByHid(Hid);
+        return doctorCountsByTid;
+    }
 
+    @Override
+    public Doctor getDoctorById(Integer Did) {
+        DoctorDaoImpl doctorDao = new DoctorDaoImpl();
+        Doctor doctor = doctorDao.findDoctorById(Did);
+        return doctor;
+    }
+
+    @Override
+    public Doctor getDoctor(int Did) throws Exception {
+            return null;
+    }
 
     @Override
     public List<Doctor> getDoctorByOidHid(Integer oficeId, Integer hospitalId) {

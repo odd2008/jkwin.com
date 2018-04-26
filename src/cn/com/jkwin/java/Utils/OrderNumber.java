@@ -13,5 +13,12 @@ public class OrderNumber {
 
         return str;
     }
+    public static String dateTime(){
+
+        SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String str=sdf.format(new Date());
+
+        return str;
+    }
     
 }

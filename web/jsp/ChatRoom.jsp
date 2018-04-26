@@ -12,15 +12,16 @@
     <title>医事通-客服咨询</title>
     <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
     <script type="text/javascript" src="js/jquery.qqFace.js"></script>
+    <script src="/js/bootstrap.js"></script>
     <link href="css/Chat.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.css" rel="stylesheet" >
+
     <script type="text/javascript">
         var ws;//一个ws就相当于一个通信管道
         if(${requestScope.user!=null}){
         var userId = "${requestScope.user.userId}";
         var username = "${requestScope.user.username}";
         var userType="${requestScope.usertype}";
-
         }else{
             var userId = "${requestScope.userId}";
             var userType="${requestScope.userType}";
@@ -28,8 +29,9 @@
         }
         //编译为二进制传出去
         var username2=encodeURI(username);
-        var target="ws://localhost:8080/yangli?username="+username2;
-        var num = 0;//用于计数
+
+        // var target="ws://localhost:8080/yangli?username="+username2;
+        var target="ws://192.168.1.110:8080/yangli?username="+username2;
         window.onload=subOpen();
         function subOpen(){
             if ('WebSocket' in window) {
@@ -41,9 +43,11 @@
                 alert('你的浏览器不支持WebSocket！');
                 return;
             }
+            //接收广播信息
             ws.onmessage=function (event) {
                 var kefu=document.getElementById("kefu");
                 var kehu=document.getElementById("kehu");
+                //接收广播信息并转换为json对象
                 var jsonObj=eval("("+event.data+")");
                 //将获取到的二进制转回来
                 var uname=decodeURI(jsonObj.username);
@@ -77,8 +81,10 @@
                 $("#kefu").scrollTop(heit);
             };
         }
+        //向ChatSocket发送信息
         function subSend(){
             var talk = document.getElementById("saytext").value;
+            //向ChatSocket发送信息的方法
             ws.send(talk);
             //清空
             document.getElementById("saytext").value="";
@@ -110,21 +116,17 @@
         });
         //给表情拼接成特定的表情格式
         function replace_em(str){
-
             str = str.replace(/\</g,'&lt;');
-
             str = str.replace(/\>/g,'&gt;');
-
             str = str.replace(/\n/g,'<br/>');
-
             str = str.replace(/\[em_([0-9]*)\]/g,'<img src="arclist/$1.gif" border="0" />');
-
             return str;
 
         }
         //设置回车键发送功能，并禁止换行
         document.onkeydown=function(event){
-            var e = event || window.event || arguments.callee.caller.arguments[0];
+            var e = event || window.event
+                || arguments.callee.caller.arguments[0];
             if(e && e.keyCode==13){ // enter 键
                 //要做的事情
                 subSend();
@@ -139,7 +141,7 @@
 <body>
 <div id="father" class="container-fluid">
     <div class="row ">
-    <div id="top" class="col-sm-12 col-md-12" >
+    <div id="top" class="col-sm-12 col-md-12 hidden-xs" >
         <p>医事通</p>
         <p>为您在线解答售前(5×8)，售后咨询(7×24)服务</p>
     </div>

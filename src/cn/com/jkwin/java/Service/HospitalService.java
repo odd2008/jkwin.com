@@ -16,4 +16,16 @@ public interface HospitalService {
      * @return 返回医院信息集合list
      */
     List<Hospital> getAllHospital();
+    /**
+     * 查询所有医院数量
+     * @return 所有医院数量
+     */
+    Integer fingHospitalCounts();
+
+    /**
+     * 通过医院id查询医院
+     * @param id
+     * @return 一个医院对象
+     */
+    Hospital  findHospitalByid(Integer id);
 }

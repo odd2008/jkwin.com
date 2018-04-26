@@ -1,5 +1,8 @@
 package cn.com.jkwin.java.Entity;
 
+
+import java.util.Date;
+
 /**
  * @Author: Allen
  * @Description:
@@ -8,12 +11,17 @@ package cn.com.jkwin.java.Entity;
  */
 public class Doctor {
     private Integer doctorId;
-    private String doctorName;
+    private  String doctorName;
     private String doctorGrade;
     private String doctorIntro;
-    private String doctorTime;
-    private Integer oficeId;
-    private Integer hospitalId;
+    private Date doctorTime;
+    private int oficeId;
+    private int hospitalId;
+    private  String oficeName;
+    private String hospitalName;
+
+    public Doctor() {
+    }
 
     public Integer getDoctorId() {
         return doctorId;
@@ -47,27 +55,43 @@ public class Doctor {
         this.doctorIntro = doctorIntro;
     }
 
-    public String getDoctorTime() {
+    public Date getDoctorTime() {
         return doctorTime;
     }
 
-    public void setDoctorTime(String doctorTime) {
+    public void setDoctorTime(Date doctorTime) {
         this.doctorTime = doctorTime;
     }
 
-    public Integer getOficeId() {
+    public int getOficeId() {
         return oficeId;
     }
 
-    public void setOficeId(Integer oficeId) {
+    public void setOficeId(int oficeId) {
         this.oficeId = oficeId;
     }
 
-    public Integer getHospitalId() {
+    public int getHospitalId() {
         return hospitalId;
     }
 
-    public void setHospitalId(Integer hospitalId) {
+    public void setHospitalId(int hospitalId) {
         this.hospitalId = hospitalId;
+    }
+
+    public String getOficeName() {
+        return oficeName;
+    }
+
+    public void setOficeName(String oficeName) {
+        this.oficeName = oficeName;
+    }
+
+    public String getHospitalName() {
+        return hospitalName;
+    }
+
+    public void setHospitalName(String hospitalName) {
+        this.hospitalName = hospitalName;
     }
 }
