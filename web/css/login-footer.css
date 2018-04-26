@@ -1,0 +1,23 @@
+.footer-logo{
+	display: block;
+	width: 199px;
+	height: 80px;
+	background: url(../img/bottom_yst_logo.gif) no-repeat;
+}
+
+.footer-logo:hover{
+	background: url(../img/bottom_yst_logo2.gif) no-repeat;
+}
+.footer-wsj-logo{
+	display: block;
+	width: 199px;
+	height: 80px;
+	background: url(../img/bottom_wsj_logo.gif) no-repeat;
+}
+.footer-wsj-logo:hover{
+	background: url(../img/bottom_wsj_logo2.gif) no-repeat;
+}
+.footer{
+width: 100%;
+bottom: 0;
+}

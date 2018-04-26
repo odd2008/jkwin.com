@@ -1,9 +1,27 @@
 package cn.com.jkwin.java.Entity;
 
 public class User {
-    private Integer userId;
+    private String userId;
     private String username;
     private Integer userType;
+    private String userNumber;
+    private String userPwd;
+
+    public String getUserNumber() {
+        return userNumber;
+    }
+
+    public void setUserNumber(String userNumber) {
+        this.userNumber = userNumber;
+    }
+
+    public String getUserPwd() {
+        return userPwd;
+    }
+
+    public void setUserPwd(String userPwd) {
+        this.userPwd = userPwd;
+    }
 
     public String getUsername() {
         return username;
@@ -13,11 +31,11 @@ public class User {
         this.username = username;
     }
 
-    public Integer getUserId() {
+    public String getUserId() {
         return userId;
     }
 
-    public void setUserId(Integer userId) {
+    public void setUserId(String userId) {
         this.userId = userId;
     }
 
