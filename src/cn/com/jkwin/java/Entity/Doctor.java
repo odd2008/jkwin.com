@@ -14,7 +14,7 @@ public class Doctor {
     private  String doctorName;
     private String doctorGrade;
     private String doctorIntro;
-    private Date doctorTime;
+    private String doctorTime;
     private int oficeId;
     private int hospitalId;
     private  String oficeName;
@@ -55,11 +55,11 @@ public class Doctor {
         this.doctorIntro = doctorIntro;
     }
 
-    public Date getDoctorTime() {
+    public String getDoctorTime() {
         return doctorTime;
     }
 
-    public void setDoctorTime(Date doctorTime) {
+    public void setDoctorTime(String doctorTime) {
         this.doctorTime = doctorTime;
     }
 

@@ -131,7 +131,7 @@ background:-webkit-gradient(linear, 0 0, 0 bottom, from(#AECEA9), to(#F8FCFF));"
             <div class="row list-group " style="font-weight: bold">
                 <div class="col-md-12 list-group-item" style="background-color: white">
                     姓名: ${requestScope.doctor.doctorName}</div>
-                <div class="col-md-12 list-group-item" style="background-color: white">医院:</div>
+                <div class="col-md-12 list-group-item" style="background-color: white">医院:${requestScope.doctor.hospitalName}</div>
                 <div class="col-md-12 list-group-item" style="background-color: white">
                     科室:${requestScope.doctor.doctorGrade}</div>
                 <div class="col-md-12 list-group-item" style="background-color: white">
