@@ -15,7 +15,8 @@
     <%--引入--%>
     <%--css--%>
     <link rel="stylesheet" href="../css/publicTop.css"/>
-    <link rel="stylesheet" href="../css/Register.css"/>
+  <%--  <link rel="stylesheet" href="../css/Register.css"/>--%>
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
     <%--<link rel="stylesheet " href="css/datepicker.css">--%>
     <%--<link rel="stylesheet/less" href="less/datepicker.less">--%>
     <%----%>
@@ -62,7 +63,7 @@
 
                 });
 
-                //验证密码
+                //验证身份证
                 $('input[name="patientIDcard"]').focus(function () {
                     $(this).next().text("请输入正确的18位身份证号码...").removeClass("state1").addClass("state2");
                 }).blur(function () {
@@ -75,7 +76,7 @@
 
                 });
 
-                //验证邮箱
+                //验证电话
                 $('input[name="patientPhone"]').focus(function () {
                     $(this).next().text("请输入正确的11位电话号码... ").removeClass("state1").addClass("state2");
                 }).blur(function () {
@@ -105,11 +106,11 @@ padding: 50px;
 height:600px;
 background:-webkit-gradient(linear, 0 0, 0 bottom, from(#AECEA9), to(#F8FCFF));">
 <%--头部插入--%>
-<%@include file="heard.jsp" %>
+<%@include file="publicTop.jsp" %>
 <%--y预约--%>
 <div class="container-fluid">
     <div class="row list-group" style="padding: 0 15px 0 15px;">
-        <div class="col-md-12 col-sm-12 list-group-item" style="background-color: wheat">
+        <div class="col-md-12 col-sm-12 list-group-item" style="background-color: white">
             <a href="mainPage.jsp" style="color:green; font-weight: bold">预约挂号</a>
         </div>
     </div>
@@ -122,18 +123,18 @@ background:-webkit-gradient(linear, 0 0, 0 bottom, from(#AECEA9), to(#F8FCFF));"
         <%--医生头像--%>
         <div class="col-md-1 col-xs-12">
             <div class="row list-group">
-                <div class="col-md-12 list-group-item" style="background-color: wheat;"><img src="../img/16.jpg" style="margin-bottom: 23px">
+                <div class="col-md-12 list-group-item" style="background-color: white;"><img src="../img/16.jpg" style="margin-bottom: 23px">
                 </div>
             </div>
         </div>
         <div class="col-md-2 col-xs-12">
             <div class="row list-group " style="font-weight: bold">
-                <div class="col-md-12 list-group-item" style="background-color: wheat">
+                <div class="col-md-12 list-group-item" style="background-color: white">
                     姓名: ${requestScope.doctor.doctorName}</div>
-                <div class="col-md-12 list-group-item" style="background-color: wheat">医院:</div>
-                <div class="col-md-12 list-group-item" style="background-color: wheat">
+                <div class="col-md-12 list-group-item" style="background-color: white">医院:</div>
+                <div class="col-md-12 list-group-item" style="background-color: white">
                     科室:${requestScope.doctor.doctorGrade}</div>
-                <div class="col-md-12 list-group-item" style="background-color: wheat">
+                <div class="col-md-12 list-group-item" style="background-color: white">
                     日期:${requestScope.doctor.doctorTime}</div>
             </div>
         </div>
@@ -144,7 +145,7 @@ background:-webkit-gradient(linear, 0 0, 0 bottom, from(#AECEA9), to(#F8FCFF));"
         </div>
         <div class="col-md-6 col-xs-12">
             <div class="row list-group" style="font-weight: bold">
-                <div class="col-md-12 list-group-item" style="background-color: wheat;padding-bottom: 115px">
+                <div class="col-md-12 list-group-item" style="background-color: white;padding-bottom: 135px">
                     医生擅长:${requestScope.doctor.doctorIntro}</div>
 
             </div>
@@ -157,7 +158,7 @@ background:-webkit-gradient(linear, 0 0, 0 bottom, from(#AECEA9), to(#F8FCFF));"
     <!-- 支付协议,点击查看 -->
     <div class="col-md-12 col-xs-12">
         <div class="row list-group">
-            <div class="col-md-12 list-group-item" style="background-color: wheat;font-weight: bold">
+            <div class="col-md-12 list-group-item" style="background-color: white;font-weight: bold">
 
                 <h5 style="color: red">温馨提示:您将为本次预约支付：1.00元 ,本次支付只收取短信服务费， 您还需到医院支付挂号诊疗费。
                     短信服务费是由医事通网站收取，与医院无关，如不同意收取，请取消本次挂号。</h5>
@@ -235,23 +236,5 @@ background:-webkit-gradient(linear, 0 0, 0 bottom, from(#AECEA9), to(#F8FCFF));"
 
 <%--底部--%>
 <%@include file="footer.jsp" %>
-<%--<div class="col-md-1"></div>
-<div class="col-md-1"></div>
-<div class="col-md-3">
-    <img src="../img/bottom_yst_logo.gif">
-</div>
-<div class="col-md-2">
-    <h4>用户服务</h4>
-    <p>帮助中心</p>
-    <p>意见反馈</p>
-    <p>黄牛举报</p>
-</div>
-<div class="col-md-3"> <h4>关于我们</h4>
-    <p>Copyright©1998-2017 Adtech All Rights Reserved</p>
-    <p>重庆云信医疗科技股份有限公司 版权所有 2017 渝ICP备11004654号-2</p>
-    <p>增值电信业务经营许可证 B2-20070268</p>
-    <p>互联网药品信息服务资格证书 (渝)-经营性-2016-0003</p></div>
-<div class="col-md-1"></div>
-<div class="col-md-1"></div>--%>
 </body>
 </html>
