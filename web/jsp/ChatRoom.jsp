@@ -31,7 +31,7 @@
         var username2=encodeURI(username);
 
         // var target="ws://localhost:8080/yangli?username="+username2;
-        var target="ws://192.168.4.31:8080/yangli?username="+username2;
+        var target="ws://192.168.4.19:8080/yangli?username="+username2;
         window.onload=subOpen();
         function subOpen(){
             if ('WebSocket' in window) {
